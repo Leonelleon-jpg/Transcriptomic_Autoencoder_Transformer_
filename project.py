@@ -4,7 +4,7 @@ from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 from sklearn.model_selection import train_test_split
 from sklearn.feature_selection import VarianceThreshold
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
-from sklearn.metrics import confusion_matrix, classification_report, mean_absolute_error, mean_squared_error, r2_score, roc_curve
+from sklearn.metrics import confusion_matrix, classification_report, mean_absolute_error, mean_squared_error, r2_score, roc_curve, auc
 from sklearn.utils.class_weight import compute_class_weight
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -232,8 +232,10 @@ def autoencoder_train(model, X_train_g, y_train_dict, X_val_g, y_val_dict, X_tra
         loss=losses,
         loss_weights=loss_weights,
         metrics={
-            "diabetic": "accuracy", 
-            "hba1c": "mae" 
+            "diabetic": "accuracy",
+            'hypertensive': 'accuracy', 
+            "hba1c": "mae", 
+            'fasting_insulin':'mae'
         }
     )
 
@@ -254,106 +256,6 @@ def autoencoder_train(model, X_train_g, y_train_dict, X_val_g, y_val_dict, X_tra
     )
 
     return history
-
-def multi_attention_architecture(input_shapes, context_size=3):
-    in_hydro = layers.Input(shape=(input_shapes[0],), name="in_Hydrolases")
-    in_iso = layers.Input(shape=(input_shapes[1],), name="in_Isomerases")
-    in_ligases = layers.Input(shape=(input_shapes[2],), name="in_Ligases")
-    in_lyases = layers.Input(shape=(input_shapes[3],), name="in_Lyases")
-    in_oxi = layers.Input(shape=(input_shapes[4],), name="in_Oxidoreductases")
-    in_transf = layers.Input(shape=(input_shapes[5],), name="in_Transferases")
-    in_transl = layers.Input(shape=(input_shapes[6],), name="in_Translocases")
-    in_ctx = layers.Input(shape=(context_size,), name="Entrada_Contexto")
-
-    EMBEDDING_DIM = 64
-
-    x_transf = layers.Dense(256, activation='relu')(in_transf)
-    x_transf = layers.BatchNormalization()(x_transf)
-    x_transf = layers.Dropout(0.4)(x_transf)
-    emb_transf = layers.Dense(EMBEDDING_DIM, activation='relu')(x_transf)
-    emb_transf = layers.BatchNormalization(name='BN_Transf')(emb_transf) 
-
-    x_hydro = layers.Dense(256, activation='relu')(in_hydro)
-    x_hydro = layers.BatchNormalization()(x_hydro)
-    x_hydro = layers.Dropout(0.4)(x_hydro)
-    emb_hydro = layers.Dense(EMBEDDING_DIM, activation='relu')(x_hydro)
-    emb_hydro = layers.BatchNormalization(name='BN_Hydro')(emb_hydro)
-
-    x_oxi = layers.Dense(128, activation='relu')(in_oxi)
-    x_oxi = layers.BatchNormalization()(x_oxi)
-    x_oxi = layers.Dropout(0.3)(x_oxi)
-    emb_oxi = layers.Dense(EMBEDDING_DIM, activation='relu')(x_oxi)
-    emb_oxi = layers.BatchNormalization(name='BN_Oxi')(emb_oxi)
-
-    x_iso = layers.Dense(128, activation='relu')(in_iso)
-    x_iso = layers.BatchNormalization()(x_iso)
-    x_iso = layers.Dropout(0.3)(x_iso)
-    emb_iso = layers.Dense(EMBEDDING_DIM, activation='relu')(x_iso)
-    emb_iso = layers.BatchNormalization(name='BN_Iso')(emb_iso)
-
-    emb_lyases = layers.Dense(EMBEDDING_DIM, activation='relu')(in_lyases)
-    emb_lyases = layers.BatchNormalization(name='BN_Lyases')(emb_lyases)
-
-    emb_ligases = layers.Dense(EMBEDDING_DIM, activation='relu')(in_ligases)
-    emb_ligases = layers.BatchNormalization(name='BN_Ligases')(emb_ligases)
-
-    emb_transl = layers.Dense(EMBEDDING_DIM, activation='relu')(in_transl)
-    emb_transl = layers.BatchNormalization(name='BN_Transl')(emb_transl)
-
-    r_hydro = layers.Reshape((1, EMBEDDING_DIM))(emb_hydro)
-    r_iso = layers.Reshape((1, EMBEDDING_DIM))(emb_iso)
-    r_ligases = layers.Reshape((1, EMBEDDING_DIM))(emb_ligases)
-    r_lyases = layers.Reshape((1, EMBEDDING_DIM))(emb_lyases)
-    r_oxi = layers.Reshape((1, EMBEDDING_DIM))(emb_oxi)
-    r_transf = layers.Reshape((1, EMBEDDING_DIM))(emb_transf)
-    r_transl = layers.Reshape((1, EMBEDDING_DIM))(emb_transl)
-
-    stacked_families = layers.Concatenate(axis=1)([
-        r_hydro, r_iso, r_ligases, r_lyases, r_oxi, r_transf, r_transl
-    ])
-
-    mha_output, attention_scores = layers.MultiHeadAttention(
-        num_heads=4, 
-        key_dim=16, 
-        name="MHA_Familias"
-    )(
-        query=stacked_families, 
-        value=stacked_families, 
-        key=stacked_families, 
-        return_attention_scores=True 
-    )
-
-    mha_added = layers.Add()([stacked_families, mha_output])
-    mha_norm = layers.LayerNormalization()(mha_added)
-    metabolic_profile = layers.GlobalAveragePooling1D()(mha_norm)
-
-    merged = layers.Concatenate()([metabolic_profile, in_ctx])
-
-    p = layers.Dense(128, activation='relu')(merged) 
-    p = layers.BatchNormalization()(p)
-    p = layers.Dropout(0.3)(p) 
-    
-    p = layers.Dense(64, activation='relu')(p) 
-    p = layers.BatchNormalization()(p)
-    p = layers.Dropout(0.3)(p) 
-
-    # --- CABEZALES REDUCIDOS ---
-    out_diabetic = layers.Dense(1, activation='sigmoid', name='diabetic')(p)
-    out_hypertensive = layers.Dense(1, activation='sigmoid', name='hypertensive')(p)
-    out_hba1c = layers.Dense(1, activation='linear', name='hba1c')(p)
-    out_insulin = layers.Dense(1, activation='linear', name='fasting_insulin')(p)
-
-    model = models.Model(
-        inputs=[
-            in_hydro, in_iso, in_ligases, in_lyases, in_oxi, in_transf, in_transl, 
-            in_ctx
-        ],
-        outputs=[
-            out_diabetic, out_hypertensive, out_hba1c, out_insulin
-        ]
-    )
-
-    return model
 
 def multi_attention_train(model, X_train_list, y_train_dict, X_val_list, y_val_dict):
     # 1. Definimos el orden EXACTO de las 4 salidas del modelo
@@ -420,7 +322,7 @@ def multi_attention_train(model, X_train_list, y_train_dict, X_val_list, y_val_d
     EPOCHS = 200
     BATCH_SIZE = 32
 
-    print("\nIniciando entrenamiento Multi-Attention...")
+    print("\nIniciando entrenamiento Clínico...")
     history = model.fit(
         x=X_train_list, 
         y=y_train_list_targets,           
@@ -433,6 +335,117 @@ def multi_attention_train(model, X_train_list, y_train_dict, X_val_list, y_val_d
     )
 
     return history
+
+def parallel_autoencoders_architecture(input_shapes, EMBEDDING_DIM=64):
+    inputs = []
+    outputs = []
+    nombres_familias = ["Hydrolases", "Isomerases", "Ligases", "Lyases", "Oxidoreductases", "Transferases", "Translocases"]
+
+    for i in range(7):
+        inp = layers.Input(shape=(input_shapes[i],), name=f"in_{nombres_familias[i]}")
+        inputs.append(inp)
+        
+        noise = layers.GaussianNoise(0.05)(inp)
+        x = layers.Dense(256, activation='relu')(noise)
+        x = layers.BatchNormalization()(x)
+        x = layers.Dropout(0.3)(x)
+        
+        latent = layers.Dense(EMBEDDING_DIM, activation='relu', name=f"Latent_{nombres_familias[i]}")(x)
+        latent = layers.BatchNormalization()(latent)
+        
+        d = layers.Dense(256, activation='relu')(latent)
+        d = layers.BatchNormalization()(d)
+        
+        out = layers.Dense(input_shapes[i], activation='linear', name=f"out_{nombres_familias[i]}")(d)
+        outputs.append(out)
+
+    parallel_ae = models.Model(inputs=inputs, outputs=outputs, name="Parallel_Autoencoders")
+    return parallel_ae
+
+def parallel_autoencoders_train(model, X_train_list, X_val_list):
+    # Toma solo los primeros 7 elementos (genes), ignora el contexto (índice 7)
+    X_train_genes = X_train_list[:7]
+    X_val_genes = X_val_list[:7]
+    
+    model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001), loss='mse')
+
+    early_stop = EarlyStopping(monitor='val_loss', patience=15, restore_best_weights=True)
+    reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=5, min_lr=1e-6)
+
+    print("\n[+] FASE 1: Entrenamiento de Autoencoders Paralelos...")
+    history = model.fit(
+        x=X_train_genes, y=X_train_genes, 
+        validation_data=(X_val_genes, X_val_genes),
+        epochs=150, batch_size=32, callbacks=[early_stop, reduce_lr], verbose=1
+    )
+    return history
+
+def multi_attention_transformer_architecture(input_shapes, trained_ae, context_size=3):
+    in_hydro = layers.Input(shape=(input_shapes[0],), name="ma_in_Hydrolases")
+    in_iso = layers.Input(shape=(input_shapes[1],), name="ma_in_Isomerases")
+    in_ligases = layers.Input(shape=(input_shapes[2],), name="ma_in_Ligases")
+    in_lyases = layers.Input(shape=(input_shapes[3],), name="ma_in_Lyases")
+    in_oxi = layers.Input(shape=(input_shapes[4],), name="ma_in_Oxidoreductases")
+    in_transf = layers.Input(shape=(input_shapes[5],), name="ma_in_Transferases")
+    in_transl = layers.Input(shape=(input_shapes[6],), name="ma_in_Translocases")
+    in_ctx = layers.Input(shape=(context_size,), name="Entrada_Contexto")
+
+    inputs_familias = [in_hydro, in_iso, in_ligases, in_lyases, in_oxi, in_transf, in_transl]
+    nombres_familias = ["Hydrolases", "Isomerases", "Ligases", "Lyases", "Oxidoreductases", "Transferases", "Translocases"]
+    
+    emb_familias = []
+    
+    # 1. EXTRACCIÓN Y FINE-TUNING
+    for i in range(7):
+        extractor = models.Model(
+            inputs=trained_ae.input[i], 
+            outputs=trained_ae.get_layer(f"Latent_{nombres_familias[i]}").output
+        )
+        extractor.trainable = True # Fine-Tuning activado
+        emb_familias.append(extractor(inputs_familias[i]))
+
+    EMBEDDING_DIM = 64
+    r_familias = [layers.Reshape((1, EMBEDDING_DIM))(emb) for emb in emb_familias]
+    stacked_families = layers.Concatenate(axis=1)(r_familias)
+
+    # 2. CAPA DE ATENCIÓN MULTI-HEAD
+    mha_output, attention_scores = layers.MultiHeadAttention(
+        num_heads=4, key_dim=16, name="MHA_Familias"
+    )(query=stacked_families, value=stacked_families, key=stacked_families, return_attention_scores=True)
+
+    mha_added = layers.Add()([stacked_families, mha_output])
+    mha_norm = layers.LayerNormalization()(mha_added)
+
+    # 3. FEED-FORWARD NETWORK (FFN)
+    ffn_output = layers.Dense(EMBEDDING_DIM, activation='relu')(mha_norm)
+    ffn_added = layers.Add()([mha_norm, ffn_output])
+    ffn_norm = layers.LayerNormalization()(ffn_added)
+
+    # 4. APLANAR EN LUGAR DE PROMEDIAR (Preservar la identidad de cada familia)
+    metabolic_profile = layers.Flatten()(ffn_norm)
+
+    # 5. RAMA CLÍNICA
+    merged = layers.Concatenate()([metabolic_profile, in_ctx])
+
+    p = layers.Dense(128, activation='relu')(merged) 
+    p = layers.BatchNormalization()(p)
+    p = layers.Dropout(0.3)(p) 
+    
+    p = layers.Dense(64, activation='relu')(p) 
+    p = layers.BatchNormalization()(p)
+    p = layers.Dropout(0.3)(p) 
+
+    out_diabetic = layers.Dense(1, activation='sigmoid', name='diabetic')(p)
+    out_hypertensive = layers.Dense(1, activation='sigmoid', name='hypertensive')(p)
+    out_hba1c = layers.Dense(1, activation='linear', name='hba1c')(p)
+    out_insulin = layers.Dense(1, activation='linear', name='fasting_insulin')(p)
+
+    model = models.Model(
+        inputs=inputs_familias + [in_ctx],
+        outputs=[out_diabetic, out_hypertensive, out_hba1c, out_insulin]
+    )
+
+    return model
 
 def evaluate_model_metrics(model, X_test_inputs, y_test, y_scaler, name):
     predicciones_test = model.predict(X_test_inputs)
@@ -469,13 +482,13 @@ def evaluate_model_metrics(model, X_test_inputs, y_test, y_scaler, name):
     sensibilidad_hyper = tp / (tp + fn) 
     especificidad_hyper = tn / (tn + fp) 
 
-    print("\n--- MÉTRICAS CLÍNICAS DIABETES (CONJUNTO DE PRUEBA) ---")
+    print(f"\n--- MÉTRICAS CLÍNICAS DIABETES ({name}) ---")
     print(f"Sensibilidad (Recall clase 1): {sensibilidad_diab:.2f}")
     print(f"Especificidad (Recall clase 0): {especificidad_diab:.2f}")
     print("\nReporte Completo:")
     print(classification_report(y_test_diab_real, pred_diabetes_clase, target_names=['No Diabético', 'Diabético']))
 
-    print("\n--- MÉTRICAS CLÍNICAS HIPERTENSIÓN (CONJUNTO DE PRUEBA) ---")
+    print(f"\n--- MÉTRICAS CLÍNICAS HIPERTENSIÓN ({name}) ---")
     print(f"Sensibilidad (Recall clase 1): {sensibilidad_hyper:.2f}")
     print(f"Especificidad (Recall clase 0): {especificidad_hyper:.2f}")
     print("\nReporte Completo:")
@@ -528,7 +541,7 @@ def evaluate_model_metrics(model, X_test_inputs, y_test, y_scaler, name):
     return df_resultados_reg
 
 def plot_history(history):
-    fig, axs = plt.subplots(1, 2, figsize=(15, 5))
+    fig, axs = plt.subplots(1, 3, figsize=(15, 5))
     
     axs[0].plot(history.history['loss'], label='Train Loss')
     axs[0].plot(history.history['val_loss'], label='Val Loss')
@@ -539,8 +552,67 @@ def plot_history(history):
     axs[1].plot(history.history['val_diabetic_accuracy'], label='Val Diab Acc')
     axs[1].set_title('Precisión en Predicción de Diabetes')
     axs[1].legend()
+
+    axs[2].plot(history.history['hypertensive_accuracy'], label='Train Hiper Acc')
+    axs[2].plot(history.history['val_hypertensive_accuracy'], label='Val Hiper Acc')
+    axs[2].set_title('Precisión en Predicción de Hipertensión')
+    axs[2].legend()
     
     plt.show()
+
+def plot_comparative_roc(model_ae, model_multi, X_test_ae, X_test_multi, y_test):
+    print("\n[+] Generando Análisis Comparativo ROC...")
+    
+    # 1. Extraer las probabilidades reales de la clase positiva (Diabetes)
+    # Para el DAE original, la diabetes está en el índice 1
+    preds_ae = model_ae.predict(X_test_ae)
+    prob_diab_ae = preds_ae[1].ravel() 
+    
+    # Para el Transformer, la diabetes está en el índice 0
+    preds_multi = model_multi.predict(X_test_multi)
+    prob_diab_multi = preds_multi[0].ravel()
+    
+    # Etiquetas reales
+    y_real = y_test['diabetic']
+    
+    # 2. Calcular FPR (Falsos Positivos) y TPR (Sensibilidad) para ambos
+    fpr_ae, tpr_ae, thresholds_ae = roc_curve(y_real, prob_diab_ae)
+    auc_ae = auc(fpr_ae, tpr_ae)
+    
+    fpr_multi, tpr_multi, thresholds_multi = roc_curve(y_real, prob_diab_multi)
+    auc_multi = auc(fpr_multi, tpr_multi)
+    
+    # 3. Construir el gráfico de alta calidad
+    plt.figure(figsize=(9, 7))
+    
+    # Línea del Autoencoder Global
+    plt.plot(fpr_ae, tpr_ae, color='#E67E22', lw=2.5, 
+            label=f'Autoencoder Global (AUC = {auc_ae:.3f})')
+            
+    # Línea del Transformer Híbrido
+    plt.plot(fpr_multi, tpr_multi, color='#2980B9', lw=2.5, 
+            label=f'Transformer por Familias (AUC = {auc_multi:.3f})')
+    
+    # Línea de azar (Peor escenario)
+    plt.plot([0, 1], [0, 1], color='gray', lw=2, linestyle='--', label='Azar (AUC = 0.500)')
+    
+    # Formateo estético para artículos científicos
+    plt.xlim([-0.02, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('Tasa de Falsos Positivos (1 - Especificidad)', fontsize=12, fontweight='bold')
+    plt.ylabel('Tasa de Verdaderos Positivos (Sensibilidad)', fontsize=12, fontweight='bold')
+    plt.title('Comparación de Curvas ROC - Diagnóstico de DM2', fontsize=14, pad=15)
+    plt.legend(loc="lower right", fontsize=11, frameon=True, shadow=True)
+    plt.grid(alpha=0.3, linestyle=':')
+    
+    plt.tight_layout()
+    plt.show()
+    
+    return auc_ae, auc_multi
+
+# ====================================================================
+# BLOQUE PRINCIPAL DE EJECUCIÓN
+# ====================================================================
 
 # Load an preprocess all the datasets
 data_transcriptomic, data_clinic, data_genes = load_preprocess_data()
@@ -554,19 +626,36 @@ X_train_g, X_val_g, X_test_g = genes_data_ae
 X_train_c, X_val_c, X_test_c = context_data_ae
 y_train, y_val, y_test = targets_ae
 
-# Modelos
+# --- ENTRENAMIENTO DEL MODELO ORIGINAL (Denoising Autoencoder) ---
 num_genes = genes_data_ae[0][0].shape[0]
 model_ae = autoencoder_architecture(num_genes, context_size=3)
+history_ae = autoencoder_train(model_ae, X_train_g, y_train, X_val_g, y_val, X_train_c, X_val_c)
 
+# Evaluación del AE Original
+results_reg_ae = evaluate_model_metrics(model_ae, [X_test_g, X_test_c], y_test, y_scaler_ae, 'Denoising Autoencoder')
+plot_history(history_ae)
+
+# --- ENTRENAMIENTO DEL NUEVO PIPELINE (Autoencoders Paralelos + Transformer) ---
 input_shapes = [X_train_multi[i].shape[1] for i in range(7)] 
-model_multi = multi_attention_architecture(input_shapes, context_size=3)
 
-# Entrenamiento
-# history_ae = autoencoder_train(model_ae, X_train_g, y_train, X_val_g, y_val, X_train_c, X_val_c)
-history_multi = multi_attention_train(model_multi, X_train_multi, y_train_multi, X_val_multi, y_val_multi)
+# Fase 1: Entrenamiento de los Autoencoders Paralelos
+model_ae_paralelo = parallel_autoencoders_architecture(input_shapes, EMBEDDING_DIM=64)
+history_ae_paralelo = parallel_autoencoders_train(model_ae_paralelo, X_train_multi, X_val_multi)
 
-# Evaluación
-# results_reg = evaluate_model_metrics(model_ae, [X_test_g, X_test_c], y_test, y_scaler_ae, 'Denoising Autoencoder')
-# plot_history(history_ae)
-results_reg = evaluate_model_metrics(model_multi, X_test_multi, y_test_multi, y_scaler_multi, 'Multi-Attention')
-plot_history(history_multi)
+# Fase 2: Construcción y Entrenamiento del Transformer (usando Fine-Tuning + FFN + Flatten)
+model_multi_transformer = multi_attention_transformer_architecture(input_shapes, model_ae_paralelo, context_size=3)
+
+# Aprovechamos tu misma función de entrenamiento original para el transformer
+history_multi_transformer = multi_attention_train(model_multi_transformer, X_train_multi, y_train_multi, X_val_multi, y_val_multi)
+
+# Evaluación del Transformer Multi-Attention
+results_reg_multi = evaluate_model_metrics(model_multi_transformer, X_test_multi, y_test_multi, y_scaler_multi, 'Transformer Multi-Attention')
+plot_history(history_multi_transformer)
+
+auc_ae, auc_multi = plot_comparative_roc(
+    model_ae=model_ae, 
+    model_multi=model_multi_transformer, 
+    X_test_ae=[X_test_g, X_test_c], 
+    X_test_multi=X_test_multi, 
+    y_test=y_test
+)
