@@ -1,0 +1,911 @@
+,ID_Muestra,tissue,statin treatment,statin,gender,age,bmi,height (cm),waist circonference (cm),diastolic blood pressure (mmhg),systolic blood pressure (mmhg),fasting blood glucose (mmol/l),fasting insulin (mui/l),hba1c (%),cholest total (mmol/l),ldl cholesterol (mmol/l),hdl cholesterol (mmol/l),triglycerides (mmol/l),matched cohort statin treatment,fasting c-peptide (ngml),diabetes treatment,diabetic,hypertensive
+0,GSM3758316,Liver,No Statin,No Statin,Male,29,56.0,168,134.0,80.0,140.0,5.0,7.6,6.1,4.0,2.1,1.3,1.3,,4.504376438730847,No treatment,Non-Diabetic,Hypertensive
+1,GSM3758317,Liver,Statin,Simvastatin,Male,50,48.3,178,154.0,60.0,140.0,9.8,6.2,7.3,7.2,4.332167749362922,1.1,4.8,Statin,4.7,Yes,Diabetic,Hypertensive
+2,GSM3758318,Liver,No Statin,No Statin,Female,42,46.3,163,123.0,60.0,110.0,5.2,7.8,5.7,5.7,3.8,1.6,0.8,,3.4815799524004856,No treatment,Non-Diabetic,Non-Hypertensive
+3,GSM3758319,Liver,No Statin,No Statin,Female,23,25.6,163,88.0,60.0,110.0,4.4,6.3,5.2,5.3,2.5,2.2,1.2,,1.8,No treatment,Non-Diabetic,Non-Hypertensive
+4,GSM3758320,Liver,No Statin,No Statin,Female,55,50.1,136,158.0,100.0,150.0,5.2,107.5,8.0,4.6,2.6,1.2,1.6,No Statin,0.4,Yes,Diabetic,Hypertensive
+5,GSM3758321,Liver,Statin,Rosuvastatin,Female,47,43.7,176,124.0,60.0,120.0,6.7,9.5,7.6,4.7,2.4,1.8,1.2,Statin,3.7218218006337347,Yes,Diabetic,Non-Hypertensive
+6,GSM3758322,Liver,No Statin,No Statin,Female,30,63.5,167,137.0,60.0,110.0,5.3,7.7,6.1,4.6,3.1,1.0,1.1,,4.560539179439319,No treatment,Non-Diabetic,Non-Hypertensive
+7,GSM3758323,Liver,No Statin,No Statin,Female,33,50.2,159,137.0,80.0,150.0,4.3,10.7,5.6,4.2,2.6,1.2,0.9,,3.9824897653381726,No treatment,Non-Diabetic,Hypertensive
+8,GSM3758324,Liver,No Statin,No Statin,Female,34,45.2,163,121.0,80.0,120.0,4.9,9.7,6.0,6.2,4.3,1.0,1.8,,3.7110368158440634,No treatment,Non-Diabetic,Non-Hypertensive
+9,GSM3758325,Liver,Statin,Simvastatin,Female,45,47.1,157,131.0,70.0,110.0,12.0,14.9,10.2,3.8,1.9,0.9,2.3,Statin,2.6,Yes,Diabetic,Non-Hypertensive
+10,GSM3758326,Liver,No Statin,No Statin,Female,37,54.8,174,141.0,60.0,120.0,6.8,7.3,6.9,5.0,3.6,1.1,0.9,No Statin,4.1,Yes,Diabetic,Non-Hypertensive
+11,GSM3758327,Liver,No Statin,No Statin,Female,36,41.5,178,124.0,90.0,130.0,5.5,8.6,5.8,6.3,3.7,1.5,2.5,,4.058056473039912,No treatment,Non-Diabetic,Hypertensive
+12,GSM3758328,Liver,No Statin,No Statin,Female,46,39.5,172,127.0,80.0,120.0,6.2,10.7,5.4,3.6,2.1,0.7,1.8,,4.120897513399328,No treatment,Non-Diabetic,Non-Hypertensive
+13,GSM3758329,Liver,No Statin,No Statin,Female,36,45.7,170,124.0,50.0,90.0,6.3,15.8,6.3,5.4,3.1,0.8,3.4,,4.4180958129132835,No treatment,Non-Diabetic,Non-Hypertensive
+14,GSM3758330,Liver,No Statin,No Statin,Female,37,44.5,158,115.0,60.0,130.0,5.4,17.3,5.4,4.2,2.2,1.2,1.9,,7.2,Yes,Diabetic,Hypertensive
+15,GSM3758331,Liver,No Statin,No Statin,Female,45,73.8,163,176.0,90.0,140.0,6.0,17.7,5.5,4.8,2.7,1.1,2.3,,4.7,Yes,Diabetic,Hypertensive
+16,GSM3758332,Liver,No Statin,No Statin,Female,46,56.3,146,133.0,70.0,160.0,6.0,11.7,5.9,6.3,4.1,1.6,1.3,,3.8,No treatment,Non-Diabetic,Hypertensive
+17,GSM3758333,Liver,No Statin,No Statin,Female,42,34.4,167,116.0,50.0,110.0,6.4,6.5,6.5,5.2,3.4,1.0,1.8,No Statin,3.2,Yes,Diabetic,Non-Hypertensive
+18,GSM3758334,Liver,No Statin,No Statin,Female,23,38.6,165,110.0,70.0,150.0,4.3,8.4,5.7,6.4,4.7,1.2,1.2,,2.6,No treatment,Non-Diabetic,Hypertensive
+19,GSM3758335,Liver,Statin,Rosuvastatin,Male,50,35.4,173,127.0,60.0,110.0,13.7,255.5,10.9,5.0,2.7,0.8,4.5,Statin,2.0,Yes,Diabetic,Non-Hypertensive
+20,GSM3758336,Liver,No Statin,No Statin,Female,55,39.3,168,122.0,80.0,130.0,12.9,24.8,10.0,7.3,4.8,0.8,3.8,No Statin,3.8,Yes,Diabetic,Hypertensive
+21,GSM3758337,Liver,No Statin,No Statin,Female,56,45.0,172,135.0,90.0,130.0,5.5,22.8,6.2,4.8,2.5,1.9,0.9,No Statin,5.4,No treatment,Non-Diabetic,Hypertensive
+22,GSM3758338,Liver,No Statin,No Statin,Female,48,44.9,160,124.0,70.0,120.0,5.6,13.6,5.8,4.9,3.2,1.0,1.6,,3.7,No treatment,Non-Diabetic,Non-Hypertensive
+23,GSM3758339,Liver,No Statin,No Statin,Female,54,49.8,164,130.0,80.0,135.0,6.1,17.3,6.8,5.4,3.5,1.5,1.0,No Statin,4.3,No treatment,Diabetic,Hypertensive
+24,GSM3758340,Liver,No Statin,No Statin,Female,33,47.9,157,128.0,80.0,120.0,19.6,393.8,11.6,3.3,1.9,1.0,0.8,,1.7,Yes,Diabetic,Non-Hypertensive
+25,GSM3758341,Liver,No Statin,No Statin,Female,34,46.7,163,124.0,70.0,130.0,5.0,11.0,5.3,4.5,2.8,0.9,1.5,No Statin,3.7,No treatment,Non-Diabetic,Hypertensive
+26,GSM3758342,Liver,No Statin,No Statin,Female,50,40.2,160,121.0,80.0,130.0,5.3,10.9,5.6,6.8,4.9,1.3,1.3,,3.7,No treatment,Non-Diabetic,Hypertensive
+27,GSM3758343,Liver,No Statin,No Statin,Female,28,42.4,171,126.0,80.0,130.0,4.8,16.7,5.4,4.4,2.9,1.0,1.1,,3.9,No treatment,Non-Diabetic,Hypertensive
+28,GSM3758344,Liver,No Statin,No Statin,Female,50,41.9,172,126.0,90.0,140.0,6.6,38.9,5.8,5.9,3.9,1.1,2.0,,6.6,No treatment,Non-Diabetic,Hypertensive
+29,GSM3758345,Liver,No Statin,No Statin,Female,53,39.2,159,120.0,90.0,170.0,6.2,9.0,6.1,5.8,3.7,1.5,1.6,,3.1,No treatment,Non-Diabetic,Hypertensive
+30,GSM3758346,Liver,Statin,Rosuvastatin,Male,59,37.9,188,136.0,70.0,120.0,8.6,19.4,7.9,3.9,1.9,1.1,2.0,Statin,5.9,Yes,Diabetic,Non-Hypertensive
+31,GSM3758347,Liver,No Statin,No Statin,Female,43,39.6,159,110.0,110.0,170.0,8.1,29.1,6.3,5.3,3.4,0.8,2.5,,5.9,Yes,Diabetic,Hypertensive
+32,GSM3758348,Liver,No Statin,No Statin,Female,37,53.1,163,132.0,90.0,150.0,4.9,7.9,5.1,5.9,4.1,1.3,1.0,,3.3,No treatment,Non-Diabetic,Hypertensive
+33,GSM3758349,Liver,No Statin,No Statin,Female,36,43.6,153,118.0,90.0,140.0,6.1,21.4,5.8,6.2,4.7,1.2,0.9,,5.1,No treatment,Non-Diabetic,Hypertensive
+34,GSM3758350,Liver,No Statin,No Statin,Female,45,45.0,166,114.0,90.0,140.0,5.0,9.1,5.2,4.6,2.9,1.3,1.0,,2.3,No treatment,Non-Diabetic,Hypertensive
+35,GSM3758351,Liver,No Statin,No Statin,Female,24,52.4,167,126.0,80.0,150.0,5.1,13.1,5.7,5.2,3.5,1.3,1.1,,2.5,No treatment,Non-Diabetic,Hypertensive
+36,GSM3758352,Liver,No Statin,No Statin,Female,40,48.7,165,136.0,70.0,140.0,6.8,33.3,6.0,5.4,3.6,0.9,2.1,,4.2,No treatment,Non-Diabetic,Hypertensive
+37,GSM3758353,Liver,Statin,Simvastatin,Female,63,40.9,164,108.0,80.0,150.0,6.3,12.9,6.0,5.2,3.3,1.2,1.4,Statin,4.0,No treatment,Non-Diabetic,Hypertensive
+38,GSM3758354,Liver,No Statin,No Statin,Female,46,42.0,164,110.0,70.0,120.0,5.2,14.3,5.6,4.7,3.3,1.1,0.7,No Statin,3.0,No treatment,Non-Diabetic,Non-Hypertensive
+39,GSM3758355,Liver,No Statin,No Statin,Male,37,43.1,173,145.0,60.0,120.0,5.3,27.4,4.6,5.8,4.2,0.7,2.1,,4.6,No treatment,Non-Diabetic,Non-Hypertensive
+40,GSM3758356,Liver,No Statin,No Statin,Female,39,56.6,173,128.0,90.0,150.0,5.0,7.2,5.4,5.5,3.8,1.1,1.3,,4.4047978524635445,No treatment,Non-Diabetic,Hypertensive
+41,GSM3758357,Liver,No Statin,No Statin,Female,42,44.2,164,133.0,70.0,140.0,4.8,16.5,5.5,5.1,3.3,1.2,1.4,,3.858389682522775,No treatment,Non-Diabetic,Hypertensive
+42,GSM3758358,Liver,No Statin,No Statin,Female,46,60.6,169,167.0,70.0,140.0,11.7,16.0,9.0,5.0,2.2531388386783093,1.0,5.0,,5.968930500182518,Yes,Diabetic,Hypertensive
+43,GSM3758359,Liver,Statin,Simvastatin,Male,63,47.1,176,148.0,80.0,160.0,7.5,11.8,7.2,6.4,4.0,1.2,2.8,,3.0,Yes,Diabetic,Hypertensive
+44,GSM3758360,Liver,No Statin,No Statin,Female,49,41.2,167,132.0,65.0,140.0,8.5,363.0,9.6,4.9,2.8,1.3,1.7,No Statin,3.7805783456265276,Yes,Diabetic,Hypertensive
+45,GSM3758361,Liver,No Statin,No Statin,Female,33,21.8,155,85.0,70.0,110.0,3.9,5.0,5.4,4.8,1.8,2.2,1.9,,1.6,No treatment,Non-Diabetic,Non-Hypertensive
+46,GSM3758362,Liver,No Statin,No Statin,Male,22,52.6,190,135.0,80.0,170.0,4.6,18.7,5.8,4.9,2.9,0.9,2.4,,5.033950429979,No treatment,Non-Diabetic,Hypertensive
+47,GSM3758363,Liver,No Statin,No Statin,Male,37,77.3,183,176.0,80.0,170.0,9.0,14.1,6.7,5.5,3.7,0.8,2.2,,5.1,Yes,Diabetic,Hypertensive
+48,GSM3758364,Liver,No Statin,No Statin,Female,58,44.6,149,116.0,90.0,110.0,6.0,11.2,6.2,5.9,3.6,1.6,1.5,No Statin,3.37799107228342,No treatment,Non-Diabetic,Hypertensive
+49,GSM3758365,Liver,No Statin,No Statin,Female,39,52.3,163,132.0,50.0,140.0,4.9,13.6,5.9,4.8,2.8,1.6,0.9,,3.9381129127632404,No treatment,Non-Diabetic,Hypertensive
+50,GSM3758366,Liver,No Statin,No Statin,Male,64,52.3,166,136.0,80.0,150.0,10.0,610.0,11.6,3.9,1.9,0.7,2.9,No Statin,4.863083805680416,Yes,Diabetic,Hypertensive
+51,GSM3758367,Liver,No Statin,No Statin,Female,47,40.8,162,104.0,60.0,120.0,6.6,2.7,6.6,5.1,3.2,1.2,1.8,No Statin,3.4617740026716532,No treatment,Diabetic,Non-Hypertensive
+52,GSM3758368,Liver,Statin,Atorvastatin,Male,56,38.7,176,135.0,80.0,180.0,9.5,11.3,10.3,2.9,0.8,1.5,1.2,Statin,1.3,Yes,Diabetic,Hypertensive
+53,GSM3758369,Liver,No Statin,No Statin,Female,29,47.1,170,132.0,60.0,100.0,5.1,4.7,4.9,3.8,2.5,1.0,0.7,,3.9715688694332165,No treatment,Non-Diabetic,Non-Hypertensive
+54,GSM3758370,Liver,No Statin,No Statin,Female,42,53.1,167,137.0,90.0,170.0,8.1,13.2,7.4,5.1,2.9,1.0,2.6,,5.1,Yes,Diabetic,Hypertensive
+55,GSM3758371,Liver,No Statin,No Statin,Female,53,39.5,172,105.0,80.0,160.0,5.9,4.7,5.8,4.6,2.7,1.4,1.0,,3.5125449289904633,No treatment,Non-Diabetic,Hypertensive
+56,GSM3758372,Liver,No Statin,No Statin,Female,39,22.8,161,85.0,70.0,120.0,5.7,5.8,5.9,5.0,3.2,0.9,2.0,,2.7,No treatment,Non-Diabetic,Non-Hypertensive
+57,GSM3758373,Liver,No Statin,No Statin,Male,40,40.3,174,133.0,100.0,150.0,5.3,15.6,5.5,5.3,3.3,1.2,1.8,No Statin,3.7,No treatment,Non-Diabetic,Hypertensive
+58,GSM3758374,Liver,No Statin,No Statin,Female,42,44.4,163,135.0,65.0,130.0,6.2,26.3,6.3,4.6,2.9,1.4,0.7,No Statin,5.1,No treatment,Non-Diabetic,Hypertensive
+59,GSM3758375,Liver,No Statin,No Statin,Female,56,39.6,157,115.0,90.0,140.0,5.1,13.9,5.5,5.9,3.7,1.8,1.0,No Statin,2.7,No treatment,Non-Diabetic,Hypertensive
+60,GSM3758376,Liver,No Statin,No Statin,Female,44,44.0,156,96.0,50.0,140.0,6.1,6.6,6.3,5.0,3.4,1.2,0.8,No Statin,2.5,No treatment,Non-Diabetic,Hypertensive
+61,GSM3758377,Liver,No Statin,No Statin,Female,42,36.8,168,98.0,70.0,100.0,5.3,4.6,5.8,5.9,3.8,1.3,1.7,,2.2,No treatment,Non-Diabetic,Non-Hypertensive
+62,GSM3758378,Liver,No Statin,No Statin,Female,28,45.7,180,127.0,90.0,170.0,5.1,26.7,6.0,2.5,0.9,0.9,1.5,,3.2,No treatment,Non-Diabetic,Hypertensive
+63,GSM3758379,Liver,No Statin,No Statin,Female,22,39.9,169,114.0,70.0,150.0,4.3,13.7,5.2,4.7,3.2,1.0,1.1,,3.7,Yes,Diabetic,Hypertensive
+64,GSM3758380,Liver,Statin,Atorvastatin,Male,65,34.3,191,119.0,100.0,140.0,4.6,10.8,5.8,4.8,2.8,1.5,1.1,Statin,4.5,No treatment,Non-Diabetic,Hypertensive
+65,GSM3758381,Liver,No Statin,No Statin,Female,20,53.5,160,129.0,70.0,130.0,5.1,19.1,5.5,4.7,3.2,0.7,1.8,,4.5,No treatment,Non-Diabetic,Hypertensive
+66,GSM3758382,Liver,No Statin,No Statin,Female,56,40.7,159,130.0,70.0,140.0,5.7,20.6,6.3,5.4,3.9,1.2,0.9,No Statin,5.2,No treatment,Non-Diabetic,Hypertensive
+67,GSM3758383,Liver,Statin,Atorvastatin,Female,51,41.3,169,118.0,80.0,140.0,5.6,10.8,6.0,5.4,3.8,1.1,1.2,Statin,4.0,Yes,Diabetic,Hypertensive
+68,GSM3758384,Liver,No Statin,No Statin,Female,37,54.9,155,133.30009050225001,60.0,110.0,5.8,34.1,6.6,4.5,2.9,0.8,1.8,,6.2,No treatment,Diabetic,Non-Hypertensive
+69,GSM3758385,Liver,No Statin,No Statin,Female,22,40.9,167,118.0,60.0,130.0,5.6,24.0,5.3,7.3,4.9,1.2,2.7,,4.2,No treatment,Non-Diabetic,Hypertensive
+70,GSM3758386,Liver,No Statin,No Statin,Male,58,61.7,180,174.0,90.0,160.0,6.0,24.9,6.2,4.3,2.4,1.2,1.7,No Statin,3.9,Yes,Diabetic,Hypertensive
+71,GSM3758387,Liver,No Statin,No Statin,Male,50,40.8,175,133.0,80.0,150.0,8.8,23.9,7.7,4.9,3.2,0.8,1.9,No Statin,4.8,Yes,Diabetic,Hypertensive
+72,GSM3758388,Liver,No Statin,No Statin,Female,46,47.0,153,140.0,70.0,130.0,6.5,11.4,5.5,5.5,3.8,1.0,1.5,,2.6,No treatment,Non-Diabetic,Hypertensive
+73,GSM3758389,Liver,No Statin,No Statin,Female,24,46.5,176,129.0,80.0,140.0,5.5,30.5,6.2,5.0,3.2,1.1,1.5,,5.4,No treatment,Non-Diabetic,Hypertensive
+74,GSM3758390,Liver,No Statin,No Statin,Female,46,52.7,163,137.0,100.0,140.0,14.7,11.2,12.0,6.3,3.6,0.9,5.5,,3.3,Yes,Diabetic,Hypertensive
+75,GSM3758391,Liver,Statin,Pravastatin,Male,48,43.2,178,142.0,80.0,140.0,15.1,415.7,13.1,4.3,2.5,0.7,2.5,Statin,4.5,Yes,Diabetic,Hypertensive
+76,GSM3758392,Liver,No Statin,No Statin,Male,33,44.8,178,128.0,50.0,140.0,5.4,21.7,5.7,5.3,4.0,0.7,1.2,,4.8,No treatment,Non-Diabetic,Hypertensive
+77,GSM3758393,Liver,Statin,Simvastatin,Male,50,51.6,170,164.0,70.0,130.0,15.8,33.5,11.8,4.1,2.5,1.0,1.5,,2.2,Yes,Diabetic,Hypertensive
+78,GSM3758394,Liver,Statin,Rosuvastatin,Female,55,37.4,166,114.0,80.0,120.0,5.3,11.0,5.9,5.5,3.2,1.1,2.5,Statin,4.5,No treatment,Non-Diabetic,Non-Hypertensive
+79,GSM3758395,Liver,No Statin,No Statin,Female,19,42.9,168,127.0,80.0,120.0,4.9,17.6,5.6,5.4,3.8,1.0,1.2,,3.3,No treatment,Non-Diabetic,Non-Hypertensive
+80,GSM3758396,Liver,Statin,Atorvastatin,Female,51,52.4,155,117.0,90.0,165.0,10.1,90.4,7.0,4.8,3.1,1.1,1.3,Statin,1.6,Yes,Diabetic,Hypertensive
+81,GSM3758397,Liver,No Statin,No Statin,Female,35,51.5,166,127.0,90.0,170.0,6.6,17.0,5.9,5.5,3.5,1.3,1.6,,4.2,No treatment,Non-Diabetic,Hypertensive
+82,GSM3758398,Liver,No Statin,No Statin,Female,32,52.3,171,134.0,90.0,130.0,4.8,20.1,6.1,4.2,2.8,0.9,1.2,,5.0,No treatment,Non-Diabetic,Hypertensive
+83,GSM3758399,Liver,No Statin,No Statin,Female,62,49.4,159,134.19069428415492,70.0,140.0,8.3,54.5,7.9,4.5,3.0,1.0,1.3,No Statin,2.8,Yes,Diabetic,Hypertensive
+84,GSM3758400,Liver,No Statin,No Statin,Female,23,47.8,170,140.0,90.0,150.0,4.8,14.9,5.9,3.8,2.5,1.0,0.6,,2.9,No treatment,Non-Diabetic,Hypertensive
+85,GSM3758401,Liver,No Statin,No Statin,Female,34,56.4,169,170.0,40.0,130.0,4.8,14.3,5.6,4.9,3.3,1.2,1.0,,3.4,No treatment,Non-Diabetic,Hypertensive
+86,GSM3758402,Liver,No Statin,No Statin,Male,35,64.3,171,151.0,90.0,130.0,5.2,16.1,5.6,4.7,2.9,1.4,0.8,,3.1,No treatment,Non-Diabetic,Hypertensive
+87,GSM3758403,Liver,No Statin,No Statin,Male,27,44.1,173,127.0,70.0,140.0,5.3,9.3,5.5,6.2,4.3,1.2,1.5,,4.0,No treatment,Non-Diabetic,Hypertensive
+88,GSM3758404,Liver,Statin,Atorvastatin,Female,60,43.9,159,111.0,79.0,143.0,6.1,9.6,5.7,5.1,2.8,1.4,2.0,Statin,3.6,No treatment,Non-Diabetic,Hypertensive
+89,GSM3758405,Liver,No Statin,No Statin,Female,31,43.3,165,113.0,80.0,130.0,5.2,10.0,5.4,4.3,3.2,0.9,0.6,,3.5,No treatment,Non-Diabetic,Hypertensive
+90,GSM3758406,Liver,Statin,Atorvastatin,Male,54,40.7,180,132.0,90.0,130.0,5.9,28.1,5.9,4.7,2.7,1.0,2.2,Statin,4.8,Yes,Diabetic,Hypertensive
+91,GSM3758407,Liver,No Statin,No Statin,Female,54,39.3,168,115.0,76.0,125.0,7.3,13.5,6.9,6.4,4.3,0.9,2.7,,4.7,Yes,Diabetic,Non-Hypertensive
+92,GSM3758408,Liver,No Statin,No Statin,Female,25,48.7,157,127.0,50.0,120.0,5.3,12.6,4.8,6.0,3.9,1.5,1.2,,3.4,No treatment,Non-Diabetic,Non-Hypertensive
+93,GSM3758409,Liver,No Statin,No Statin,Male,25,40.8,198,154.0,100.0,160.0,5.0,9.5,5.7,4.2,2.4,1.3,1.3,,5.7,No treatment,Non-Diabetic,Hypertensive
+94,GSM3758410,Liver,No Statin,No Statin,Male,50,38.5,183,140.0,80.0,130.0,6.4,37.1,6.8,5.8,4.0,1.2,1.4,No Statin,6.8,Yes,Diabetic,Hypertensive
+95,GSM3758411,Liver,No Statin,No Statin,Female,37,48.9,154,132.0,40.0,150.0,4.7,6.6,5.3,4.7,3.1,1.2,1.0,,1.7,No treatment,Non-Diabetic,Hypertensive
+96,GSM3758412,Liver,Statin,Simvastatin,Female,45,44.6,168,135.0,30.0,100.0,5.9,36.5,6.0,5.4,3.6,1.3,1.1,Statin,6.1,Yes,Diabetic,Non-Hypertensive
+97,GSM3758413,Liver,No Statin,No Statin,Male,54,47.5,168,142.5,80.0,140.0,8.3,49.5,6.4,4.5,2.5,1.0,2.3,No Statin,6.3,Yes,Diabetic,Hypertensive
+98,GSM3758414,Liver,No Statin,No Statin,Female,34,48.3,155,125.0,60.0,120.0,4.6,5.7,5.3,4.8,3.2,1.1,1.0,,1.5,No treatment,Non-Diabetic,Non-Hypertensive
+99,GSM3758415,Liver,No Statin,No Statin,Female,53,55.4,159,165.0,80.0,140.0,5.8,14.2,5.2,5.7,3.5,1.3,1.9,No Statin,3.5,No treatment,Non-Diabetic,Hypertensive
+100,GSM3758416,Liver,No Statin,No Statin,Female,31,51.3,171,134.0,75.0,115.0,4.4,10.8,5.6,4.7,3.1,0.8,1.8,,4.3768359875971,No treatment,Non-Diabetic,Non-Hypertensive
+101,GSM3758417,Liver,No Statin,No Statin,Female,54,53.9,168,156.0,70.0,140.0,5.4,10.8,4.8,5.7,3.9,1.2,1.3,,4.529787202156029,No treatment,Non-Diabetic,Hypertensive
+102,GSM3758418,Liver,No Statin,No Statin,Male,23,40.3,187,134.0,70.0,160.0,4.9,14.2,5.5,5.0,3.5,0.9,1.5,,4.218251736963276,No treatment,Non-Diabetic,Hypertensive
+103,GSM3758419,Liver,No Statin,No Statin,Female,61,39.8,157,118.0,60.0,130.0,13.2,9.5,10.9,2.6,1.1,1.2,0.6,No Statin,3.0,Yes,Diabetic,Hypertensive
+104,GSM3758420,Liver,No Statin,No Statin,Female,44,53.2,164,130.0,70.0,150.0,4.7,11.8,5.6,4.4,2.5,1.2,1.5,,4.294294090837029,No treatment,Non-Diabetic,Hypertensive
+105,GSM3758421,Liver,No Statin,No Statin,Male,44,43.9,176,133.0,70.0,140.0,4.6,8.3,5.9,4.3,3.0,0.8,1.1,No Statin,4.104604068794914,No treatment,Non-Diabetic,Hypertensive
+106,GSM3758422,Liver,No Statin,No Statin,Female,47,48.7,164,119.0,90.0,120.0,5.1,10.4,5.9,5.4,3.1,1.7,1.4,No Statin,3.799723678135285,No treatment,Non-Diabetic,Hypertensive
+107,GSM3758423,Liver,No Statin,No Statin,Female,65,45.0,164,134.0,80.0,160.0,5.6,16.8,6.8,6.7,5.0,1.1,1.4,No Statin,3.714128878811236,No treatment,Diabetic,Hypertensive
+108,GSM3758424,Liver,No Statin,No Statin,Female,34,44.1,169,136.0,70.0,140.0,6.9,22.1,6.6,4.7,2.2,2.0,1.1,,3.825454305609812,No treatment,Diabetic,Hypertensive
+109,GSM3758425,Liver,Statin,Pravastatin,Female,41,39.4,167,113.0,60.0,120.0,5.0,10.2,6.8,5.4,3.3,1.2,2.1,Statin,3.550897648093428,No treatment,Diabetic,Non-Hypertensive
+110,GSM3758426,Liver,No Statin,No Statin,Male,44,52.9,176,146.0,80.0,130.0,5.4,2.1,6.3,6.8,4.5,0.9,3.1,,4.900854378586232,No treatment,Non-Diabetic,Hypertensive
+111,GSM3758427,Liver,No Statin,No Statin,Female,35,70.6,152,148.0,75.0,150.0,5.8,16.7,6.2,4.7,3.0,1.2,1.3,,4.838234477135397,No treatment,Non-Diabetic,Hypertensive
+112,GSM3758428,Liver,No Statin,No Statin,Female,38,46.7,159,113.0,60.0,100.0,10.4,5.5,8.8,6.0,4.8,0.9,0.6,,1.9,Yes,Diabetic,Non-Hypertensive
+113,GSM3758429,Liver,No Statin,No Statin,Female,38,38.7,160,116.0,80.0,150.0,4.8,7.4,5.3,5.4,3.8,1.3,0.7,,3.1916484255979576,No treatment,Non-Diabetic,Hypertensive
+114,GSM3758430,Liver,Statin,Simvastatin,Male,65,46.2,174,149.0,60.0,120.0,12.0,30.5,7.6,3.6,1.7,1.1,1.8,,4.722701659657866,Yes,Diabetic,Non-Hypertensive
+115,GSM3758431,Liver,No Statin,No Statin,Female,27,43.2,180,138.0,80.0,130.0,4.6,30.9,5.4,4.1,2.7,1.0,1.0,,4.8,No treatment,Non-Diabetic,Hypertensive
+116,GSM3758432,Liver,No Statin,No Statin,Female,58,40.1,161,130.0,70.0,140.0,4.8,10.7,6.0,4.5,2.7,1.3,1.3,No Statin,3.62975920631645,No treatment,Non-Diabetic,Hypertensive
+117,GSM3758433,Liver,No Statin,No Statin,Female,24,48.5,165,138.0,70.0,130.0,5.2,21.8,5.6,5.6,3.8,1.3,1.1,,3.7,No treatment,Non-Diabetic,Hypertensive
+118,GSM3758434,Liver,Statin,Rosuvastatin,Female,54,46.1,160,115.0,80.0,150.0,8.1,11.0,7.0,4.2,1.8,1.7,1.5,Statin,4.2,Yes,Diabetic,Hypertensive
+119,GSM3758435,Liver,No Statin,No Statin,Female,45,39.4,161,120.0,80.0,130.0,20.8,12.1,10.2,5.5,3.7,0.9,2.0,,3.4,Yes,Diabetic,Hypertensive
+120,GSM3758436,Liver,No Statin,No Statin,Female,34,45.3,160,134.0,70.0,120.0,4.7,12.1,5.8,5.4,3.2,1.1,2.4,,3.5,No treatment,Non-Diabetic,Non-Hypertensive
+121,GSM3758437,Liver,No Statin,No Statin,Female,49,60.6,152,121.0,60.0,120.0,5.8,9.0,5.5,4.1,2.4,1.4,0.8,,4.109854741120875,No treatment,Non-Diabetic,Non-Hypertensive
+122,GSM3758438,Liver,Statin,Rosuvastatin,Female,59,44.4,156,140.0,60.0,110.0,6.8,18.6,6.2,5.2,1.9,1.3,2.1,Statin,6.1,No treatment,Non-Diabetic,Non-Hypertensive
+123,GSM3758439,Liver,No Statin,No Statin,Female,18,57.3,164,130.0,50.0,120.0,4.7,8.2,5.8,6.0,4.1,1.2,1.7,,2.9,No treatment,Non-Diabetic,Non-Hypertensive
+124,GSM3758440,Liver,No Statin,No Statin,Female,58,41.2,167,135.0,80.0,140.0,8.0,22.8,7.5,5.9,4.2,1.6,0.8,No Statin,6.8,Yes,Diabetic,Hypertensive
+125,GSM3758441,Liver,No Statin,No Statin,Female,49,52.8,164,138.0,80.0,140.0,6.4,15.9,6.5,4.5,3.1,1.1,0.7,,4.3,Yes,Diabetic,Hypertensive
+126,GSM3758442,Liver,No Statin,No Statin,Male,43,55.2,175,160.0,80.0,140.0,9.0,15.6,7.4,5.3,3.4,0.8,4.3,,5.8,Yes,Diabetic,Hypertensive
+127,GSM3758443,Liver,Statin,Atorvastatin,Male,38,51.5,180,139.0,70.0,120.0,8.1,35.8,8.1,3.6,1.7,0.7,4.1,Statin,6.6,Yes,Diabetic,Non-Hypertensive
+128,GSM3758444,Liver,No Statin,No Statin,Male,29,40.4,195,119.0,80.0,140.0,5.1,5.5,5.5,4.2,2.3,1.7,0.5,,1.9,No treatment,Non-Diabetic,Hypertensive
+129,GSM3758445,Liver,No Statin,No Statin,Female,26,55.9,161,144.0,60.0,130.0,4.8,16.7,5.3,5.8,3.9,1.3,1.5,,3.7,No treatment,Non-Diabetic,Hypertensive
+130,GSM3758446,Liver,No Statin,No Statin,Female,54,46.3,152,122.0,80.0,120.0,5.2,9.9,6.5,5.9,3.8,1.2,1.8,,2.8,No treatment,Non-Diabetic,Non-Hypertensive
+131,GSM3758447,Liver,No Statin,No Statin,Female,29,40.7,178,121.69334014000071,60.0,110.0,5.2,16.9,5.9,6.3,4.3,1.1,1.9,,4.0,No treatment,Non-Diabetic,Non-Hypertensive
+132,GSM3758448,Liver,No Statin,No Statin,Female,36,46.7,159,121.78181768536712,60.0,130.0,5.3,8.7,5.8,4.2,2.7,1.0,1.3,,3.1,No treatment,Non-Diabetic,Hypertensive
+133,GSM3758449,Liver,No Statin,No Statin,Male,58,27.8,176,92.0,70.0,130.0,5.2,6.9,4.9,5.9,4.0,1.5,1.0,No Statin,3.2,No treatment,Non-Diabetic,Hypertensive
+134,GSM3758450,Liver,No Statin,No Statin,Female,47,46.7,150,126.0,80.0,130.0,15.6,10.2,11.6,6.1,3.8,1.1,2.7,,4.0,Yes,Diabetic,Hypertensive
+135,GSM3758451,Liver,No Statin,No Statin,Female,46,39.3,158,116.0,80.0,120.0,4.8,4.9,5.6,6.2,4.1,1.7,0.8,,2.2,No treatment,Non-Diabetic,Non-Hypertensive
+136,GSM3758452,Liver,No Statin,No Statin,Female,25,46.3,165,125.0,70.0,130.0,6.5,43.7,6.5,5.1,3.3,1.1,1.4,,5.9,No treatment,Non-Diabetic,Hypertensive
+137,GSM3758453,Liver,No Statin,No Statin,Male,32,38.6,187,124.0,50.0,110.0,5.2,11.4,5.7,3.7,2.2,0.9,1.4,,3.3,No treatment,Non-Diabetic,Non-Hypertensive
+138,GSM3758454,Liver,No Statin,No Statin,Male,30,62.7,186,194.0,80.0,140.0,4.7,36.7,5.6,4.9,3.0,1.1,1.8,,5.2,Yes,Diabetic,Hypertensive
+139,GSM3758455,Liver,Statin,Rosuvastatin,Female,60,35.1,162,112.0,80.0,125.0,5.5,16.1,6.2,5.3,3.4,1.0,1.9,Statin,4.3,No treatment,Non-Diabetic,Non-Hypertensive
+140,GSM3758456,Liver,No Statin,No Statin,Female,37,38.1,173,122.0,80.0,120.0,6.0,17.0,5.0,5.6,3.2,1.6,1.8,,3.9,No treatment,Non-Diabetic,Non-Hypertensive
+141,GSM3758457,Liver,No Statin,No Statin,Male,32,41.1,184,133.0,70.0,120.0,5.3,9.0,5.1,4.2,2.4,1.4,0.9,,4.3,No treatment,Non-Diabetic,Non-Hypertensive
+142,GSM3758458,Liver,No Statin,No Statin,Male,24,52.3,198,165.0,110.0,180.0,5.2,38.7,5.4,4.7,3.1,0.8,1.7,,5.6,No treatment,Non-Diabetic,Hypertensive
+143,GSM3758459,Liver,No Statin,No Statin,Female,48,37.5,165,117.0,70.0,140.0,4.8,4.9,5.2,5.4,3.5,1.4,1.1,,2.5,No treatment,Non-Diabetic,Hypertensive
+144,GSM3758460,Liver,Statin,Simvastatin,Female,61,42.6,160,121.0,70.0,150.0,7.2,11.0,6.3,4.9,2.8,1.0,2.3,Statin,6.7,Yes,Diabetic,Hypertensive
+145,GSM3758461,Liver,Statin,Atorvastatin,Male,35,42.6,178,136.0,40.0,130.0,5.1,31.2,5.5,4.3,1.6,1.0,3.3,Statin,6.0,Yes,Diabetic,Hypertensive
+146,GSM3758462,Liver,No Statin,No Statin,Female,23,59.7,167,149.0,110.0,150.0,7.0,27.1,6.9,5.4,3.5,1.2,1.5,,6.6,No treatment,Diabetic,Hypertensive
+147,GSM3758463,Liver,No Statin,No Statin,Female,27,48.5,156,117.0,80.0,130.0,4.8,16.0,5.1,6.5,4.1,1.2,2.4,,3.8,No treatment,Non-Diabetic,Hypertensive
+148,GSM3758464,Liver,Statin,Atorvastatin,Female,40,40.3,163,113.0,90.0,150.0,6.5,15.8,5.7,3.8,2.3,1.0,1.1,Statin,3.8,No treatment,Non-Diabetic,Hypertensive
+149,GSM3758465,Liver,No Statin,No Statin,Female,56,49.2,168,134.0,120.0,150.0,4.9,4.485626011236363,5.3,5.6,3.5,1.2,2.1,,4.392611639597566,No treatment,Non-Diabetic,Hypertensive
+150,GSM3758466,Liver,Statin,Rosuvastatin,Male,63,30.4,158,139.0,90.0,150.0,6.0,20.6,5.1,3.6,1.6,1.2,1.7,Statin,3.5,No treatment,Non-Diabetic,Hypertensive
+151,GSM3758467,Liver,Statin,Simvastatin,Female,57,49.3,148,125.0,64.0,124.0,7.6,8.0,6.2,5.1,2.5,1.4,2.8,Statin,3.8,Yes,Diabetic,Non-Hypertensive
+152,GSM3758468,Liver,No Statin,No Statin,Female,23,62.9,156,131.0,80.0,130.0,5.6,15.8,5.4,5.1,3.0,1.2,1.9,,3.5,No treatment,Non-Diabetic,Hypertensive
+153,GSM3758469,Liver,No Statin,No Statin,Male,44,54.3,178,164.0,70.0,130.0,5.5,10.6,5.7,4.7,3.2,1.1,0.9,,3.1,No treatment,Non-Diabetic,Hypertensive
+154,GSM3758470,Liver,No Statin,No Statin,Female,27,44.6,157,129.0,40.0,120.0,6.5,25.9,6.3,4.9,3.2,1.1,1.3,,5.8,No treatment,Non-Diabetic,Non-Hypertensive
+155,GSM3758471,Liver,No Statin,No Statin,Female,55,38.5,158,128.0,100.0,140.0,5.3,8.2,5.5,4.9,2.7,1.5,1.7,,2.1,No treatment,Non-Diabetic,Hypertensive
+156,GSM3758472,Liver,No Statin,No Statin,Male,55,52.9,175,147.0,70.0,140.0,7.2,26.9,6.1,4.9,3.2,1.1,1.5,No Statin,5.6,No treatment,Diabetic,Hypertensive
+157,GSM3758473,Liver,No Statin,No Statin,Male,56,46.1,178,146.0,80.0,130.0,6.2,48.1,5.6,5.1,3.5,1.2,0.9,No Statin,7.7,No treatment,Non-Diabetic,Hypertensive
+158,GSM3758474,Liver,No Statin,No Statin,Female,41,39.7,170,118.0,80.0,120.0,5.2,13.6,5.4,6.2,4.4,1.2,1.2,,2.8,No treatment,Non-Diabetic,Non-Hypertensive
+159,GSM3758475,Liver,No Statin,No Statin,Female,33,52.8,152,134.0,80.0,130.0,8.9,20.3,7.8,4.4,2.9,0.9,1.5,,4.076310912881149,Yes,Diabetic,Hypertensive
+160,GSM3758476,Liver,No Statin,No Statin,Female,44,47.4,163,137.0,60.0,110.0,8.3,14.4,6.8,4.2,1.6,1.5,2.4,,4.5,Yes,Diabetic,Non-Hypertensive
+161,GSM3758477,Liver,No Statin,No Statin,Male,45,57.5,173,174.0,105.0,180.0,8.3,18.2,7.7,4.7,2.9,1.1,1.5,,5.123973248486619,Yes,Diabetic,Hypertensive
+162,GSM3758478,Liver,No Statin,No Statin,Female,39,50.1,163,116.0,60.0,130.0,5.1,12.2,6.0,5.4,3.9,1.1,0.9,,3.6577577375723775,No treatment,Non-Diabetic,Hypertensive
+163,GSM3758479,Liver,No Statin,No Statin,Female,36,39.8,167,125.0,60.0,120.0,5.6,10.1,5.8,5.0,2.9,1.5,1.3,,3.568506268571567,No treatment,Non-Diabetic,Non-Hypertensive
+164,GSM3758480,Liver,Statin,Rosuvastatin,Male,47,45.0,185,136.0,110.0,200.0,5.0,11.1,5.8,3.4,2.0,1.0,1.0,Statin,4.524940980888845,No treatment,Non-Diabetic,Hypertensive
+165,GSM3758481,Liver,No Statin,No Statin,Female,58,39.5,160,113.0,80.0,150.0,7.0,9.6,7.5,7.3,5.1,1.2,2.5,No Statin,3.4542306769854543,Yes,Diabetic,Hypertensive
+166,GSM3758482,Liver,No Statin,No Statin,Male,40,53.5,186,142.0,120.0,210.0,6.7,8.9,6.2,6.4,4.5,1.3,1.3,,4.703846667322933,No treatment,Non-Diabetic,Hypertensive
+167,GSM3758483,Liver,No Statin,No Statin,Female,59,52.0,160,135.0,110.0,190.0,5.4,10.0,5.8,6.1,3.9,1.0,2.5,No Statin,4.503177276513904,No treatment,Non-Diabetic,Hypertensive
+168,GSM3758484,Liver,Statin,Rosuvastatin,Male,51,43.9,167,126.0,80.0,120.0,6.7,22.2,6.0,5.3,3.5,1.3,1.3,Statin,3.873476517145539,No treatment,Non-Diabetic,Non-Hypertensive
+169,GSM3758485,Liver,No Statin,No Statin,Female,44,48.4,150,116.0,70.0,120.0,6.1,17.5,6.5,5.6,3.4,1.1,2.4,,3.837519395363665,No treatment,Non-Diabetic,Non-Hypertensive
+170,GSM3758486,Liver,Statin,Simvastatin,Female,58,51.2,160,137.0,70.0,130.0,8.5,166.5,8.8,3.7,1.6,1.4,1.4,Statin,2.2,Yes,Diabetic,Hypertensive
+171,GSM3758487,Liver,No Statin,No Statin,Female,47,46.1,162,119.0,70.0,120.0,5.3,12.4,6.0,5.6,3.4,1.5,1.5,,3.6719425131455594,No treatment,Non-Diabetic,Non-Hypertensive
+172,GSM3758488,Liver,No Statin,No Statin,Male,57,50.1,177,138.0,60.0,140.0,6.7,19.5,5.9,5.1,2.6,1.9,1.4,No Statin,4.42320490826822,No treatment,Non-Diabetic,Hypertensive
+173,GSM3758489,Liver,No Statin,No Statin,Female,28,53.3,165,122.0,60.0,150.0,5.9,12.3,6.4,4.8,3.0,1.2,1.2,,4.033451654975108,No treatment,Non-Diabetic,Hypertensive
+174,GSM3758490,Liver,No Statin,No Statin,Female,64,44.4,165,134.0,60.0,140.0,5.9,9.9,5.2,3.9,2.4,1.2,0.7,No Statin,3.9025607114872365,No treatment,Non-Diabetic,Hypertensive
+175,GSM3758491,Liver,No Statin,No Statin,Female,46,59.7,178,152.0,100.0,140.0,13.7,8.9,9.1,3.7,1.9,1.0,1.6,No Statin,3.5,Yes,Diabetic,Hypertensive
+176,GSM3758492,Liver,No Statin,No Statin,Female,34,40.4,162,118.0,90.0,130.0,5.6,9.1,5.2,5.3,3.6,0.9,1.8,,3.7063672658594777,No treatment,Non-Diabetic,Hypertensive
+177,GSM3758493,Liver,No Statin,No Statin,Male,45,38.6,171,136.0,60.0,120.0,5.2,33.2,5.0,4.8,2.7,0.8,2.7,,6.7,No treatment,Non-Diabetic,Non-Hypertensive
+178,GSM3758494,Liver,No Statin,No Statin,Female,37,44.1,165,120.0,70.0,126.0,5.3,13.9,5.2,4.9,3.3,1.1,1.2,,3.6,No treatment,Non-Diabetic,Non-Hypertensive
+179,GSM3758495,Liver,No Statin,No Statin,Female,49,43.3,165,118.0,80.0,130.0,5.2,12.4,5.0,4.941496255862812,3.093304876782731,1.2792389800349693,1.1494076589938627,,2.8,No treatment,Non-Diabetic,Hypertensive
+180,GSM3758496,Liver,No Statin,No Statin,Female,30,46.6,167,145.0,100.0,140.0,6.4,13.7,7.1,4.8,3.2,1.2,0.8,,4.8,No treatment,Diabetic,Hypertensive
+181,GSM3758497,Liver,No Statin,No Statin,Male,38,92.9,156,156.0,70.0,130.0,5.5,21.9,5.8,7.4,5.3,0.9,4.2,,4.3,No treatment,Non-Diabetic,Hypertensive
+182,GSM3758498,Liver,No Statin,No Statin,Female,33,55.0,163,120.0,90.0,140.0,5.2,5.8,5.7,3.3,1.7,1.3,0.6,,2.7,No treatment,Non-Diabetic,Hypertensive
+183,GSM3758499,Liver,No Statin,No Statin,Female,49,47.8,151,124.0,80.0,210.0,4.7,13.8,6.0,5.3,3.3,1.1,1.8,No Statin,2.3,No treatment,Non-Diabetic,Hypertensive
+184,GSM3758500,Liver,No Statin,No Statin,Female,30,44.3,166,136.0,40.0,120.0,4.9,23.8,5.5,4.1,2.7,1.0,1.0,No Statin,4.1,No treatment,Non-Diabetic,Non-Hypertensive
+185,GSM3758501,Liver,No Statin,No Statin,Female,54,55.0,169,150.0,60.0,160.0,7.8,24.3,6.9,4.4,2.9,0.8,1.5,No Statin,6.6,Yes,Diabetic,Hypertensive
+186,GSM3758502,Liver,No Statin,No Statin,Male,36,40.4,180,128.0,50.0,110.0,5.0,17.4,6.0,5.1,3.3,1.0,1.8,No Statin,4.5,No treatment,Non-Diabetic,Non-Hypertensive
+187,GSM3758503,Liver,No Statin,No Statin,Female,21,39.3,168,120.0,70.0,125.0,4.6,12.3,5.8,5.4,3.2,1.2,2.3,,3.3,No treatment,Non-Diabetic,Non-Hypertensive
+188,GSM3758504,Liver,No Statin,No Statin,Female,22,46.6,165,108.0,60.0,110.0,5.2,25.7,5.9,5.1,3.4,1.2,0.9,,4.7,No treatment,Non-Diabetic,Non-Hypertensive
+189,GSM3758505,Liver,No Statin,No Statin,Female,51,40.3,166,126.0,100.0,140.0,6.2,17.2,6.2,4.7,3.0,1.2,1.1,,4.3,No treatment,Non-Diabetic,Hypertensive
+190,GSM3758506,Liver,Statin,Atorvastatin,Female,35,52.7,157,132.0,70.0,130.0,4.3,28.3,5.5,5.0,2.7,1.3,2.3,Statin,4.2,No treatment,Non-Diabetic,Hypertensive
+191,GSM3758507,Liver,Statin,Atorvastatin,Male,52,46.6,180,147.0,90.0,155.0,10.7,31.3,8.0,6.0,3.6,0.9,3.3,Statin,5.6,Yes,Diabetic,Hypertensive
+192,GSM3758508,Liver,No Statin,No Statin,Female,37,36.6,161,107.0,70.0,135.0,13.5,15.0,10.2,4.3,2.7,1.0,1.3,,2.9,Yes,Diabetic,Hypertensive
+193,GSM3758509,Liver,Statin,Simvastatin,Female,44,43.4,171,122.0,60.0,120.0,5.3,7.8,5.9,5.5,3.6,1.5,0.7,Statin,2.6,Yes,Diabetic,Non-Hypertensive
+194,GSM3758510,Liver,Statin,Simvastatin,Male,53,46.9,180,146.0,90.0,140.0,8.3,50.2,7.4,4.3,2.1,0.9,2.8,Statin,8.3,Yes,Diabetic,Hypertensive
+195,GSM3758511,Liver,Statin,Pravastatin,Male,46,45.7,180,145.0,80.0,140.0,6.7,27.5,8.5,4.0,1.9,1.0,2.4,Statin,6.4,Yes,Diabetic,Hypertensive
+196,GSM3758512,Liver,No Statin,No Statin,Female,46,51.1,162,119.0,70.0,120.0,5.4,5.0,6.0,3.9,1.9,1.0,2.3,,2.2,Yes,Diabetic,Non-Hypertensive
+197,GSM3758513,Liver,No Statin,No Statin,Female,34,50.7,165,132.0,60.0,120.0,5.7,10.1,5.7,5.0,3.5,0.9,1.4,No Statin,3.5,No treatment,Non-Diabetic,Non-Hypertensive
+198,GSM3758514,Liver,No Statin,No Statin,Female,19,40.5,158,101.0,60.0,110.0,4.6,5.4,5.4,3.9,2.3,1.2,0.7,,3.2,No treatment,Non-Diabetic,Non-Hypertensive
+199,GSM3758515,Liver,No Statin,No Statin,Female,33,40.5,158,105.0,100.0,140.0,5.4,12.2,5.7,5.3,3.6,1.3,0.9,,3.4,No treatment,Non-Diabetic,Hypertensive
+200,GSM3758516,Liver,No Statin,No Statin,Female,42,50.8,163,128.0,90.0,160.0,5.8,8.7,5.9,5.6,4.0,1.0,1.4,,5.1,No treatment,Non-Diabetic,Hypertensive
+201,GSM3758517,Liver,No Statin,No Statin,Male,43,42.3,176,130.0,110.0,170.0,5.6,19.1,6.2,6.2,4.5,0.9,1.7,,3.6,No treatment,Non-Diabetic,Hypertensive
+202,GSM3758518,Liver,Statin,Simvastatin,Female,57,43.9,154,118.0,80.0,150.0,13.0,34.5,7.9,4.2,2.4,1.1,1.6,Statin,6.9,Yes,Diabetic,Hypertensive
+203,GSM3758519,Liver,No Statin,No Statin,Female,29,42.5,166,110.0,70.0,130.0,5.2,11.0,5.8,4.5,3.1,1.2,0.6,,3.6,No treatment,Non-Diabetic,Hypertensive
+204,GSM3758520,Liver,No Statin,No Statin,Male,43,47.3,191,149.0,80.0,130.0,6.8,4.1,6.0,4.9,3.3,1.2,0.8,,4.5,No treatment,Non-Diabetic,Hypertensive
+205,GSM3758521,Liver,No Statin,No Statin,Male,34,71.7,167,200.0,80.0,180.0,5.5,18.9,5.8,4.3,2.6,1.0,1.5,No Statin,5.1,Yes,Diabetic,Hypertensive
+206,GSM3758522,Liver,No Statin,No Statin,Female,52,42.8,166,129.0,80.0,130.0,10.8,13.4,8.1,5.0,3.1,1.3,1.2,No Statin,2.9,Yes,Diabetic,Hypertensive
+207,GSM3758523,Liver,No Statin,No Statin,Female,36,43.2,162,133.0,60.0,100.0,6.0,18.7,5.8,4.2,2.8,0.9,1.1,,5.7,Yes,Diabetic,Non-Hypertensive
+208,GSM3758524,Liver,Statin,Rosuvastatin,Male,58,46.0,170,137.0,86.0,174.0,7.9,11.7,7.3,5.4,2.6,0.8,4.3,Statin,2.9,Yes,Diabetic,Hypertensive
+209,GSM3758525,Liver,No Statin,No Statin,Female,19,50.4,177,150.0,100.0,140.0,4.8,24.0,5.2,5.2,3.7,0.8,1.6,,5.1,No treatment,Non-Diabetic,Hypertensive
+210,GSM3758526,Liver,No Statin,No Statin,Female,31,46.7,170,125.0,90.0,135.0,5.5,11.1,5.5,6.4,4.8,1.1,1.0,,3.6,No treatment,Non-Diabetic,Hypertensive
+211,GSM3758527,Liver,No Statin,No Statin,Female,39,37.2,159,116.0,72.0,121.0,5.4,8.6,5.3,6.8,4.8,1.4,1.4,,2.4,No treatment,Non-Diabetic,Non-Hypertensive
+212,GSM3758528,Liver,No Statin,No Statin,Female,43,44.0,156,116.0,80.0,130.0,6.2,19.9,5.5,5.4,3.8,1.0,1.4,,4.2,No treatment,Non-Diabetic,Hypertensive
+213,GSM3758529,Liver,No Statin,No Statin,Female,35,46.0,170,126.0,70.0,130.0,6.0,14.5,5.7,6.4,4.2,1.3,1.9,,4.1,No treatment,Non-Diabetic,Hypertensive
+214,GSM3758530,Liver,No Statin,No Statin,Female,28,43.3,170,132.0,60.0,120.0,6.7,18.7,6.6,4.8,3.2,1.0,1.3,,4.2,No treatment,Diabetic,Non-Hypertensive
+215,GSM3758531,Liver,No Statin,No Statin,Female,50,62.5,158,156.0,80.0,160.0,8.7,41.5,8.7,4.4,2.8,0.8,1.8,,3.0,Yes,Diabetic,Hypertensive
+216,GSM3758532,Liver,Statin,Atorvastatin,Female,60,50.1,166,135.0,80.0,160.0,8.9,7.0,6.9,4.4,2.4,1.5,1.0,Statin,3.5,Yes,Diabetic,Hypertensive
+217,GSM3758533,Liver,No Statin,No Statin,Female,30,42.6,180,139.0,90.0,140.0,5.4,28.6,5.4,5.3,3.3,1.1,1.8,,3.8,No treatment,Non-Diabetic,Hypertensive
+218,GSM3758534,Liver,Statin,Rosuvastatin,Male,59,47.7,172,149.0,80.0,140.0,12.7,138.6,7.8,5.6,2.7,0.9,5.4,Statin,9.5,Yes,Diabetic,Hypertensive
+219,GSM3758535,Liver,No Statin,No Statin,Male,27,54.3,180,135.0,70.0,145.0,4.5,20.9,5.5,6.0,3.8,1.3,1.8,,4.597647254978744,No treatment,Non-Diabetic,Hypertensive
+220,GSM3758536,Liver,No Statin,No Statin,Female,26,43.8,162,130.0,60.0,115.0,4.2,13.4,5.5,5.1,3.4,1.3,0.9,,3.525977640098759,No treatment,Non-Diabetic,Non-Hypertensive
+221,GSM3758537,Liver,No Statin,No Statin,Female,38,40.8,170,119.0,75.0,140.0,5.5,12.5,5.6,5.1,3.4,1.0,1.6,No Statin,3.7721725966282866,No treatment,Non-Diabetic,Hypertensive
+222,GSM3758538,Liver,No Statin,No Statin,Male,46,48.1,180,146.0,70.0,135.0,6.0,17.7,5.8,5.3,3.2,1.5,1.3,,4.416650239240401,Yes,Diabetic,Hypertensive
+223,GSM3758539,Liver,No Statin,No Statin,Male,48,45.8,181,152.0,100.0,140.0,6.6,15.6,6.1,6.3,3.9,1.3,2.4,No Statin,4.683035392664952,Yes,Diabetic,Hypertensive
+224,GSM3758540,Liver,No Statin,No Statin,Male,55,53.0,172,144.0,80.0,125.0,6.7,52.2,6.4,4.5,2.2,1.3,1.9,,4.7598218221661375,No treatment,Non-Diabetic,Non-Hypertensive
+225,GSM3758541,Liver,Statin,Simvastatin,Female,62,52.4,155,135.0,60.0,140.0,9.0,828.0,10.0,4.0,2.4,0.9,1.5,Statin,2.1,Yes,Diabetic,Hypertensive
+226,GSM3758542,Liver,No Statin,No Statin,Female,37,45.7,158,125.0,70.0,120.0,5.1,7.6,5.3,5.2,3.2,1.5,1.1,,3.6119579807746485,No treatment,Non-Diabetic,Non-Hypertensive
+227,GSM3758543,Liver,Statin,Atorvastatin,Male,48,61.2,172,156.0,80.0,150.0,5.7,19.5,6.2,3.8,2.0,1.2,1.2,Statin,3.8,Yes,Diabetic,Hypertensive
+228,GSM3758544,Liver,No Statin,No Statin,Female,30,43.6,172,115.0,80.0,145.0,5.6,21.6,5.9,4.0,2.7,0.9,0.9,,3.766122281341536,No treatment,Non-Diabetic,Hypertensive
+229,GSM3758545,Liver,No Statin,No Statin,Female,46,54.9,168,154.0,100.0,170.0,4.5,8.1,5.6,4.7,3.0,0.9,1.9,,4.820429514475167,No treatment,Non-Diabetic,Hypertensive
+230,GSM3758546,Liver,No Statin,No Statin,Male,59,49.5,170,148.0,50.0,120.0,6.7,20.8,6.2,5.2,3.5,1.0,1.6,No Statin,4.445802005776313,No treatment,Non-Diabetic,Non-Hypertensive
+231,GSM3758547,Liver,No Statin,No Statin,Female,35,40.9,164,126.0,90.0,150.0,5.1,12.7,6.0,5.5,3.4,1.3,1.8,,3.7234897545956382,No treatment,Non-Diabetic,Hypertensive
+232,GSM3758548,Liver,No Statin,No Statin,Female,34,47.8,165,127.0,100.0,130.0,5.1,18.7,6.2,5.0,2.7,1.6,1.5,,3.3,Yes,Diabetic,Hypertensive
+233,GSM3758549,Liver,No Statin,No Statin,Male,32,43.9,178,128.0,60.0,130.0,5.3,18.6,5.7,4.1,1.8,0.7,3.5,,4.86599702283107,No treatment,Non-Diabetic,Hypertensive
+234,GSM3758550,Liver,Statin,Atorvastatin,Female,45,52.7,160,133.0,70.0,140.0,14.4,22.4,9.4,4.2,2.8,1.0,1.0,Statin,4.4,Yes,Diabetic,Hypertensive
+235,GSM3758551,Liver,No Statin,No Statin,Female,31,61.7,160,149.0,80.0,170.0,7.2,9.5,6.0,6.2,3.5,1.2,3.2,,4.5,Yes,Diabetic,Hypertensive
+236,GSM3758552,Liver,No Statin,No Statin,Male,33,42.9,178,131.0,80.0,150.0,7.2,11.2,7.0,5.5,3.6,0.7,4.2,,4.6,No treatment,Diabetic,Hypertensive
+237,GSM3758553,Liver,No Statin,No Statin,Female,32,53.9,160,135.0,70.0,120.0,4.8,17.0,5.5,5.4,3.6,0.7,2.4,,4.8,No treatment,Non-Diabetic,Non-Hypertensive
+238,GSM3758554,Liver,No Statin,No Statin,Female,19,41.0,163,107.0,50.0,110.0,4.4,16.4,5.1,5.0,3.1,1.5,0.9,,3.5,No treatment,Non-Diabetic,Non-Hypertensive
+239,GSM3758555,Liver,No Statin,No Statin,Female,29,41.9,170,130.0,80.0,130.0,5.8,10.9,5.8,3.0,1.8,0.8,0.9,,3.1,No treatment,Non-Diabetic,Hypertensive
+240,GSM3758556,Liver,No Statin,No Statin,Female,44,45.4,157,114.0,70.0,120.0,5.2,11.5,5.9,4.9,3.4,1.1,0.9,,3.2,No treatment,Non-Diabetic,Non-Hypertensive
+241,GSM3758557,Liver,No Statin,No Statin,Female,44,51.9,163,127.0,60.0,130.0,6.0,15.5,6.1,6.8,4.7,1.2,1.9,,5.3,No treatment,Non-Diabetic,Hypertensive
+242,GSM3758558,Liver,No Statin,No Statin,Female,23,49.1,173,134.0,60.0,110.0,4.9,36.0,5.6,4.9,2.9,1.4,1.3,,6.6,No treatment,Non-Diabetic,Non-Hypertensive
+243,GSM3758559,Liver,No Statin,No Statin,Female,39,46.5,164,130.0,60.0,120.0,6.3,11.9,6.5,5.8,4.2,1.1,1.3,,3.6,Yes,Diabetic,Non-Hypertensive
+244,GSM3758560,Liver,No Statin,No Statin,Female,49,56.5,177,155.0,80.0,130.0,5.3,31.1,6.0,5.0,3.2,1.1,1.5,No Statin,6.7,No treatment,Non-Diabetic,Hypertensive
+245,GSM3758561,Liver,No Statin,No Statin,Female,21,41.5,156,101.0,80.0,120.0,5.1,11.5,5.2,4.4,3.1,0.9,1.0,,3.0,No treatment,Non-Diabetic,Non-Hypertensive
+246,GSM3758562,Liver,No Statin,No Statin,Female,24,41.6,167,114.0,90.0,130.0,5.1,8.1,5.1,4.2,2.5,1.2,0.9,,3.4,No treatment,Non-Diabetic,Hypertensive
+247,GSM3758563,Liver,No Statin,No Statin,Female,26,39.9,163,100.0,80.0,130.0,16.7,15.2,11.2,3.4,1.8,0.7,2.2,,4.3,Yes,Diabetic,Hypertensive
+248,GSM3758564,Liver,No Statin,No Statin,Female,42,29.7,163,86.0,70.0,110.0,4.6,4.1,4.6,3.7,2.3,1.0,1.1,,1.8,No treatment,Non-Diabetic,Non-Hypertensive
+249,GSM3758565,Liver,No Statin,No Statin,Female,26,54.0,171,140.0,80.0,120.0,6.4,20.5,6.3,6.4,4.1,1.3,2.1,,4.6,No treatment,Non-Diabetic,Non-Hypertensive
+250,GSM3758566,Liver,No Statin,No Statin,Female,49,41.9,156,118.0,60.0,110.0,9.5,7.4,7.6,4.9,2.8,0.9,2.5,No Statin,4.6,Yes,Diabetic,Non-Hypertensive
+251,GSM3758567,Liver,No Statin,No Statin,Female,33,63.9,165,151.0,90.0,140.0,6.2,12.8,5.5,4.6,2.6,0.9,2.4,,3.8,No treatment,Non-Diabetic,Hypertensive
+252,GSM3758568,Liver,No Statin,No Statin,Female,35,32.4,174,98.0,80.0,140.0,4.4,5.3,5.0,5.1,3.3,1.1,1.5,,2.8,No treatment,Non-Diabetic,Hypertensive
+253,GSM3758569,Liver,No Statin,No Statin,Male,27,39.2,169,117.0,50.0,130.0,5.5,9.1,5.4,4.3,2.7,1.2,1.0,No Statin,3.2,No treatment,Non-Diabetic,Hypertensive
+254,GSM3758570,Liver,No Statin,No Statin,Female,43,55.2,157,122.0,100.0,170.0,5.8,8.2,5.7,5.3,3.5,1.3,0.9,,2.8,No treatment,Non-Diabetic,Hypertensive
+255,GSM3758571,Liver,No Statin,No Statin,Female,37,42.9,168,120.0,70.0,125.0,4.4,7.7,5.1,3.4,2.0,1.1,0.7,,3.2,No treatment,Non-Diabetic,Non-Hypertensive
+256,GSM3758572,Liver,No Statin,No Statin,Female,53,44.9,158,118.0,90.0,130.0,5.9,18.7,5.9,5.5,3.4,1.2,2.0,,4.4,No treatment,Non-Diabetic,Hypertensive
+257,GSM3758573,Liver,Statin,Rosuvastatin,Female,51,47.6,162,128.0,70.0,150.0,17.3,31.9,9.9,3.8,1.8,1.0,2.2,Statin,1.8,Yes,Diabetic,Hypertensive
+258,GSM3758574,Liver,No Statin,No Statin,Male,48,47.8,187,154.0,100.0,140.0,10.4,8.5,8.6,5.1,3.4,1.0,1.4,,3.2,Yes,Diabetic,Hypertensive
+259,GSM3758575,Liver,No Statin,No Statin,Female,49,38.2,165,120.0,70.0,150.0,6.9,33.34573249123122,6.6,5.1,3.4,1.1,1.3,No Statin,3.5023169443272497,Yes,Diabetic,Hypertensive
+260,GSM3758576,Liver,No Statin,No Statin,Male,32,41.3,174,122.0,70.0,130.0,5.9,4.3,5.4,4.9,2.6,1.0,2.8,,19.3,No treatment,Non-Diabetic,Hypertensive
+261,GSM3758577,Liver,No Statin,No Statin,Male,45,52.1,190,175.0,90.0,140.0,9.7,39.9,7.5,4.2,2.2,1.4,1.5,No Statin,6.7,Yes,Diabetic,Hypertensive
+262,GSM3758578,Liver,No Statin,No Statin,Female,38,43.7,167,142.0,70.0,115.0,6.6,10.8,5.0,5.4,3.5,1.3,1.6,,3.7,No treatment,Non-Diabetic,Non-Hypertensive
+263,GSM3758579,Liver,Statin,Rosuvastatin,Female,57,50.1,156,141.0,80.0,140.0,8.5,38.5,8.9,2.6,1.2,1.0,0.9,Statin,2.1,Yes,Diabetic,Hypertensive
+264,GSM3758580,Liver,Statin,Atorvastatin,Male,62,47.1,176,151.0,97.0,137.0,6.2,12.3,5.5,4.2,2.5,0.9,1.9,Statin,3.5,No treatment,Non-Diabetic,Hypertensive
+265,GSM3758581,Liver,No Statin,No Statin,Female,50,46.1,160,133.0,60.0,100.0,6.2,13.5,5.7,4.0,2.3,1.1,1.4,No Statin,3.6,No treatment,Non-Diabetic,Non-Hypertensive
+266,GSM3758582,Liver,No Statin,No Statin,Female,38,45.9,167,130.0,70.0,135.0,4.7,9.8,5.2,6.2,4.0,1.4,1.7,,3.0,No treatment,Non-Diabetic,Hypertensive
+267,GSM3758583,Liver,No Statin,No Statin,Male,53,43.5,180,148.0,80.0,110.0,5.5,9.3,5.5,4.8,3.0,0.8,2.2,,3.1,No treatment,Non-Diabetic,Non-Hypertensive
+268,GSM3758584,Liver,Statin,Rosuvastatin,Female,30,44.4,163,102.0,80.0,150.0,5.1,13.5,5.0,7.1,5.6,1.0,1.3,Statin,3.1,No treatment,Non-Diabetic,Hypertensive
+269,GSM3758585,Liver,No Statin,No Statin,Male,41,86.5,176,200.0,80.0,140.0,7.2,23.5,6.2,4.8,3.1,1.1,1.3,,11.1,No treatment,Diabetic,Hypertensive
+270,GSM3758586,Liver,No Statin,No Statin,Male,49,55.4,170,161.0,70.0,140.0,8.7,51.6,7.1,5.5,3.1,1.1,2.9,No Statin,6.8,Yes,Diabetic,Hypertensive
+271,GSM3758587,Liver,No Statin,No Statin,Male,39,48.9,168,143.0,90.0,140.0,5.9,18.1,6.3,5.4,3.9,1.0,1.2,,4.0,No treatment,Non-Diabetic,Hypertensive
+272,GSM3758588,Liver,Statin,Rosuvastatin,Female,47,52.2,156,118.0,75.0,135.0,4.8,5.7,5.9,6.9,4.5,1.6,1.7,Statin,3.2,No treatment,Non-Diabetic,Hypertensive
+273,GSM3758589,Liver,No Statin,No Statin,Female,35,42.3,172,122.0,90.0,150.0,4.6,6.1,5.3,5.6,4.2,1.2,0.6,,2.2,No treatment,Non-Diabetic,Hypertensive
+274,GSM3758590,Liver,No Statin,No Statin,Female,30,44.4,156,127.0,100.0,150.0,5.4,18.2,5.9,5.4,3.2,0.9,3.1,,3.9,No treatment,Non-Diabetic,Hypertensive
+275,GSM3758591,Liver,Statin,Simvastatin,Male,56,47.2,166,147.0,90.0,170.0,6.1,21.3,6.9,3.6,2.2,0.8,1.6,Statin,6.1,Yes,Diabetic,Hypertensive
+276,GSM3758592,Liver,Statin,Atorvastatin,Male,59,28.7,176,114.73013918793094,80.0,140.0,4.7,4.299626546399132,5.550130984340789,4.965523004705353,2.989994442245211,1.2207254834557335,1.6275323611193846,Statin,3.4644488032193834,No treatment,Non-Diabetic,Hypertensive
+277,GSM3758593,Liver,Statin,Atorvastatin,Female,59,48.0,160,138.0,70.0,160.0,13.6,117.293557136781,11.3,5.1,2.5,1.2,5.5,Statin,5.095853650743195,Yes,Diabetic,Hypertensive
+278,GSM3758594,Liver,No Statin,No Statin,Female,49,42.3,168,106.0,81.0,128.0,4.9,6.5,5.3,4.6,2.7,1.3,1.5,No Statin,3.682489267574354,No treatment,Non-Diabetic,Hypertensive
+279,GSM3758595,Liver,Statin,Simvastatin,Female,55,50.4,176,160.0,85.0,175.0,10.4,33.6,9.9,4.5,2.6,1.2,1.4,Statin,4.528128562478189,Yes,Diabetic,Hypertensive
+280,GSM3758596,Liver,No Statin,No Statin,Female,47,48.1,156,115.0,60.0,135.0,4.9,12.4,5.7,4.8,3.0,1.3,0.9,,3.56336819680572,No treatment,Non-Diabetic,Hypertensive
+281,GSM3758597,Liver,Statin,Atorvastatin,Female,52,47.1,168,140.0,80.0,140.0,5.4,13.2,6.1,4.2,2.6,1.1,1.3,Statin,4.170559402087413,No treatment,Non-Diabetic,Hypertensive
+282,GSM3758598,Liver,No Statin,No Statin,Female,60,55.7,154,145.0,80.0,150.0,5.7,28.4,6.6,4.2,2.3,1.2,1.7,No Statin,5.5,Yes,Diabetic,Hypertensive
+283,GSM3758599,Liver,No Statin,No Statin,Female,53,44.3,166,130.0,80.0,150.0,5.0,4.5,6.3,5.3,2.9,2.1,0.6,,3.5051954418485973,No treatment,Non-Diabetic,Hypertensive
+284,GSM3758600,Liver,No Statin,No Statin,Female,35,51.5,180,150.0,100.0,160.0,5.2,11.6,5.8,4.1,2.2,1.3,1.2,,4.639303062496065,No treatment,Non-Diabetic,Hypertensive
+285,GSM3758601,Liver,Statin,Atorvastatin,Male,55,26.7,173,100.0,100.0,180.0,5.8,13.0,6.2,4.1,2.4,1.3,0.8,Statin,3.6,No treatment,Non-Diabetic,Hypertensive
+286,GSM3758602,Liver,No Statin,No Statin,Male,36,25.7,182,98.0,70.0,140.0,4.6,4.9,5.4,5.8,4.0,1.0,1.8,,1.8,No treatment,Non-Diabetic,Hypertensive
+287,GSM3758603,Liver,No Statin,No Statin,Female,29,43.7,179,123.0,80.0,130.0,10.9,17.2,11.7,4.1,2.3,0.9,2.2,,4.2,Yes,Diabetic,Hypertensive
+288,GSM3758604,Liver,No Statin,No Statin,Male,60,51.3,175,145.0,90.0,180.0,5.1,26.2,5.6,6.6,3.2,1.9,3.3,No Statin,4.8,No treatment,Non-Diabetic,Hypertensive
+289,GSM3758605,Liver,No Statin,No Statin,Female,33,58.7,140,129.0,80.0,120.0,6.5,26.4,6.7,6.1,4.1,1.3,1.7,,3.9,Yes,Diabetic,Non-Hypertensive
+290,GSM3758606,Liver,No Statin,No Statin,Male,27,36.9,175,121.0,60.0,100.0,5.6,14.5,5.5,5.9,3.6,0.7,5.4,,5.5,Yes,Diabetic,Non-Hypertensive
+291,GSM3758607,Liver,No Statin,No Statin,Female,40,46.3,172,130.89419722999344,90.0,140.0,5.8,7.4,5.8,3.9,2.4,1.3,0.5,,2.6,No treatment,Non-Diabetic,Hypertensive
+292,GSM3758608,Liver,No Statin,No Statin,Female,57,41.5,162,119.0,80.0,130.0,6.8,11.4,6.4,5.3,3.5,1.3,1.3,No Statin,5.0,No treatment,Non-Diabetic,Hypertensive
+293,GSM3758609,Liver,No Statin,No Statin,Female,26,40.2,175,110.0,60.0,150.0,4.6,19.0,5.7,6.0,4.3,0.9,1.9,,4.2,No treatment,Non-Diabetic,Hypertensive
+294,GSM3758610,Liver,No Statin,No Statin,Female,58,42.6,124,160.0,70.0,120.0,7.1,16.2,5.8,4.3,2.8,1.2,0.8,No Statin,4.9,No treatment,Diabetic,Non-Hypertensive
+295,GSM3758611,Liver,No Statin,No Statin,Female,21,43.7,158,93.0,80.0,120.0,5.1,6.4,5.5,5.6,4.1,0.8,1.5,,2.7,No treatment,Non-Diabetic,Non-Hypertensive
+296,GSM3758612,Liver,No Statin,No Statin,Male,48,58.3,181,170.0,80.0,145.0,8.4,32.2,6.9,4.5,2.7,0.9,1.9,No Statin,6.9,Yes,Diabetic,Hypertensive
+297,GSM3758613,Liver,No Statin,No Statin,Female,23,34.8,167,102.0,50.0,90.0,4.4,11.9,5.7,5.0,3.3,1.1,1.3,,3.0,No treatment,Non-Diabetic,Non-Hypertensive
+298,GSM3758614,Liver,No Statin,No Statin,Male,50,51.4,168,150.0,100.0,210.0,5.7,16.1,5.8,4.5,2.7,1.2,1.1,,3.7,No treatment,Non-Diabetic,Hypertensive
+299,GSM3758615,Liver,Statin,Atorvastatin,Female,59,47.0,163,130.0,50.0,110.0,5.6,127.1,6.5,4.1,2.0,0.7,3.0,,5.4,Yes,Diabetic,Non-Hypertensive
+300,GSM3758616,Liver,No Statin,No Statin,Male,25,54.3,183,157.0,100.0,160.0,5.1,22.1,5.4,4.1,2.6,1.0,1.2,,5.6,No treatment,Non-Diabetic,Hypertensive
+301,GSM3758617,Liver,No Statin,No Statin,Male,56,40.0,168,129.0,80.0,140.0,14.3,22.5,8.9,3.5,1.9,1.0,1.4,No Statin,5.8,Yes,Diabetic,Hypertensive
+302,GSM3758618,Liver,Statin,Simvastatin,Male,51,50.9,184,164.0,50.0,130.0,7.0,5.3,6.7,5.5,3.9,0.6,2.3,,3.0,Yes,Diabetic,Hypertensive
+303,GSM3758619,Liver,No Statin,No Statin,Male,45,58.1,179,165.0,90.0,180.0,5.1,22.0,6.3,5.1,3.6,0.9,1.3,No Statin,4.5,No treatment,Non-Diabetic,Hypertensive
+304,GSM3758620,Liver,No Statin,No Statin,Female,51,63.7,154,155.0,70.0,140.0,6.3,20.5,6.6,4.6,2.9,0.9,1.8,,6.0,Yes,Diabetic,Hypertensive
+305,GSM3758621,Liver,No Statin,No Statin,Female,39,53.7,169,143.0,80.0,130.0,5.4,64.7,6.3,3.5,2.1,0.8,1.3,No Statin,7.7,No treatment,Non-Diabetic,Hypertensive
+306,GSM3758622,Liver,Statin,Atorvastatin,Female,60,43.1,173,125.0,80.0,120.0,6.2,6.2,6.5,6.3,4.3,1.1,1.9,Statin,2.8,No treatment,Non-Diabetic,Non-Hypertensive
+307,GSM3758623,Liver,No Statin,No Statin,Female,19,47.8,170,134.0,130.0,200.0,4.5,14.9,5.8,5.0,2.8,1.2,2.0,,6.1,No treatment,Non-Diabetic,Hypertensive
+308,GSM3758624,Liver,Statin,Rosuvastatin,Female,40,47.6,169,140.0,70.0,120.0,7.2,36.7,7.1,6.2,4.5,0.8,2.0,Statin,6.2,Yes,Diabetic,Non-Hypertensive
+309,GSM3758625,Liver,No Statin,No Statin,Male,43,44.6,181,145.0,100.0,160.0,5.8,18.7,6.0,5.3,3.8,1.1,1.1,,4.4,No treatment,Non-Diabetic,Hypertensive
+310,GSM3758626,Liver,No Statin,No Statin,Female,37,59.5,158,140.0,80.0,140.0,6.3,31.0,6.2,5.3,3.6,0.9,1.5,,7.0,No treatment,Non-Diabetic,Hypertensive
+311,GSM3758627,Liver,No Statin,No Statin,Female,21,39.7,181,125.0,70.0,110.0,5.1,13.7,5.4,5.0,3.2,1.3,1.3,,4.4,No treatment,Non-Diabetic,Non-Hypertensive
+312,GSM3758628,Liver,Statin,Atorvastatin,Female,45,34.8,166,115.0,70.0,130.0,6.6,21.3,6.3,5.2,3.2,1.4,1.5,Statin,4.9,Yes,Diabetic,Hypertensive
+313,GSM3758629,Liver,Statin,Simvastatin,Male,49,49.7,166,140.0,90.0,140.0,11.8,23.1,8.9,6.3,4.5,1.1,1.7,Statin,5.8,Yes,Diabetic,Hypertensive
+314,GSM3758630,Liver,No Statin,No Statin,Female,50,48.5,156,118.0,60.0,100.0,5.3,10.0,6.4,5.5,3.8,1.1,1.3,,3.6,No treatment,Non-Diabetic,Non-Hypertensive
+315,GSM3758631,Liver,No Statin,No Statin,Female,51,42.1,161,110.0,80.0,150.0,5.2,15.0,5.7,3.2,1.7,1.0,0.9,,4.8,No treatment,Non-Diabetic,Hypertensive
+316,GSM3758632,Liver,No Statin,No Statin,Female,49,50.1,166,140.0,90.0,130.0,6.2,0.7,5.5,5.2,3.4,1.2,1.4,,4.6,No treatment,Non-Diabetic,Hypertensive
+317,GSM3758633,Liver,No Statin,No Statin,Female,27,48.0,164,128.0,100.0,130.0,5.2,19.7,5.5,5.0,3.3,1.2,1.0,,4.0,No treatment,Non-Diabetic,Hypertensive
+318,GSM3758634,Liver,No Statin,No Statin,Female,53,24.2,152,78.0,80.0,125.0,5.0,4.1,5.2,5.5,3.4,1.8,0.7,,1.5,No treatment,Non-Diabetic,Non-Hypertensive
+319,GSM3758635,Liver,No Statin,No Statin,Male,49,42.9,190,140.0,80.0,130.0,5.9,13.6,8.1,3.7,1.1,0.9,3.6,No Statin,4.7,Yes,Diabetic,Hypertensive
+320,GSM3758636,Liver,Statin,Atorvastatin,Male,60,37.3,171,125.0,63.0,122.0,10.3,44.5,6.8,4.0,1.9,1.0,2.2,Statin,2.7,Yes,Diabetic,Non-Hypertensive
+321,GSM3758637,Liver,No Statin,No Statin,Male,58,38.9,169,124.0,80.0,125.0,13.8,19.7,8.5,4.1,1.9,0.8,3.3,No Statin,7.7,Yes,Diabetic,Non-Hypertensive
+322,GSM3758638,Liver,No Statin,No Statin,Female,34,28.9,160,102.9966481387809,90.0,150.0,5.1,35.5,5.8,5.7,4.0,1.1,1.2,,6.6,No treatment,Non-Diabetic,Hypertensive
+323,GSM3758639,Liver,No Statin,No Statin,Male,23,55.5,160,132.0,80.0,140.0,5.2,8.3,5.2,4.6,3.0,1.0,1.4,,3.0,No treatment,Non-Diabetic,Hypertensive
+324,GSM3758640,Liver,No Statin,No Statin,Male,49,48.2,181,152.0,80.0,130.0,8.1,15.5,6.7,4.6,3.0,1.0,1.5,No Statin,4.0,Yes,Diabetic,Hypertensive
+325,GSM3758641,Liver,No Statin,No Statin,Female,25,25.4,166,93.76792022722631,70.0,120.0,5.9,15.312199318298362,5.917767316715649,4.900872259719848,3.053411012390656,1.1589201234799222,1.6643558169090094,,2.8263217638542155,No treatment,Non-Diabetic,Non-Hypertensive
+326,GSM3758642,Liver,Statin,Simvastatin,Female,43,40.6,157,112.0,50.0,110.0,5.0,7.2,5.8,5.0,2.6,0.8,3.6,Statin,2.2,No treatment,Non-Diabetic,Non-Hypertensive
+327,GSM3758643,Liver,No Statin,No Statin,Male,21,65.4,180,180.0,90.0,170.0,5.2,15.4,5.1,5.6,4.0,0.8,1.7,,2.8,No treatment,Non-Diabetic,Hypertensive
+328,GSM3758644,Liver,No Statin,No Statin,Female,31,40.0,162,89.0,80.0,130.0,4.6,10.9,5.5,4.5,3.0,1.0,1.3,,3.1,No treatment,Non-Diabetic,Hypertensive
+329,GSM3758645,Liver,No Statin,No Statin,Female,21,43.6,161,127.0,60.0,130.0,4.3,16.5,5.2,4.1,2.5,1.3,0.6,,4.1,No treatment,Non-Diabetic,Hypertensive
+330,GSM3758646,Liver,No Statin,No Statin,Female,41,50.1,163,159.0,90.0,180.0,10.8,150.3,9.3,6.0,2.3,0.8,11.5,,13.4,Yes,Diabetic,Hypertensive
+331,GSM3758647,Liver,No Statin,No Statin,Female,30,47.6,148,112.0,70.0,130.0,7.1,33.1,5.0,3.6,2.3,1.1,0.6,,5.4,No treatment,Diabetic,Hypertensive
+332,GSM3758648,Liver,No Statin,No Statin,Female,27,42.5,166,124.0,90.0,150.0,6.4,20.4,5.6,2.9,1.6,0.9,0.8,,5.9,No treatment,Non-Diabetic,Hypertensive
+333,GSM3758649,Liver,No Statin,No Statin,Male,63,46.5,171,140.0,80.0,130.0,6.4,18.6,6.3,6.3,4.3,1.2,1.8,No Statin,3.7,No treatment,Non-Diabetic,Hypertensive
+334,GSM3758650,Liver,No Statin,No Statin,Female,21,51.1,165,140.0,60.0,140.0,4.9,24.4,5.7,4.5,2.6,1.3,1.4,,3.8,No treatment,Non-Diabetic,Hypertensive
+335,GSM3758651,Liver,No Statin,No Statin,Female,34,39.5,175,108.0,60.0,120.0,4.9,11.6,5.3,5.6,3.9,1.2,1.0,,3.3,No treatment,Non-Diabetic,Non-Hypertensive
+336,GSM3758652,Liver,Statin,Simvastatin,Male,49,49.0,169,145.0,80.0,170.0,4.9,33.3,5.5,4.0,2.3,0.8,2.0,Statin,4.8,No treatment,Non-Diabetic,Hypertensive
+337,GSM3758653,Liver,No Statin,No Statin,Female,40,45.7,160,122.0,60.0,110.0,6.5,13.0,5.9,6.0,4.0,1.5,1.2,,3.5303656419947638,No treatment,Non-Diabetic,Non-Hypertensive
+338,GSM3758654,Liver,No Statin,No Statin,Female,20,79.8,169,176.0,80.0,140.0,7.7,68.5,7.5,3.6,2.5,0.7,1.0,,5.739004246605039,No treatment,Diabetic,Hypertensive
+339,GSM3758655,Liver,No Statin,No Statin,Female,28,21.5,179,75.0,60.0,100.0,4.6,4.6,5.7,3.5,1.8,1.3,0.8,,0.9,No treatment,Non-Diabetic,Non-Hypertensive
+340,GSM3758656,Liver,No Statin,No Statin,Female,33,48.7,155,142.0,70.0,140.0,12.2,13.9,10.4,4.8,2.5,1.1,2.8,No Statin,4.4,Yes,Diabetic,Hypertensive
+341,GSM3758657,Liver,No Statin,No Statin,Female,29,45.9,167,127.0,80.0,130.0,4.4,17.3,5.7,6.9,5.2,1.2,1.1,,3.5581669521542763,No treatment,Non-Diabetic,Hypertensive
+342,GSM3758658,Liver,Statin,Rosuvastatin,Male,56,25.2,178,93.0,80.0,130.0,4.8,6.6,6.1,5.4,3.4,1.3,1.4,,3.1,No treatment,Non-Diabetic,Hypertensive
+343,GSM3758659,Liver,No Statin,No Statin,Female,41,41.1,173,116.0,75.0,135.0,5.6,13.7,5.3,4.3,2.4,1.0,2.0,,4.045808654022025,No treatment,Non-Diabetic,Hypertensive
+344,GSM3758660,Liver,No Statin,No Statin,Male,30,59.0,180,153.37163510487645,70.0,130.0,5.0,41.5,6.4,3.9,1.7,0.7,3.3,,5.632717238931982,No treatment,Non-Diabetic,Hypertensive
+345,GSM3758661,Liver,No Statin,No Statin,Female,35,44.4,161,121.0,80.0,150.0,4.7,9.4,5.9,5.7,3.8,1.2,1.7,,3.695557555038194,No treatment,Non-Diabetic,Hypertensive
+346,GSM3758662,Liver,Statin,Rosuvastatin,Female,64,57.1,174,161.0,55.0,145.0,8.4,139.7,6.5,3.6,1.9,1.1,1.2,,5.021168880388326,Yes,Diabetic,Hypertensive
+347,GSM3758663,Liver,No Statin,No Statin,Female,47,41.8,157,125.0,70.0,110.0,4.9,6.2,5.2,5.5,3.6,1.5,0.9,,3.3524444654647896,No treatment,Non-Diabetic,Non-Hypertensive
+348,GSM3758664,Liver,No Statin,No Statin,Male,34,39.9,178,146.0,70.0,110.0,5.2,7.6,5.9,6.0,4.1,1.0,2.0,,4.144650041424455,No treatment,Non-Diabetic,Non-Hypertensive
+349,GSM3758665,Liver,No Statin,No Statin,Male,33,44.4,182,133.0,55.0,150.0,5.5,19.6,5.9,6.1,4.4,0.9,1.7,,4.209259999962678,No treatment,Non-Diabetic,Hypertensive
+350,GSM3758666,Liver,No Statin,No Statin,Female,60,45.5,163,144.0,70.0,140.0,4.8,7.9,5.1,5.1,3.2,1.4,1.1,No Statin,3.9597497687869767,No treatment,Non-Diabetic,Hypertensive
+351,GSM3758667,Liver,No Statin,No Statin,Female,42,49.0,166,127.0,70.0,140.0,4.9,9.4,5.9,5.2,3.3,1.3,1.2,,3.6,No treatment,Non-Diabetic,Hypertensive
+352,GSM3758668,Liver,No Statin,No Statin,Female,42,41.8,173,123.0,50.0,100.0,6.3,6.5,6.7,3.9,2.6,1.0,0.8,,3.633624322679716,No treatment,Diabetic,Non-Hypertensive
+353,GSM3758669,Liver,No Statin,No Statin,Female,55,45.7,162,137.0,90.0,160.0,5.7,9.5,5.8,4.7,2.8,1.3,1.4,,4.039156866131341,No treatment,Non-Diabetic,Hypertensive
+354,GSM3758670,Liver,No Statin,No Statin,Female,31,43.8,160,133.0,70.0,120.0,5.6,15.5,5.6,3.5,2.0,1.2,0.8,,2.8,No treatment,Non-Diabetic,Non-Hypertensive
+355,GSM3758671,Liver,No Statin,No Statin,Male,42,46.5,176,130.0,75.0,140.0,5.8,10.7,6.0,5.2,2.9575000684904498,0.7,4.2,No Statin,5.060311842983336,No treatment,Non-Diabetic,Hypertensive
+356,GSM3758672,Liver,No Statin,No Statin,Female,36,48.7,153,128.0,70.0,110.0,5.5,11.2,5.8,4.5,3.0,1.0,1.2,,3.7804417486991566,No treatment,Non-Diabetic,Non-Hypertensive
+357,GSM3758673,Liver,No Statin,No Statin,Female,57,44.8,166,130.0,90.0,160.0,6.1,6.1,5.9,5.4,3.1,1.4,1.8,No Statin,4.049833236153127,No treatment,Non-Diabetic,Hypertensive
+358,GSM3758674,Liver,Statin,Rosuvastatin,Female,41,47.4,165,117.0,60.0,100.0,5.4,12.8,5.5,3.9,2.3,1.1,1.2,Statin,3.2,No treatment,Non-Diabetic,Non-Hypertensive
+359,GSM3758675,Liver,No Statin,No Statin,Female,43,42.8,152,108.0,60.0,120.0,4.6,7.7,5.4,6.0,4.3,1.2,1.3,,3.0,No treatment,Non-Diabetic,Non-Hypertensive
+360,GSM3758676,Liver,No Statin,No Statin,Female,54,58.9,159,144.0,70.0,130.0,6.4,12.9,6.4,5.3,3.4,1.5,1.0,,4.5,No treatment,Non-Diabetic,Hypertensive
+361,GSM3758677,Liver,No Statin,No Statin,Female,38,53.1,167,136.0,90.0,120.0,7.3,13.0,6.3,3.7,2.3,0.9,1.2,,4.6,No treatment,Diabetic,Hypertensive
+362,GSM3758678,Liver,No Statin,No Statin,Female,38,39.8,180,107.0,80.0,120.0,4.9,13.7,5.5,4.4,2.0,1.8,1.5,,3.4,No treatment,Non-Diabetic,Non-Hypertensive
+363,GSM3758679,Liver,Statin,Pravastatin,Male,48,36.9,175,128.0,80.0,160.0,5.9,17.3,6.7,5.2,3.5,1.0,1.6,Statin,3.8,No treatment,Diabetic,Hypertensive
+364,GSM3758680,Liver,No Statin,No Statin,Female,38,47.4,163,122.0,60.0,120.0,9.7,7.7,8.3,6.0,4.1,1.3,1.3,,2.8,Yes,Diabetic,Non-Hypertensive
+365,GSM3758681,Liver,No Statin,No Statin,Female,36,45.0,162,125.0,80.0,110.0,5.2,14.6,6.2,4.6,3.3,0.8,1.1,,4.4,No treatment,Non-Diabetic,Non-Hypertensive
+366,GSM3758682,Liver,No Statin,No Statin,Female,33,40.9,161,130.0,70.0,120.0,5.1,7.1,6.4,1.3,0.4,0.9,0.2,,4.4,No treatment,Non-Diabetic,Non-Hypertensive
+367,GSM3758683,Liver,Statin,Atorvastatin,Female,55,47.9,159,120.0,60.0,110.0,5.2,12.5,5.7,4.3,2.8,1.0,1.2,Statin,3.9,No treatment,Non-Diabetic,Non-Hypertensive
+368,GSM3758684,Liver,Statin,Atorvastatin,Female,53,44.6,176,150.0,110.0,170.0,6.0,27.9,5.9,4.2,2.3,1.1,1.9,Statin,8.0,No treatment,Non-Diabetic,Hypertensive
+369,GSM3758685,Liver,No Statin,No Statin,Female,21,49.8,167,114.0,70.0,120.0,5.2,15.0,4.8,3.6,2.3,0.8,1.1,,3.6,No treatment,Non-Diabetic,Non-Hypertensive
+370,GSM3758686,Liver,Statin,Simvastatin,Female,47,41.5,162,106.0,90.0,120.0,12.2,9.7,8.7,3.2,1.0,1.0,2.7,Statin,3.1,Yes,Diabetic,Hypertensive
+371,GSM3758687,Liver,No Statin,No Statin,Female,56,56.8,162,150.0,80.0,140.0,6.3,14.1,5.8,5.4,3.4,1.0,2.3,No Statin,5.9,No treatment,Non-Diabetic,Hypertensive
+372,GSM3758688,Liver,Statin,Atorvastatin,Female,47,57.4,169,150.0,70.0,120.0,5.3,12.8,6.0,3.7,2.1,1.1,1.3,Statin,3.4,No treatment,Non-Diabetic,Non-Hypertensive
+373,GSM3758689,Liver,No Statin,No Statin,Male,48,63.3,175,180.0,90.0,150.0,6.7,10.4,5.8,4.9,3.4,1.1,1.1,No Statin,4.5,No treatment,Non-Diabetic,Hypertensive
+374,GSM3758690,Liver,Statin,Pravastatin,Female,43,38.8,170,114.0,70.0,130.0,12.8,3.9,9.9,3.6,1.7,1.1,1.6,Statin,3.2,Yes,Diabetic,Hypertensive
+375,GSM3758691,Liver,No Statin,No Statin,Female,23,48.7,183,142.0,90.0,130.0,5.2,20.8,5.0,3.1,1.7,1.0,1.0,,3.4,No treatment,Non-Diabetic,Hypertensive
+376,GSM3758692,Liver,No Statin,No Statin,Male,52,49.2,177,154.0,100.0,160.0,7.7,16.7,8.6,5.7,3.3,1.0,3.3,No Statin,4.8,Yes,Diabetic,Hypertensive
+377,GSM3758693,Liver,No Statin,No Statin,Female,48,43.3,163,123.0,90.0,160.0,5.1,7.8,5.3,6.6,4.1,1.3,2.6,,2.6,No treatment,Non-Diabetic,Hypertensive
+378,GSM3758694,Liver,No Statin,No Statin,Female,48,37.9,160,105.0,80.0,140.0,4.6,4.7,5.1,5.0,3.2,1.2,1.3,,1.9,No treatment,Non-Diabetic,Hypertensive
+379,GSM3758695,Liver,No Statin,No Statin,Male,49,36.0,174,139.0,80.0,120.0,8.7,26.4,9.0,4.6,2.1,0.9,3.6,No Statin,3.0,Yes,Diabetic,Non-Hypertensive
+380,GSM3758696,Liver,No Statin,No Statin,Female,30,51.7,164,131.0,80.0,130.0,5.3,25.4,5.6,7.1,4.3,1.6,2.6,,4.3,No treatment,Non-Diabetic,Hypertensive
+381,GSM3758697,Liver,Statin,Rosuvastatin,Male,55,41.2,183,150.0,80.0,130.0,6.5,64.7,5.2,4.2,1.1,0.7,8.2,Statin,10.9,Yes,Diabetic,Hypertensive
+382,GSM3758698,Liver,No Statin,No Statin,Female,52,41.5,165,114.0,70.0,130.0,7.6,4.6,5.7,6.1,3.7,1.5,2.0,,2.7,Yes,Diabetic,Hypertensive
+383,GSM3758699,Liver,No Statin,No Statin,Male,40,34.8,188,138.0,100.0,140.0,11.0,117.3,12.0,5.2,3.3,1.0,2.0,,3.3,Yes,Diabetic,Hypertensive
+384,GSM3758700,Liver,No Statin,No Statin,Female,54,53.3,178,139.0,70.0,120.0,5.2,15.5,5.4,5.2,3.3,1.5,0.8,No Statin,4.0,No treatment,Non-Diabetic,Non-Hypertensive
+385,GSM3758701,Liver,No Statin,No Statin,Female,57,36.4,164,118.0,90.0,180.0,5.9,11.9,5.2,5.3,3.4,1.2,1.4,No Statin,3.7,No treatment,Non-Diabetic,Hypertensive
+386,GSM3758702,Liver,Statin,Pravastatin,Female,56,58.7,163,150.0,110.0,160.0,13.0,19.4,7.7,6.6,2.6,1.2,6.0,Statin,9.6,Yes,Diabetic,Hypertensive
+387,GSM3758703,Liver,No Statin,No Statin,Female,51,67.3,157,155.44780247035678,70.0,140.0,5.1,17.5,7.2,4.3,2.6,1.2,1.0,,5.5,Yes,Diabetic,Hypertensive
+388,GSM3758704,Liver,No Statin,No Statin,Female,55,36.1,163,121.0,70.0,120.0,5.3,23.4,5.1,3.5,2.1,1.1,0.7,No Statin,4.1,No treatment,Non-Diabetic,Non-Hypertensive
+389,GSM3758705,Liver,No Statin,No Statin,Male,29,45.1,175,139.0,80.0,150.0,5.3,11.6,5.4,5.7,3.4,1.0,2.7,,3.3,No treatment,Non-Diabetic,Hypertensive
+390,GSM3758706,Liver,Statin,Atorvastatin,Male,55,40.5,175,131.0,70.0,130.0,15.3,12.5,7.9,3.7,1.7,0.9,2.6,Statin,3.2,Yes,Diabetic,Hypertensive
+391,GSM3758707,Liver,No Statin,No Statin,Female,24,46.7,178,138.0,90.0,160.0,5.2,35.9,5.4,4.6,3.2,1.0,0.8,,4.8,No treatment,Non-Diabetic,Hypertensive
+392,GSM3758708,Liver,No Statin,No Statin,Female,39,46.5,166,132.0,70.0,150.0,6.0,20.4,5.6,4.8,3.0,1.0,1.9,,5.8,No treatment,Non-Diabetic,Hypertensive
+393,GSM3758709,Liver,No Statin,No Statin,Female,45,46.6,155,130.0,70.0,120.0,4.9,20.0,5.6,5.5,3.8,1.1,1.2,No Statin,3.6,No treatment,Non-Diabetic,Non-Hypertensive
+394,GSM3758710,Liver,No Statin,No Statin,Male,62,38.8,173,144.0,90.0,145.0,5.5,19.2,5.1,3.0,1.5,0.9,1.3,No Statin,4.0,Yes,Diabetic,Hypertensive
+395,GSM3758711,Liver,No Statin,No Statin,Female,54,54.4,166,128.0,60.0,110.0,5.6,28.0,5.9,5.8,3.3,1.8,1.6,No Statin,4.139492984292667,No treatment,Non-Diabetic,Non-Hypertensive
+396,GSM3758712,Liver,No Statin,No Statin,Female,32,45.7,166,112.0,50.0,120.0,4.5,12.7,5.7,5.0,3.4,1.0,1.3,,3.6403582968615273,No treatment,Non-Diabetic,Non-Hypertensive
+397,GSM3758713,Liver,Statin,Pravastatin,Female,52,52.3,171,142.0,70.0,110.0,13.2,4.1,8.2,5.1,2.6,1.9,1.6,Statin,4.415608681605413,Yes,Diabetic,Non-Hypertensive
+398,GSM3758714,Liver,No Statin,No Statin,Female,48,63.2,165,165.0,60.0,130.0,6.2,39.8,6.5,4.8,3.1,1.2,1.3,,5.1,Yes,Diabetic,Hypertensive
+399,GSM3758715,Liver,No Statin,No Statin,Female,20,42.4,171,119.0,80.0,130.0,5.5,10.3,6.0,6.2,4.5,1.0,1.5,,3.6212595517928916,No treatment,Non-Diabetic,Hypertensive
+400,GSM3758716,Liver,No Statin,No Statin,Male,35,48.5,180,139.0,80.0,170.0,5.2,31.3,6.0,4.7,3.3,0.7,1.7,,4.605835595912489,No treatment,Non-Diabetic,Hypertensive
+401,GSM3758717,Liver,Statin,Simvastatin,Female,58,24.0,162,86.0,60.0,115.0,3.3,4.0,5.6,4.8,3.0,1.3,1.2,,1.6,No treatment,Non-Diabetic,Non-Hypertensive
+402,GSM3758718,Liver,No Statin,No Statin,Female,50,52.3,163,139.0,80.0,160.0,5.3,18.2,5.8,4.6,2.9,1.1,1.4,,4.3242367134357895,No treatment,Non-Diabetic,Hypertensive
+403,GSM3758719,Liver,No Statin,No Statin,Female,23,50.0,160,130.0,70.0,150.0,5.3,18.2,5.6,4.5,2.4,1.3,1.7,,4.143302316668467,No treatment,Non-Diabetic,Hypertensive
+404,GSM3758720,Liver,Statin,Simvastatin,Female,60,43.1,150,126.0,70.0,130.0,6.7,65.8,8.0,4.2,2.5,1.1,1.3,Statin,3.491261522822695,Yes,Diabetic,Hypertensive
+405,GSM3758721,Liver,No Statin,No Statin,Female,45,39.5,160,123.0,70.0,130.0,4.2,4.2,4.9,3.1,1.7,1.0,0.8,,3.5947009529935325,No treatment,Non-Diabetic,Hypertensive
+406,GSM3758722,Liver,No Statin,No Statin,Female,33,49.1,155,119.0,60.0,120.0,4.5,9.1,5.8,4.0,2.6,1.0,0.8,,3.63505823615757,No treatment,Non-Diabetic,Non-Hypertensive
+407,GSM3758723,Liver,No Statin,No Statin,Female,57,39.0,171,120.0,65.0,110.0,5.3,6.0,6.4,5.1,2.7,1.7,1.6,No Statin,3.574055801320516,No treatment,Non-Diabetic,Non-Hypertensive
+408,GSM3758724,Liver,No Statin,No Statin,Female,47,47.9,174,142.0,90.0,160.0,9.6,10.0,7.8,6.2,3.9,1.3,2.1,,3.3,Yes,Diabetic,Hypertensive
+409,GSM3758725,Liver,No Statin,No Statin,Female,30,53.9,168,141.0,60.0,110.0,4.9,4.8,5.2,4.2,2.3,1.6,0.7,,4.185549851728854,No treatment,Non-Diabetic,Non-Hypertensive
+410,GSM3758726,Liver,No Statin,No Statin,Female,44,42.8,168,124.0,80.0,155.0,4.6,10.7,5.3,4.8,3.3,1.1,0.8,,3.6795423950149013,No treatment,Non-Diabetic,Hypertensive
+411,GSM3758727,Liver,No Statin,No Statin,Male,49,43.3,174,133.0,70.0,120.0,8.0,11.8,6.1,4.5,2.7,0.9,1.9,,3.2,Yes,Diabetic,Non-Hypertensive
+412,GSM3758728,Liver,No Statin,No Statin,Female,38,66.1,165,142.0,70.0,140.0,6.8,14.0,7.3,4.3,2.9,1.0,1.0,,4.695263467555851,No treatment,Diabetic,Hypertensive
+413,GSM3758729,Liver,No Statin,No Statin,Female,38,43.6,168,128.0,70.0,140.0,5.3,9.1,5.9,3.8,2.5,0.9,1.0,,3.864169452101379,No treatment,Non-Diabetic,Hypertensive
+414,GSM3758730,Liver,No Statin,No Statin,Female,51,49.1,164,131.89750039363594,60.0,130.0,5.9,19.4,5.7,6.1,3.7,1.7,1.6,,3.9645693634295327,No treatment,Non-Diabetic,Hypertensive
+415,GSM3758731,Liver,No Statin,No Statin,Female,43,49.4,166,104.0,60.0,140.0,7.5,6.4,7.2,3.8,2.2,1.3,0.7,,3.6,No treatment,Diabetic,Hypertensive
+416,GSM3758732,Liver,No Statin,No Statin,Female,20,48.5,152,117.0,70.0,140.0,4.7,9.5,5.4,5.7,4.4,0.6,1.4,,3.6313104806462597,No treatment,Non-Diabetic,Hypertensive
+417,GSM3758733,Liver,No Statin,No Statin,Male,44,48.0,172,146.0,80.0,130.0,4.7,19.6,5.9,4.7,3.1,0.8,1.6,,4.6,No treatment,Non-Diabetic,Hypertensive
+418,GSM3758734,Liver,No Statin,No Statin,Male,25,62.3,190,157.0,70.0,140.0,5.1,13.0,5.9,5.5,4.0,1.0,1.2,,5.1,No treatment,Non-Diabetic,Hypertensive
+419,GSM3758735,Liver,No Statin,No Statin,Female,50,45.3,170,122.0,60.0,120.0,4.8,26.0,5.8,4.8,2.7,1.7,0.9,,5.3,No treatment,Non-Diabetic,Non-Hypertensive
+420,GSM3758736,Liver,No Statin,No Statin,Male,56,50.7,182,165.0,90.0,160.0,7.8,13.1,7.2,4.2,2.3,1.4,1.3,No Statin,4.5,No treatment,Diabetic,Hypertensive
+421,GSM3758737,Liver,No Statin,No Statin,Male,41,54.0,181,150.0,90.0,170.0,16.3,38.4,12.4,6.0,3.7,1.1,2.7,,8.6,Yes,Diabetic,Hypertensive
+422,GSM3758738,Liver,No Statin,No Statin,Female,46,42.2,170,112.0,80.0,130.0,5.7,2.2,6.2,4.7,2.6,1.6,0.8,,2.4,Yes,Diabetic,Hypertensive
+423,GSM3758739,Liver,No Statin,No Statin,Female,23,51.7,172,133.0,70.0,130.0,4.9,20.0,5.5,2.7,1.6,0.8,0.5,,3.6,No treatment,Non-Diabetic,Hypertensive
+424,GSM3758740,Liver,No Statin,No Statin,Male,61,47.4,173,144.0,70.0,130.0,7.5,14.3,7.4,4.8,2.9,1.0,2.2,No Statin,5.6,Yes,Diabetic,Hypertensive
+425,GSM3758741,Liver,No Statin,No Statin,Female,32,43.9,172,112.0,45.0,110.0,4.8,21.7,5.2,3.9,2.3,1.1,1.1,,4.1,No treatment,Non-Diabetic,Non-Hypertensive
+426,GSM3758742,Liver,No Statin,No Statin,Female,50,43.8,160,109.0,90.0,140.0,6.4,0.7,7.1,5.1,2.7,1.8,1.2,,5.5,Yes,Diabetic,Hypertensive
+427,GSM3758743,Liver,No Statin,No Statin,Female,35,45.7,164,107.0,70.0,130.0,5.4,21.0,5.7,4.1,2.1,1.8,0.5,,3.1,No treatment,Non-Diabetic,Hypertensive
+428,GSM3758744,Liver,No Statin,No Statin,Male,49,29.0,181,96.0,80.0,130.0,5.6,3.9,5.7,4.9,3.2,1.2,1.0,,1.9,No treatment,Non-Diabetic,Hypertensive
+429,GSM3758745,Liver,Statin,Pravastatin,Male,50,45.1,183,149.0,90.0,140.0,7.9,12.1,7.2,4.0,2.5,1.0,1.2,Statin,3.2,Yes,Diabetic,Hypertensive
+430,GSM3758746,Liver,No Statin,No Statin,Female,30,45.7,168,127.0,50.0,110.0,4.8,16.2,5.6,5.4,3.6,1.1,1.7,,3.7,No treatment,Non-Diabetic,Non-Hypertensive
+431,GSM3758747,Liver,No Statin,No Statin,Female,29,55.8,172,139.0,60.0,120.0,6.0,44.5,6.2,4.7,3.2,1.0,1.1,,5.4,No treatment,Non-Diabetic,Non-Hypertensive
+432,GSM3758748,Liver,Statin,Simvastatin,Female,64,51.7,158,143.0,70.0,120.0,15.1,10.9,9.2,5.8,3.2,1.2,3.3,,6.5,Yes,Diabetic,Non-Hypertensive
+433,GSM3758749,Liver,No Statin,No Statin,Female,46,45.3,162,125.0,80.0,150.0,5.6,20.2,5.8,5.5,3.3,1.0,2.4,,4.3,No treatment,Non-Diabetic,Hypertensive
+434,GSM3758750,Liver,No Statin,No Statin,Female,43,43.9,172,131.0,80.0,160.0,5.5,9.8,5.1,4.5,2.8,1.3,0.8,,3.7,No treatment,Non-Diabetic,Hypertensive
+435,GSM3758751,Liver,No Statin,No Statin,Male,22,48.8,185,141.0,90.0,140.0,4.8,21.7,5.7,4.7,3.0,0.8,2.0,,4.9,No treatment,Non-Diabetic,Hypertensive
+436,GSM3758752,Liver,No Statin,No Statin,Female,22,44.4,181,129.0,70.0,110.0,5.2,13.4,5.5,4.3,3.0,1.1,0.6,,3.8,No treatment,Non-Diabetic,Non-Hypertensive
+437,GSM3758753,Liver,No Statin,No Statin,Female,57,59.5,154,134.0,70.0,130.0,5.7,31.1,6.0,4.9,3.2,1.2,1.2,No Statin,5.4,No treatment,Non-Diabetic,Hypertensive
+438,GSM3758754,Liver,No Statin,No Statin,Female,52,54.1,152,140.0,90.0,150.0,5.4,11.1,5.0,5.6,3.9,1.2,1.1,,3.1,No treatment,Non-Diabetic,Hypertensive
+439,GSM3758755,Liver,Statin,Rosuvastatin,Female,49,45.4,157,122.0,80.0,160.0,7.3,8.1,6.5,3.4,1.5,1.0,2.0,Statin,3.0,Yes,Diabetic,Hypertensive
+440,GSM3758756,Liver,No Statin,No Statin,Female,41,55.8,152,120.0,100.0,150.0,8.6,64.8,7.1,4.7,2.6,1.0,2.5,,5.4,Yes,Diabetic,Hypertensive
+441,GSM3758757,Liver,Statin,Simvastatin,Male,54,35.2,180,125.0,90.0,130.0,8.6,251.2,6.7,6.0,3.3,0.8,4.1,Statin,4.0,Yes,Diabetic,Hypertensive
+442,GSM3758758,Liver,No Statin,No Statin,Male,39,42.2,188,145.0,80.0,140.0,7.1,15.0,5.0,5.6,1.8,0.9,6.5,,5.6,No treatment,Diabetic,Hypertensive
+443,GSM3758759,Liver,No Statin,No Statin,Female,28,36.3,160,104.0,80.0,130.0,4.6,2.1,4.5,4.2,2.8,1.1,0.7,,1.7,No treatment,Non-Diabetic,Hypertensive
+444,GSM3758760,Liver,Statin,Rosuvastatin,Male,56,42.6,180,138.0,90.0,140.0,5.1,24.8,5.7,3.4,1.5,0.9,2.4,Statin,6.2,Yes,Diabetic,Hypertensive
+445,GSM3758761,Liver,No Statin,No Statin,Female,31,53.6,170,154.0,100.0,150.0,5.3,73.6,5.7,7.2,5.7,1.0,1.2,,4.9,Yes,Diabetic,Hypertensive
+446,GSM3758762,Liver,No Statin,No Statin,Male,51,20.1,170,96.37912936605352,73.92459387835508,127.37076098919904,5.0,6.986744749674536,5.634121422151969,4.965792297644877,2.9901037609740713,1.1974471399140034,1.7248767802157943,,2.855988464409606,No treatment,Non-Diabetic,Non-Hypertensive
+447,GSM3758763,Liver,No Statin,No Statin,Female,47,43.1,159,118.0,80.0,140.0,6.3,5.5,5.7,5.0,3.0,1.4,1.2,,3.8,No treatment,Non-Diabetic,Hypertensive
+448,GSM3758764,Liver,No Statin,No Statin,Female,29,31.0,174,115.0,74.3164423477408,128.49590359452716,5.0,6.826323476123612,5.531107416468995,4.893802059534692,3.0650728388665076,1.1752133410108532,1.560060743166984,,3.3648904839480345,No treatment,Non-Diabetic,Non-Hypertensive
+449,GSM3758765,Liver,Statin,Rosuvastatin,Female,48,38.7,155,113.0,70.0,130.0,5.4,9.2,5.4,4.6,2.4,1.6,1.4,Statin,2.7,No treatment,Non-Diabetic,Hypertensive
+450,GSM3758766,Liver,Statin,Simvastatin,Male,50,45.4,173,145.0,70.0,120.0,6.7,16.8,6.5,3.2,1.8,1.0,1.0,Statin,3.7,Yes,Diabetic,Non-Hypertensive
+451,GSM3758767,Liver,No Statin,No Statin,Female,46,63.9,166,135.0,90.0,140.0,7.2,11.9,6.5,5.7,3.8,1.4,1.2,,2.7,Yes,Diabetic,Hypertensive
+452,GSM3758768,Liver,Statin,Rosuvastatin,Male,64,50.8,169,147.0,70.0,170.0,8.8,70.7,10.5,3.4,1.2,1.0,2.7,Statin,2.0,No treatment,Diabetic,Hypertensive
+453,GSM3758769,Liver,No Statin,No Statin,Female,38,35.6,171,115.0,50.0,130.0,7.7,25.5,7.5,6.8,3.7,0.8,5.8,,5.0,Yes,Diabetic,Hypertensive
+454,GSM3758770,Liver,No Statin,No Statin,Female,53,60.1,158,139.0,50.0,105.0,6.7,6.4,7.0,6.1,4.1,1.4,1.3,No Statin,3.9,Yes,Diabetic,Non-Hypertensive
+455,GSM3758771,Liver,No Statin,No Statin,Female,44,45.3,160,122.0,70.0,110.0,3.9,3.5,4.9,3.1,1.7,1.0,0.7,,3.7403211811026127,No treatment,Non-Diabetic,Non-Hypertensive
+456,GSM3758772,Liver,No Statin,No Statin,Female,32,48.5,168,134.0,60.0,130.0,5.1,18.3,5.2,4.5,2.8,1.2,0.9,,4.014350217567934,No treatment,Non-Diabetic,Hypertensive
+457,GSM3758773,Liver,No Statin,No Statin,Female,21,53.6,165,116.0,80.0,150.0,4.8,5.0,5.5,5.3,3.5,1.2,1.3,,4.005185774941009,No treatment,Non-Diabetic,Hypertensive
+458,GSM3758774,Liver,No Statin,No Statin,Male,56,51.3,175,163.0,80.0,150.0,11.4,13.6,8.1,6.2,3.9,1.3,2.3,No Statin,6.6,Yes,Diabetic,Hypertensive
+459,GSM3758775,Liver,No Statin,No Statin,Male,39,46.8,164,143.0,70.0,130.0,6.0,12.1,5.7,5.3,3.4,1.3,1.2,,4.066717667477592,No treatment,Non-Diabetic,Hypertensive
+460,GSM3758776,Liver,No Statin,No Statin,Female,44,55.5,156,125.0,90.0,140.0,5.4,9.9,6.4,5.4,3.3,1.8,0.8,,3.7930395855531875,No treatment,Non-Diabetic,Hypertensive
+461,GSM3758777,Liver,No Statin,No Statin,Female,50,43.7,158,108.0,70.0,140.0,5.3,11.9,6.6,5.5,3.7,1.3,1.2,,3.3158391048797045,Yes,Diabetic,Hypertensive
+462,GSM3758778,Liver,Statin,Pravastatin,Male,58,56.3,168,150.0,80.0,140.0,5.9,26.4,5.7,4.6,2.8,1.0,1.8,Statin,4.905352893395862,No treatment,Non-Diabetic,Hypertensive
+463,GSM3758779,Liver,Statin,Atorvastatin,Female,53,43.1,175,144.0,90.0,150.0,15.2,21.4,12.6,7.4,4.6,1.6,2.6,Statin,3.0,Yes,Diabetic,Hypertensive
+464,GSM3758780,Liver,No Statin,No Statin,Female,18,48.2,161,117.0,65.0,120.0,4.8,13.9,6.0,7.0,4.5,1.7,1.7,,3.5359031303835593,No treatment,Non-Diabetic,Non-Hypertensive
+465,GSM3758781,Liver,No Statin,No Statin,Female,33,47.8,168,128.0,80.0,140.0,5.2,8.9,5.4,4.7,2.6,1.7,0.9,,3.1,No treatment,Non-Diabetic,Hypertensive
+466,GSM3758782,Liver,No Statin,No Statin,Female,48,45.4,155,129.0,80.0,120.0,11.3,6.3,9.4,6.4,4.0,1.3,2.5,,5.1,Yes,Diabetic,Non-Hypertensive
+467,GSM3758783,Liver,No Statin,No Statin,Female,37,25.1,167,81.0,70.0,140.0,5.2,1.3,5.3,4.7,2.8,1.5,1.0,,1.8,No treatment,Non-Diabetic,Hypertensive
+468,GSM3758784,Liver,Statin,Fluvastatin,Female,59,48.3,159,120.0,60.0,110.0,5.8,12.8,6.2,6.0,3.6,1.0,2.9,Statin,4.147122850547157,No treatment,Non-Diabetic,Non-Hypertensive
+469,GSM3758785,Liver,No Statin,No Statin,Female,45,52.3,166,128.0,50.0,100.0,6.4,9.2,6.6,3.9,2.5,1.2,0.4,,3.4,No treatment,Diabetic,Non-Hypertensive
+470,GSM3758786,Liver,No Statin,No Statin,Male,54,40.2,186,139.0,70.0,130.0,5.9,46.1,6.2,4.9,3.4,0.9,1.3,No Statin,7.4,No treatment,Non-Diabetic,Hypertensive
+471,GSM3758787,Liver,No Statin,No Statin,Female,44,48.8,167,133.7055369619165,70.0,130.0,5.8,14.7,5.8,3.6,1.9,1.1,1.5,,5.0,No treatment,Non-Diabetic,Hypertensive
+472,GSM3758788,Liver,No Statin,No Statin,Male,46,38.6,168,116.0,90.0,150.0,7.3,13.3,7.2,5.0,3.4,1.0,1.2,,3.7,Yes,Diabetic,Hypertensive
+473,GSM3758789,Liver,Statin,Atorvastatin,Male,47,46.0,177,136.0,60.0,120.0,6.7,23.3,7.3,4.5,3.0,0.8,1.6,Statin,5.6,Yes,Diabetic,Non-Hypertensive
+474,GSM3758790,Liver,No Statin,No Statin,Female,56,45.4,168,133.0,80.0,140.0,11.8,9.8,11.5,4.4,2.7,0.8,2.0,No Statin,3.8,Yes,Diabetic,Hypertensive
+475,GSM3758791,Liver,No Statin,No Statin,Female,44,47.1,161,147.0,80.0,140.0,5.6,15.9,5.6,5.3,3.5,1.3,1.2,,4.5,No treatment,Non-Diabetic,Hypertensive
+476,GSM3758792,Liver,Statin,Atorvastatin,Female,60,60.6,163,133.0,60.0,130.0,7.1,16.7,6.4,3.9,2.0,1.2,1.4,Statin,6.2,Yes,Diabetic,Hypertensive
+477,GSM3758793,Liver,No Statin,No Statin,Male,30,56.5,180,135.0,70.0,150.0,4.8,11.4,6.0,5.1,3.6,1.2,0.7,,3.1,No treatment,Non-Diabetic,Hypertensive
+478,GSM3758794,Liver,No Statin,No Statin,Female,31,45.7,160,125.0,70.0,120.0,4.8,22.2,5.3,6.1,4.0,1.4,1.5,,4.1,No treatment,Non-Diabetic,Non-Hypertensive
+479,GSM3758795,Liver,No Statin,No Statin,Female,26,43.8,180,114.0,60.0,120.0,5.1,18.2,5.7,4.5,3.1,1.0,1.0,,3.9,No treatment,Non-Diabetic,Non-Hypertensive
+480,GSM3758796,Liver,No Statin,No Statin,Female,26,53.6,157,110.0,90.0,130.0,6.6,8.9,5.4,5.1,3.3,1.2,1.4,,8.1,Yes,Diabetic,Hypertensive
+481,GSM3758797,Liver,No Statin,No Statin,Female,47,40.8,165,114.0,80.0,120.0,5.1,7.7,5.7,5.9,3.8,1.0,2.5,,3.3,No treatment,Non-Diabetic,Non-Hypertensive
+482,GSM3758798,Liver,Statin,Atorvastatin,Male,64,45.3,172,130.0,100.0,170.0,5.9,4.3,5.7,4.2,0.9,1.0,5.1,Statin,5.2,No treatment,Non-Diabetic,Hypertensive
+483,GSM3758799,Liver,No Statin,No Statin,Female,38,42.1,161,115.0,80.0,130.0,4.9,7.8,5.1,4.9,2.8,1.2,2.1,,3.3,No treatment,Non-Diabetic,Hypertensive
+484,GSM3758800,Liver,No Statin,No Statin,Male,46,38.6,168,116.0,100.0,130.0,14.7,13.6,14.0,5.3,3.1,0.9,2.8,,3.5,Yes,Diabetic,Hypertensive
+485,GSM3758801,Liver,No Statin,No Statin,Female,28,43.4,160,106.0,80.0,120.0,4.7,8.3,5.7,4.0,2.3,1.2,1.3,,3.4,No treatment,Non-Diabetic,Non-Hypertensive
+486,GSM3758802,Liver,No Statin,No Statin,Female,32,44.8,161,112.0,50.0,110.0,4.9,21.1,5.0,4.8,2.5,1.5,1.8,,4.7,No treatment,Non-Diabetic,Non-Hypertensive
+487,GSM3758803,Liver,No Statin,No Statin,Female,40,40.5,158,120.0,80.0,140.0,5.1,14.8,5.8,4.5,3.1,0.9,1.1,,4.4,No treatment,Non-Diabetic,Hypertensive
+488,GSM3758804,Liver,No Statin,No Statin,Female,36,41.3,158,110.0,90.0,130.0,6.0,5.8,5.8,5.2,3.6,1.0,1.3,,3.0,No treatment,Non-Diabetic,Hypertensive
+489,GSM3758805,Liver,No Statin,No Statin,Female,25,71.3,162,144.0,90.0,140.0,6.1,1.6,6.9,5.1,3.0,0.8,3.0,,4.0,No treatment,Diabetic,Hypertensive
+490,GSM3758806,Liver,No Statin,No Statin,Female,64,43.0,160,123.0,80.0,150.0,13.5,20.3,7.7,3.2,1.0,1.0,2.7,No Statin,7.0,Yes,Diabetic,Hypertensive
+491,GSM3758807,Liver,No Statin,No Statin,Female,45,40.0,165,110.0,90.0,145.0,6.1,16.4,5.7,3.8,2.4,1.0,0.8,,2.4,No treatment,Non-Diabetic,Hypertensive
+492,GSM3758808,Liver,No Statin,No Statin,Female,47,45.5,163,134.0,100.0,140.0,5.6,3.2,5.6,4.4,2.6,1.4,0.8,,3.5,No treatment,Non-Diabetic,Hypertensive
+493,GSM3758809,Liver,No Statin,No Statin,Female,39,44.9,174,138.0,70.0,130.0,5.3,12.3,5.1,5.7,4.0,1.2,1.2,,2.8,No treatment,Non-Diabetic,Hypertensive
+494,GSM3758810,Liver,Statin,Atorvastatin,Female,60,51.8,147,146.0,100.0,150.0,11.0,276.4,7.2,4.2,2.1,1.3,1.9,Statin,6.4,Yes,Diabetic,Hypertensive
+495,GSM3758811,Liver,No Statin,No Statin,Female,36,39.1,155,119.0,80.0,120.0,5.2,18.5,5.0,4.0,2.3,1.2,1.0,,3.8,No treatment,Non-Diabetic,Non-Hypertensive
+496,GSM3758812,Liver,Statin,Atorvastatin,Female,41,43.9,168,134.0,80.0,140.0,9.1,137.9,10.9,6.2,4.3,0.9,2.3,Statin,2.6,Yes,Diabetic,Hypertensive
+497,GSM3758813,Liver,No Statin,No Statin,Female,52,48.9,165,128.0,60.0,130.0,11.4,16.1,9.9,6.8,4.8,1.0,2.4,No Statin,4.3,No treatment,Diabetic,Hypertensive
+498,GSM3758814,Liver,No Statin,No Statin,Female,24,38.4,173,113.0,70.0,120.0,5.1,6.4,4.8,4.9,2.7,1.4,1.8,,2.8,No treatment,Non-Diabetic,Non-Hypertensive
+499,GSM3758815,Liver,No Statin,No Statin,Female,62,50.2,152,128.0,70.0,147.0,5.0,52.4,6.3,5.0,2.9,1.7,1.0,No Statin,1.8,Yes,Diabetic,Hypertensive
+500,GSM3758816,Liver,No Statin,No Statin,Female,20,45.5,154,120.0,80.0,140.0,5.0,18.9,5.8,5.1,3.6,0.8,1.5,,4.9,No treatment,Non-Diabetic,Hypertensive
+501,GSM3758817,Liver,No Statin,No Statin,Female,43,42.6,176,110.0,90.0,150.0,4.8,3.4,5.0,5.1,3.1,1.5,1.0,,2.0,No treatment,Non-Diabetic,Hypertensive
+502,GSM3758818,Liver,No Statin,No Statin,Female,44,50.7,165,141.0,100.0,165.0,5.8,16.0,5.5,6.4,4.3,1.3,1.8,,3.7,No treatment,Non-Diabetic,Hypertensive
+503,GSM3758819,Liver,No Statin,No Statin,Male,52,46.7,181,144.0,80.0,140.0,5.0,7.8,5.8,5.7,3.5,0.9,3.0,No Statin,5.1,No treatment,Non-Diabetic,Hypertensive
+504,GSM3758820,Liver,No Statin,No Statin,Female,56,62.9,155,145.0,50.0,110.0,5.6,12.5,5.3,4.9,3.1,1.1,1.3,No Statin,3.2,No treatment,Non-Diabetic,Non-Hypertensive
+505,GSM3758821,Liver,No Statin,No Statin,Female,45,38.4,170,142.0,70.0,130.0,5.6,20.8,5.3,6.1,4.2,0.9,2.2,No Statin,3.4,No treatment,Non-Diabetic,Hypertensive
+506,GSM3758822,Liver,No Statin,No Statin,Male,66,46.7,178,139.0,75.0,135.0,9.8,38.9,6.4,5.0,3.2,1.1,1.6,No Statin,7.4,Yes,Diabetic,Hypertensive
+507,GSM3758823,Liver,Statin,Atorvastatin,Male,58,56.1,173,165.0,70.0,120.0,8.6,33.1,6.8,3.4,1.4,1.2,1.9,,8.2,Yes,Diabetic,Non-Hypertensive
+508,GSM3758824,Liver,Statin,Rosuvastatin,Male,56,39.8,170,124.0,80.0,130.0,10.8,19.1,7.6,4.1,2.5,1.1,1.1,Statin,4.2,Yes,Diabetic,Hypertensive
+509,GSM3758825,Liver,No Statin,No Statin,Female,46,37.2,164,122.0,90.0,160.0,5.1,8.3,5.3,4.8,3.0,1.1,1.5,,2.9,No treatment,Non-Diabetic,Hypertensive
+510,GSM3758826,Liver,No Statin,No Statin,Female,33,50.3,168,132.0,60.0,120.0,5.2,24.1,5.4,4.6,2.5,1.8,0.9,,3.5,No treatment,Non-Diabetic,Non-Hypertensive
+511,GSM3758827,Liver,No Statin,No Statin,Male,42,44.6,172,138.0,70.0,125.0,8.0,18.1,7.5,5.2,3.0,1.0,2.7,,1.8,Yes,Diabetic,Non-Hypertensive
+512,GSM3758828,Liver,No Statin,No Statin,Female,40,41.9,165,112.0,80.0,155.0,5.4,15.9,5.7,3.8,2.2,1.1,1.0,,3.4,No treatment,Non-Diabetic,Hypertensive
+513,GSM3758829,Liver,No Statin,No Statin,Female,21,51.9,163,142.0,80.0,150.0,5.2,30.8,5.3,5.4,3.5,1.2,1.7,,5.3,No treatment,Non-Diabetic,Hypertensive
+514,GSM3758830,Liver,Statin,Rosuvastatin,Female,49,48.0,152,127.0,80.0,130.0,9.8,76.8,8.2,4.8,2.8,1.1,2.1,Statin,3.992647209424514,Yes,Diabetic,Hypertensive
+515,GSM3758831,Liver,No Statin,No Statin,Male,54,25.9,172,92.0,85.0,150.0,5.4,9.3,5.5,5.6,3.6,1.5,1.3,No Statin,2.5,No treatment,Non-Diabetic,Hypertensive
+516,GSM3758832,Liver,No Statin,No Statin,Female,38,42.9,180,137.0,60.0,120.0,5.7,21.1,6.3,5.0,3.1,1.4,1.1,,5.6,Yes,Diabetic,Non-Hypertensive
+517,GSM3758833,Liver,No Statin,No Statin,Female,36,39.8,164,116.0,60.0,110.0,4.2,5.6,5.7,4.0,1.9,1.3,1.7,,3.6284873320487616,No treatment,Non-Diabetic,Non-Hypertensive
+518,GSM3758834,Liver,No Statin,No Statin,Female,42,22.3,168,83.0,60.0,110.0,4.2,6.7,5.5,4.2,1.5,2.4,0.8,,2.7,No treatment,Non-Diabetic,Non-Hypertensive
+519,GSM3758835,Liver,No Statin,No Statin,Female,21,37.5,160,94.0,60.0,105.0,4.6,6.9,5.3,5.7,4.1,1.2,0.9,,2.843505202407961,No treatment,Non-Diabetic,Non-Hypertensive
+520,GSM3758836,Liver,No Statin,No Statin,Female,37,55.5,165,145.0,90.0,180.0,6.7,20.0,6.8,4.6,3.0,1.2,0.8,,4.3288648063726995,No treatment,Diabetic,Hypertensive
+521,GSM3758837,Liver,No Statin,No Statin,Female,37,50.6,152,149.0,60.0,140.0,5.2,5.5,5.7,4.8,2.5,1.8,1.2,,3.9827772754038504,No treatment,Non-Diabetic,Hypertensive
+522,GSM3758838,Liver,Statin,Atorvastatin,Male,57,42.5,178,144.0,70.0,140.0,9.8,195.5,8.2,4.3,2.1,1.1,2.5,Statin,4.671984326797468,Yes,Diabetic,Hypertensive
+523,GSM3758839,Liver,No Statin,No Statin,Female,26,40.5,167,113.0,90.0,150.0,4.7,9.7,5.1,4.7,3.0,1.1,1.3,,3.6273919897452815,No treatment,Non-Diabetic,Hypertensive
+524,GSM3758840,Liver,Statin,Pravastatin,Male,50,45.4,130,164.0,70.0,120.0,9.1,35.2,7.5,5.0,3.4,0.9,1.7,Statin,3.8754677669863646,Yes,Diabetic,Non-Hypertensive
+525,GSM3758841,Liver,No Statin,No Statin,Female,24,58.5,172,147.0,70.0,150.0,5.6,8.1,5.8,4.7,3.3,0.9,1.1,,4.633185947130039,No treatment,Non-Diabetic,Hypertensive
+526,GSM3758842,Liver,Statin,Atorvastatin,Male,54,58.5,168,153.0,75.0,130.0,7.7,36.2,7.4,2.9,1.3,1.3,0.5,Statin,4.684262693077445,Yes,Diabetic,Hypertensive
+527,GSM3758843,Liver,No Statin,No Statin,Male,44,45.5,181,148.0,100.0,170.0,6.5,18.0,7.4,4.4,2.9,1.0,1.2,,5.4,Yes,Diabetic,Hypertensive
+528,GSM3758844,Liver,No Statin,No Statin,Female,20,47.8,170,127.0,50.0,150.0,4.7,8.6,5.5,6.6,5.0,1.0,1.4,,3.823565093964569,No treatment,Non-Diabetic,Hypertensive
+529,GSM3758845,Liver,No Statin,No Statin,Female,44,52.1,168,126.0,100.0,190.0,6.0,7.4,6.1,4.0,2.5,1.0,1.1,,4.29820081953214,No treatment,Non-Diabetic,Hypertensive
+530,GSM3758846,Liver,No Statin,No Statin,Male,44,59.1,176,168.0,90.0,140.0,7.1,14.3,6.8,4.4,3.1,1.0,0.7,,6.5,No treatment,Diabetic,Hypertensive
+531,GSM3758847,Liver,No Statin,No Statin,Female,45,54.7,170,140.05820285935835,70.0,110.0,5.2,13.3,5.9,5.4,3.6,0.9,1.9,,2.9,No treatment,Non-Diabetic,Non-Hypertensive
+532,GSM3758848,Liver,No Statin,No Statin,Female,28,48.5,177,145.0,90.0,150.0,5.2,11.0,5.7,5.2,3.4,1.3,1.1,,2.5,No treatment,Non-Diabetic,Hypertensive
+533,GSM3758849,Liver,Statin,Simvastatin,Female,35,42.9,158,118.0,70.0,120.0,7.4,14.5,7.0,6.3,4.2,1.1,2.1,Statin,3.9,Yes,Diabetic,Non-Hypertensive
+534,GSM3758850,Liver,Statin,Atorvastatin,Male,48,42.1,185,149.0,60.0,120.0,8.5,19.9,7.7,3.6,1.6,0.7,2.9,Statin,6.7,Yes,Diabetic,Non-Hypertensive
+535,GSM3758851,Liver,No Statin,No Statin,Female,23,46.0,170,114.0,60.0,140.0,5.4,9.2,5.0,4.7,3.4,0.9,0.9,,3.4,No treatment,Non-Diabetic,Hypertensive
+536,GSM3758852,Liver,No Statin,No Statin,Female,27,41.7,171,128.0,50.0,100.0,4.8,19.4,5.8,4.7,3.1,1.1,1.3,,4.0,Yes,Diabetic,Non-Hypertensive
+537,GSM3758853,Liver,No Statin,No Statin,Female,32,37.6,175,126.0,70.0,120.0,4.9,11.5,5.4,3.2,1.2,1.3,1.7,,3.4,No treatment,Non-Diabetic,Non-Hypertensive
+538,GSM3758854,Liver,No Statin,No Statin,Female,36,46.8,156,117.0,50.0,120.0,4.8,7.6,5.4,4.4,3.0,1.0,0.8,,4.0,No treatment,Non-Diabetic,Non-Hypertensive
+539,GSM3758855,Liver,No Statin,No Statin,Female,47,57.1,170,140.0,100.0,150.0,6.5,19.0,5.7,5.3,3.3,1.2,1.8,,7.1,No treatment,Non-Diabetic,Hypertensive
+540,GSM3758856,Liver,No Statin,No Statin,Female,48,40.8,157,122.0,40.0,100.0,5.1,15.3,5.4,4.8,3.3,0.9,1.5,,4.4,No treatment,Non-Diabetic,Non-Hypertensive
+541,GSM3758857,Liver,No Statin,No Statin,Male,32,41.2,181,115.0,100.0,140.0,5.3,10.6,5.2,4.2,2.7,1.1,1.0,,2.8,No treatment,Non-Diabetic,Hypertensive
+542,GSM3758858,Liver,No Statin,No Statin,Female,40,57.4,160,137.0,70.0,140.0,4.8,24.9,6.0,3.9,2.2,0.9,1.6,No Statin,5.0,Yes,Diabetic,Hypertensive
+543,GSM3758859,Liver,No Statin,No Statin,Female,32,43.4,162,112.0,90.0,120.0,4.8,15.6,5.7,5.0,3.0,1.0,2.5,,2.9,No treatment,Non-Diabetic,Hypertensive
+544,GSM3758860,Liver,No Statin,No Statin,Male,42,48.3,192,153.0,80.0,130.0,6.3,39.0,6.8,4.0,2.8,1.0,0.7,,8.5,No treatment,Diabetic,Hypertensive
+545,GSM3758861,Liver,No Statin,No Statin,Female,48,55.6,162,140.0,80.0,140.0,5.2,11.5,5.7,5.3,3.5,1.2,1.4,No Statin,2.6,No treatment,Non-Diabetic,Hypertensive
+546,GSM3758862,Liver,Statin,Rosuvastatin,Female,35,46.4,173,137.0,80.0,140.0,4.8,12.5,5.2,4.3,2.9,1.1,0.8,Statin,2.8,No treatment,Non-Diabetic,Hypertensive
+547,GSM3758863,Liver,No Statin,No Statin,Female,24,40.0,176,97.0,80.0,120.0,5.2,17.6,5.4,4.5,2.9,1.2,0.8,,4.3,No treatment,Non-Diabetic,Non-Hypertensive
+548,GSM3758864,Liver,No Statin,No Statin,Female,31,47.6,174,142.0,60.0,110.0,10.8,21.8,8.6,5.2,3.5,0.9,1.6,,1.5,Yes,Diabetic,Non-Hypertensive
+549,GSM3758865,Liver,Statin,Atorvastatin,Female,55,36.3,154,121.0,90.0,160.0,16.1,975.0,10.0,7.3,4.2,1.4,3.8,Statin,1.4,Yes,Diabetic,Hypertensive
+550,GSM3758866,Liver,No Statin,No Statin,Female,34,43.0,165,431.0,110.0,160.0,5.3,38.1,5.1,5.6,3.5,1.2,2.1,,5.2,No treatment,Non-Diabetic,Hypertensive
+551,GSM3758867,Liver,No Statin,No Statin,Male,65,36.9,192,140.0,70.0,130.0,11.0,70.1,10.1,4.8,1.9,0.8,7.3,No Statin,1.3,Yes,Diabetic,Hypertensive
+552,GSM3758868,Liver,No Statin,No Statin,Female,51,48.1,165,143.0,60.0,110.0,6.4,16.2,5.7,5.2,2.9,1.2,2.6,No Statin,4.7,Yes,Diabetic,Non-Hypertensive
+553,GSM3758869,Liver,Statin,Atorvastatin,Female,53,53.2,156,135.0,70.0,140.0,9.0,61.76505290990286,7.7,3.6,1.7,1.0,2.0,Statin,4.469353892437882,Yes,Diabetic,Hypertensive
+554,GSM3758870,Liver,No Statin,No Statin,Female,40,40.0,165,119.0,90.0,145.0,6.1,15.5,6.3,6.0,4.1,1.0,1.9,,3.8,No treatment,Non-Diabetic,Hypertensive
+555,GSM3758871,Liver,No Statin,No Statin,Male,60,54.1,173,160.0,80.0,120.0,5.9,36.0,5.9,5.2,3.7,1.0,1.0,No Statin,5.4,No treatment,Non-Diabetic,Non-Hypertensive
+556,GSM3758872,Liver,No Statin,No Statin,Female,28,67.6,165,156.0,60.0,160.0,5.0,15.4,5.1,5.5,3.7,1.2,1.3,,4.2,No treatment,Non-Diabetic,Hypertensive
+557,GSM3758873,Liver,No Statin,No Statin,Male,44,55.4,164,135.0,70.0,140.0,5.2,9.5,4.8,3.7,2.3,1.0,0.9,No Statin,2.7,No treatment,Non-Diabetic,Hypertensive
+558,GSM3758874,Liver,No Statin,No Statin,Female,44,44.6,157,135.0,90.0,150.0,7.3,37.9798421418757,6.3,6.0,4.0,1.1,1.9,,3.919419386829551,Yes,Diabetic,Hypertensive
+559,GSM3758875,Liver,No Statin,No Statin,Female,38,53.8,161,117.0,83.0,125.0,5.1,13.0,5.6,5.7,4.1,1.2,0.9,,3.0,No treatment,Non-Diabetic,Hypertensive
+560,GSM3758876,Liver,No Statin,No Statin,Female,56,37.3,163,134.0,90.0,140.0,4.9,10.3,5.0,3.8,1.3,1.6,2.0,,2.7,No treatment,Non-Diabetic,Hypertensive
+561,GSM3758877,Liver,Statin,Atorvastatin,Female,59,52.8,164,149.0,70.0,127.0,16.0,16.7,9.2,3.9,2.0,1.4,1.1,Statin,0.2,Yes,Diabetic,Non-Hypertensive
+562,GSM3758878,Liver,No Statin,No Statin,Female,35,59.3,152,118.0,80.0,120.0,5.7,14.1,5.1,4.2,2.7,1.0,1.1,,4.9,No treatment,Non-Diabetic,Non-Hypertensive
+563,GSM3758879,Liver,No Statin,No Statin,Female,48,38.3,166,110.0,100.0,160.0,5.5,6.8,5.7,6.5,4.7,1.1,1.4,No Statin,2.4,No treatment,Non-Diabetic,Hypertensive
+564,GSM3758880,Liver,No Statin,No Statin,Female,47,47.4,165,138.0,90.0,130.0,5.9,6.5,5.5,4.4,3.1,1.0,0.7,,3.0,No treatment,Non-Diabetic,Hypertensive
+565,GSM3758881,Liver,No Statin,No Statin,Male,35,41.8,195,145.0,80.0,120.0,5.7,35.1,8.5,5.1,3.6,0.9,1.4,,3.3,Yes,Diabetic,Non-Hypertensive
+566,GSM3758882,Liver,No Statin,No Statin,Female,41,36.7,170,127.0,70.0,120.0,5.9,8.1,5.7,4.9,2.9,1.5,1.1,,2.9,No treatment,Non-Diabetic,Non-Hypertensive
+567,GSM3758883,Liver,Statin,Simvastatin,Female,55,35.3,164,113.0,80.0,140.0,11.7,30.0,8.5,4.8,2.7,1.2,2.0,Statin,5.0,Yes,Diabetic,Hypertensive
+568,GSM3758884,Liver,No Statin,No Statin,Female,26,42.8,164,124.0,50.0,100.0,5.3,14.9,5.1,4.3,2.8,1.2,0.7,,2.6,No treatment,Non-Diabetic,Non-Hypertensive
+569,GSM3758885,Liver,Statin,Atorvastatin,Female,63,40.5,161,110.0,70.0,130.0,5.3,10.7,5.4,4.1,2.2,1.4,1.1,,2.6,No treatment,Non-Diabetic,Hypertensive
+570,GSM3758886,Liver,No Statin,No Statin,Female,38,38.8,170,125.0,80.0,120.0,6.5,16.3,5.9,5.1,3.6,1.0,1.2,,3.3,No treatment,Non-Diabetic,Non-Hypertensive
+571,GSM3758887,Liver,No Statin,No Statin,Female,46,44.3,170,124.0,70.0,140.0,5.5,31.0,6.0,5.4,4.1,0.9,0.9,,4.0,No treatment,Non-Diabetic,Hypertensive
+572,GSM3758888,Liver,No Statin,No Statin,Male,36,48.3,182,148.0,85.0,155.0,5.2,16.9,6.3,5.3,3.3,1.2,1.7,,4.57429790182438,No treatment,Non-Diabetic,Hypertensive
+573,GSM3758889,Liver,Statin,Simvastatin,Female,58,38.9,157,112.0,70.0,115.0,8.3,9.0,8.3,4.1,2.2,0.8,2.5,Statin,3.690628018407012,Yes,Diabetic,Non-Hypertensive
+574,GSM3758890,Liver,No Statin,No Statin,Female,46,53.3,172,142.0,90.0,150.0,5.4,13.8,6.0,4.0,2.2,1.0,1.8,,4.705974386529131,No treatment,Non-Diabetic,Hypertensive
+575,GSM3758891,Liver,No Statin,No Statin,Female,46,45.5,169,115.0,80.0,140.0,5.1,14.3,5.8,6.3,4.0,1.6,1.6,No Statin,3.706072728934835,No treatment,Non-Diabetic,Hypertensive
+576,GSM3758892,Liver,No Statin,No Statin,Female,24,39.9,172,107.0,70.0,135.0,5.1,10.7,5.7,5.3,3.5,1.4,0.8,,3.2928536119194813,No treatment,Non-Diabetic,Hypertensive
+577,GSM3758893,Liver,No Statin,No Statin,Female,25,40.3,156,113.0,70.0,110.0,4.8,10.0,5.6,5.4,3.9,1.0,0.9,,3.1,No treatment,Non-Diabetic,Non-Hypertensive
+578,GSM3758894,Liver,No Statin,No Statin,Female,54,65.7,170,155.0,70.0,125.0,7.0,12.3,7.2,3.4,1.5,1.0,2.0,,5.6,Yes,Diabetic,Non-Hypertensive
+579,GSM3758895,Liver,No Statin,No Statin,Female,57,46.5,158,133.0,50.0,150.0,6.9,7.3,6.7,6.2,4.0,1.6,1.3,,3.6576985019896915,Yes,Diabetic,Hypertensive
+580,GSM3758896,Liver,No Statin,No Statin,Male,30,50.1,188,150.0,80.0,160.0,5.1,9.3,5.0,3.6,2.3,0.9,1.1,,4.878131405233547,No treatment,Non-Diabetic,Hypertensive
+581,GSM3758897,Liver,No Statin,No Statin,Male,60,26.0,172,95.0,80.0,140.0,5.7,4.8,5.4,3.3,1.4,1.3,1.3,,2.3,No treatment,Non-Diabetic,Hypertensive
+582,GSM3758898,Liver,No Statin,No Statin,Female,33,48.0,167,117.0,50.0,100.0,5.8,9.8,5.4,4.6,2.5,1.8,0.9,,4.1,No treatment,Non-Diabetic,Non-Hypertensive
+583,GSM3758899,Liver,Statin,Pravastatin,Male,56,38.8,170,126.0,80.0,130.0,11.5,22.9,10.2,4.9,3.0,1.0,2.1,Statin,2.1,Yes,Diabetic,Hypertensive
+584,GSM3758900,Liver,No Statin,No Statin,Female,59,23.2,170,79.0,70.0,120.0,5.0,2.7,5.6,4.6,2.5,1.5,1.2,,1.8,No treatment,Non-Diabetic,Non-Hypertensive
+585,GSM3758901,Liver,No Statin,No Statin,Female,49,38.8,173,129.0,90.0,150.0,10.6,20.2,8.0,3.7,1.9,1.2,1.3,,3.8,Yes,Diabetic,Hypertensive
+586,GSM3758902,Liver,No Statin,No Statin,Female,25,44.1,171,129.0,70.0,120.0,4.7,15.1,5.5,3.6,2.2,1.1,0.8,,3.9,No treatment,Non-Diabetic,Non-Hypertensive
+587,GSM3758903,Liver,No Statin,No Statin,Male,39,40.2,175,119.0,80.0,140.0,5.1,7.5,5.6,5.2,3.3,1.1,1.6,No Statin,2.8,No treatment,Non-Diabetic,Hypertensive
+588,GSM3758904,Liver,Statin,Atorvastatin,Female,52,56.4,170,150.0,60.0,130.0,6.5,17.8,6.5,4.9,2.4,1.9,1.4,Statin,8.2,Yes,Diabetic,Hypertensive
+589,GSM3758905,Liver,No Statin,No Statin,Female,30,45.0,170,133.0,70.0,140.0,6.3,19.7,6.5,3.7,2.2,0.9,1.4,,4.4,No treatment,Non-Diabetic,Hypertensive
+590,GSM3758906,Liver,No Statin,No Statin,Female,49,60.1,158,148.0,80.0,160.0,11.3,1145.0,6.2,5.2,2.8,1.0,3.1,No Statin,6.8,Yes,Diabetic,Hypertensive
+591,GSM3758907,Liver,No Statin,No Statin,Female,29,61.0,165,130.0,70.0,150.0,5.9,19.7,5.9,5.1,3.0,1.6,1.1,,5.7,No treatment,Non-Diabetic,Hypertensive
+592,GSM3758908,Liver,No Statin,No Statin,Male,28,43.6,178,130.0,80.0,140.0,5.1,16.7,5.9,4.6,3.0,0.9,1.5,,4.3,No treatment,Non-Diabetic,Hypertensive
+593,GSM3758909,Liver,Statin,Pravastatin,Male,54,44.6,164,130.0,80.0,140.0,5.9,28.1,6.4,5.1,2.8,0.8,3.3,Statin,5.3,Yes,Diabetic,Hypertensive
+594,GSM3758910,Liver,No Statin,No Statin,Female,25,54.1,166,133.0,70.0,115.0,4.8,53.2,5.9,2.5,1.1,0.7,1.6,,7.4,No treatment,Non-Diabetic,Non-Hypertensive
+595,GSM3758911,Liver,No Statin,No Statin,Female,30,58.8,168,148.0,90.0,150.0,4.4,26.6,5.8,3.9,2.4,1.2,0.8,,5.8,No treatment,Non-Diabetic,Hypertensive
+596,GSM3758912,Liver,No Statin,No Statin,Female,45,41.3,158,112.0,70.0,115.0,6.0,13.4,6.6,4.7,3.0,1.1,1.3,,4.8,No treatment,Diabetic,Non-Hypertensive
+597,GSM3758913,Liver,No Statin,No Statin,Male,25,57.3,184,158.0,70.0,130.0,5.5,19.8,5.8,4.4,3.0,0.9,1.1,,5.3,No treatment,Non-Diabetic,Hypertensive
+598,GSM3758914,Liver,No Statin,No Statin,Female,24,39.4,170,105.0,70.0,120.0,5.3,10.6,5.9,3.7,2.3,1.1,0.6,,2.7,No treatment,Non-Diabetic,Non-Hypertensive
+599,GSM3758915,Liver,No Statin,No Statin,Female,51,40.8,162,131.0,80.0,130.0,8.6,27.9,7.4,5.2,3.2,1.0,2.4,No Statin,6.3,Yes,Diabetic,Hypertensive
+600,GSM3758916,Liver,No Statin,No Statin,Female,31,39.8,170,108.0,80.0,130.0,4.9,5.9,5.8,4.0,2.6,1.2,0.7,,2.6,No treatment,Non-Diabetic,Hypertensive
+601,GSM3758917,Liver,No Statin,No Statin,Female,40,42.5,169,123.0,70.0,120.0,5.1,5.6,5.1,5.2,3.2,1.0,2.1,,3.7,No treatment,Non-Diabetic,Non-Hypertensive
+602,GSM3758918,Liver,No Statin,No Statin,Female,32,51.2,160,125.0,70.0,120.0,5.2,8.5,5.2,5.0,3.6,1.4,0.9,,2.4,No treatment,Non-Diabetic,Non-Hypertensive
+603,GSM3758919,Liver,Statin,Simvastatin,Male,38,50.6,180,160.0,70.0,120.0,8.3,22.7,7.5,6.3,4.9,0.8,1.4,Statin,5.6,Yes,Diabetic,Non-Hypertensive
+604,GSM3758920,Liver,Statin,Simvastatin,Female,58,53.2,152,140.0,70.0,130.0,6.1,21.4,6.0,8.0,4.6,1.2,5.0,Statin,4.8,No treatment,Non-Diabetic,Hypertensive
+605,GSM3758921,Liver,Statin,Atorvastatin,Male,65,39.8,178,132.0,70.0,160.0,5.0,11.1,6.1,4.6,2.7,1.3,1.3,Statin,2.9,No treatment,Non-Diabetic,Hypertensive
+606,GSM3758922,Liver,No Statin,No Statin,Female,28,44.5,167,110.0,90.0,160.0,4.7,15.3,5.2,4.9,3.4,1.1,0.9,,4.6,No treatment,Non-Diabetic,Hypertensive
+607,GSM3758923,Liver,No Statin,No Statin,Female,41,50.7,165,143.0,120.0,150.0,6.5,9.0,7.3,4.1,2.4,1.3,0.9,,3.8,No treatment,Diabetic,Hypertensive
+608,GSM3758924,Liver,No Statin,No Statin,Female,32,42.2,170,124.0,150.0,200.0,5.7,13.8,5.3,6.1,3.8,1.2,2.5,,4.1,No treatment,Non-Diabetic,Hypertensive
+609,GSM3758925,Liver,No Statin,No Statin,Female,34,67.3,158,149.0,100.0,140.0,5.1,8.2,5.3,5.4,3.6,1.3,1.2,,2.5,No treatment,Non-Diabetic,Hypertensive
+610,GSM3758926,Liver,No Statin,No Statin,Female,44,45.5,165,122.0,90.0,150.0,6.2,14.0,7.6,5.5,3.8,1.1,1.3,,3.2,Yes,Diabetic,Hypertensive
+611,GSM3758927,Liver,No Statin,No Statin,Female,44,58.5,159,141.0,80.0,130.0,5.7,18.4,5.6,4.6,3.0,0.9,1.6,No Statin,3.9,Yes,Diabetic,Hypertensive
+612,GSM3758928,Liver,No Statin,No Statin,Female,56,53.2,164,132.0,80.0,150.0,8.1,7.9,6.3,5.7,3.6,1.5,1.5,,3.8,No treatment,Diabetic,Hypertensive
+613,GSM3758929,Liver,Statin,Pravastatin,Male,56,50.5,178,148.0,70.0,140.0,6.7,6.6,6.0,5.5,3.4,1.4,1.6,,3.2,Yes,Diabetic,Hypertensive
+614,GSM3758930,Liver,No Statin,No Statin,Male,26,44.8,180,139.0,60.0,100.0,4.9,39.3,5.3,3.8,1.7,1.0,2.3,,7.1,Yes,Diabetic,Non-Hypertensive
+615,GSM3758931,Liver,No Statin,No Statin,Male,47,37.7,162,133.0,60.0,120.0,12.3,23.0,11.0,3.8,1.9,0.8,2.4,No Statin,7.8,Yes,Diabetic,Non-Hypertensive
+616,GSM3758932,Liver,No Statin,No Statin,Female,38,40.3,156,102.0,70.0,110.0,5.6,15.4,5.4,5.3,3.8,1.2,0.7,,3.2,No treatment,Non-Diabetic,Non-Hypertensive
+617,GSM3758933,Liver,Statin,Rosuvastatin,Male,43,61.7,162,157.0,60.0,120.0,5.3,17.7,5.7,3.7,2.2,1.0,1.3,Statin,4.0,No treatment,Non-Diabetic,Non-Hypertensive
+618,GSM3758934,Liver,Statin,Simvastatin,Female,37,37.3,171,110.0,80.0,140.0,5.7,10.5,6.1,4.9,3.2,1.4,0.9,Statin,2.5,Yes,Diabetic,Hypertensive
+619,GSM3758935,Liver,Statin,Rosuvastatin,Male,47,43.6,183,137.0,73.0,146.0,15.1,50.3,8.8,4.5,2.9,0.8,1.7,Statin,2.8,Yes,Diabetic,Hypertensive
+620,GSM3758936,Liver,No Statin,No Statin,Female,55,47.1,150,143.0,90.0,170.0,5.7,47.3,6.0,5.9,3.4,1.3,2.6,,4.7,No treatment,Non-Diabetic,Hypertensive
+621,GSM3758937,Liver,No Statin,No Statin,Male,30,35.8,189,133.0,80.0,140.0,5.7,7.7,5.2,4.1,2.8,0.9,0.8,,3.2,No treatment,Non-Diabetic,Hypertensive
+622,GSM3758938,Liver,No Statin,No Statin,Female,33,43.9,166,121.0,50.0,120.0,4.9,18.9,5.3,6.7,4.7,1.3,1.6,,4.2,No treatment,Non-Diabetic,Non-Hypertensive
+623,GSM3758939,Liver,No Statin,No Statin,Female,42,48.7,172,147.0,60.0,100.0,5.6,15.3,5.2,4.2,2.7,1.0,1.2,,3.3,No treatment,Non-Diabetic,Non-Hypertensive
+624,GSM3758940,Liver,No Statin,No Statin,Female,38,53.5,160,142.0,70.0,130.0,4.8,45.2,6.3,4.6,2.7,1.0,1.8,,4.9,Yes,Diabetic,Hypertensive
+625,GSM3758941,Liver,No Statin,No Statin,Female,34,52.4,168,110.0,70.0,130.0,4.6,19.8,5.2,5.1,3.2,1.5,0.8,,3.5,No treatment,Non-Diabetic,Hypertensive
+626,GSM3758942,Liver,Statin,Pravastatin,Male,59,40.5,188,151.0,60.0,120.0,14.5,12.4,10.8,4.5,2.3,0.9,2.9,Statin,3.4,Yes,Diabetic,Non-Hypertensive
+627,GSM3758943,Liver,No Statin,No Statin,Female,32,46.9,169,129.0,70.0,130.0,5.2,21.6,5.4,5.1,3.1,1.2,1.7,,2.9,No treatment,Non-Diabetic,Hypertensive
+628,GSM3758944,Liver,No Statin,No Statin,Female,35,38.8,173,133.0,70.0,130.0,5.3,22.2,5.2,4.7,3.0,1.1,1.4,,2.7,No treatment,Non-Diabetic,Hypertensive
+629,GSM3758945,Liver,Statin,Simvastatin,Female,46,44.1,160,135.0,80.0,140.0,7.1,16.7,6.6,5.2,3.6,0.9,1.7,Statin,4.2,Yes,Diabetic,Hypertensive
+630,GSM3758946,Liver,No Statin,No Statin,Male,50,46.3,177,145.0,79.0,148.0,7.0,29.1,6.2,4.2,2.3,0.9,2.4,No Statin,3.9,No treatment,Diabetic,Hypertensive
+631,GSM3758947,Liver,No Statin,No Statin,Female,59,60.8,174,183.0,70.0,150.0,6.0,16.5,5.8,4.1,2.5,1.2,0.8,No Statin,3.6,No treatment,Non-Diabetic,Hypertensive
+632,GSM3758948,Liver,Statin,Atorvastatin,Female,48,44.4,175,120.0,70.0,140.0,5.6,7.8,6.5,5.0,2.7,1.6,1.5,Statin,3.869874955757325,Yes,Diabetic,Hypertensive
+633,GSM3758949,Liver,No Statin,No Statin,Female,51,42.0,169,128.0,105.0,185.0,5.1,26.9,6.1,5.8,4.1,1.1,1.6,,3.860652361985399,No treatment,Non-Diabetic,Hypertensive
+634,GSM3758950,Liver,No Statin,No Statin,Female,57,53.6,161,122.0,70.0,130.0,9.6,5.0,6.9,4.9,2.6,1.8,1.2,No Statin,1.8,Yes,Diabetic,Hypertensive
+635,GSM3758951,Liver,No Statin,No Statin,Male,42,57.4,182,160.0,70.0,140.0,4.8,18.2,5.5,5.0,3.4,1.2,0.9,,4.858423581859054,No treatment,Non-Diabetic,Hypertensive
+636,GSM3758952,Liver,Statin,Pravastatin,Female,63,52.2,162,136.0,90.0,170.0,9.6,9.2,8.8,4.3,2.4,1.5,0.9,Statin,4.0604004597559324,Yes,Diabetic,Hypertensive
+637,GSM3758953,Liver,No Statin,No Statin,Female,60,45.5,171,166.0,70.0,120.0,5.5,6.1,6.6,4.3,3.0,0.9,1.0,No Statin,3.0,Yes,Diabetic,Non-Hypertensive
+638,GSM3758954,Liver,No Statin,No Statin,Female,33,40.1,161,110.0,50.0,110.0,4.6,5.7,5.5,5.5,3.5,1.0,2.4,,3.6134420744929843,No treatment,Non-Diabetic,Non-Hypertensive
+639,GSM3758955,Liver,No Statin,No Statin,Female,31,41.8,173,124.0,60.0,120.0,4.6,12.1,5.4,8.1,6.4,1.0,1.6,,3.4937868562692884,No treatment,Non-Diabetic,Non-Hypertensive
+640,GSM3758956,Liver,Statin,Rosuvastatin,Female,51,55.3,151,145.0,85.0,170.0,6.1,14.4,6.9,4.5,2.0,2.0,1.1,Statin,4.122004033077286,No treatment,Diabetic,Hypertensive
+641,GSM3758957,Liver,No Statin,No Statin,Female,33,40.8,162,125.0,70.0,150.0,6.3,14.0,6.1,4.5,2.6,1.5,0.8,,3.4818589571440564,No treatment,Non-Diabetic,Hypertensive
+642,GSM3758958,Liver,No Statin,No Statin,Female,24,22.5,155,83.0,65.0,135.0,4.7,9.1,5.368429663360152,4.0,2.0,1.3,1.4,,2.9,No treatment,Non-Diabetic,Hypertensive
+643,GSM3758959,Liver,No Statin,No Statin,Male,22,46.4,193,142.0,100.0,190.0,7.3,17.0,7.8,6.0,3.9,0.4,9.8,,6.9135639547508765,Yes,Diabetic,Hypertensive
+644,GSM3758960,Liver,No Statin,No Statin,Male,22,49.0,183,152.0,70.0,140.0,4.5,7.9,5.450932976921159,3.0,1.7,0.8,1.1,,4.744927593881125,No treatment,Non-Diabetic,Hypertensive
+645,GSM3758961,Liver,No Statin,No Statin,Female,43,50.0,165,129.0,75.0,135.0,6.2,20.2,5.8,6.1,4.1,1.3,1.5,,3.9993792394911925,No treatment,Non-Diabetic,Hypertensive
+646,GSM3758962,Liver,No Statin,No Statin,Female,34,43.4,169,108.0,70.0,130.0,6.1,5.4,6.3,6.5,4.2,1.4,1.9,,3.5893635904507883,No treatment,Non-Diabetic,Hypertensive
+647,GSM3758963,Liver,Statin,Pravastatin,Male,53,57.4,178,149.0,80.0,130.0,6.5,7.2,6.4,4.9,3.1,0.9,2.0,Statin,5.057734276005916,Yes,Diabetic,Hypertensive
+648,GSM3758964,Liver,No Statin,No Statin,Male,57,26.3,169,97.0,60.0,110.0,5.5,3.3,5.3,5.7,3.5,1.5,1.4,No Statin,3.0,No treatment,Non-Diabetic,Non-Hypertensive
+649,GSM3758965,Liver,No Statin,No Statin,Female,47,58.8,165,140.0,90.0,140.0,6.6,14.4,6.5,5.1,3.0,1.5,1.3,,4.465069480318965,No treatment,Non-Diabetic,Hypertensive
+650,GSM3758966,Liver,No Statin,No Statin,Female,58,49.6,165,128.0,90.0,160.0,5.8,7.8,6.5,4.8,3.2,0.9,1.4,No Statin,2.6,No treatment,Non-Diabetic,Hypertensive
+651,GSM3758967,Liver,No Statin,No Statin,Male,57,81.1,172,161.0,80.0,140.0,5.2,15.6,5.9,4.7,2.8,1.2,1.6,,5.897512977443744,No treatment,Non-Diabetic,Hypertensive
+652,GSM3758968,Liver,No Statin,No Statin,Female,22,52.3,160,128.0,100.0,170.0,4.9,14.0,5.5,4.4,2.3,1.6,1.1,,3.8,No treatment,Non-Diabetic,Hypertensive
+653,GSM3758969,Liver,No Statin,No Statin,Male,49,39.1,183,132.0,80.0,120.0,9.2,8.0,8.6,6.5,3.8,1.2,4.7,No Statin,2.7,Yes,Diabetic,Non-Hypertensive
+654,GSM3758970,Liver,Statin,Atorvastatin,Male,62,36.7,180,130.0,80.0,140.0,5.5,8.6,6.3,5.4,3.0,1.8,1.2,Statin,3.4,No treatment,Non-Diabetic,Hypertensive
+655,GSM3758971,Liver,No Statin,No Statin,Female,41,47.2,162,115.0,70.0,120.0,6.6,9.6,6.4,2.9,1.6,1.0,0.8,,3.7,No treatment,Non-Diabetic,Non-Hypertensive
+656,GSM3758972,Liver,No Statin,No Statin,Female,33,41.5,159,126.0,60.0,110.0,4.9,9.3,5.5,4.9,3.1,1.0,1.7,,3.676540875243205,No treatment,Non-Diabetic,Non-Hypertensive
+657,GSM3758973,Liver,No Statin,No Statin,Female,41,47.2,154,112.0,60.0,120.0,6.8,7.5,7.5,3.6,2.2,0.8,1.2,,2.6,Yes,Diabetic,Non-Hypertensive
+658,GSM3758974,Liver,No Statin,No Statin,Female,21,44.8,156,108.0,80.0,110.0,4.7,16.9,5.2,4.9,3.2,1.2,1.2,,3.6,No treatment,Non-Diabetic,Non-Hypertensive
+659,GSM3758975,Liver,No Statin,No Statin,Female,37,50.3,168,132.0,60.0,110.0,5.3,14.4,5.5,4.6,2.0,1.8,1.6,,3.4,No treatment,Non-Diabetic,Non-Hypertensive
+660,GSM3758976,Liver,No Statin,No Statin,Female,33,66.4,154,150.0,70.0,140.0,5.5,28.2,5.7,4.1,2.7,1.1,0.9,,5.7,No treatment,Non-Diabetic,Hypertensive
+661,GSM3758977,Liver,No Statin,No Statin,Female,53,58.5,168,144.0,90.0,150.0,4.8,14.2,5.9,5.9,4.0,1.3,1.2,,4.3,No treatment,Non-Diabetic,Hypertensive
+662,GSM3758978,Liver,Statin,Atorvastatin,Male,54,54.9,176,155.81189716585374,90.0,150.0,8.3,44.1,7.2,5.7,4.1,1.1,1.4,Statin,7.9,Yes,Diabetic,Hypertensive
+663,GSM3758979,Liver,No Statin,No Statin,Female,27,57.2,157,126.0,80.0,130.0,4.8,6.8,5.5,4.9,3.6,1.0,0.8,,2.5,No treatment,Non-Diabetic,Hypertensive
+664,GSM3758980,Liver,No Statin,No Statin,Female,42,41.0,174,120.0,60.0,120.0,5.6,14.9,6.7,4.9,3.5,0.8,1.5,,4.4,No treatment,Diabetic,Non-Hypertensive
+665,GSM3758981,Liver,No Statin,No Statin,Male,50,39.2,180,130.0,100.0,160.0,5.6,10.6,6.2,6.3,4.0,1.1,2.4,No Statin,2.7,No treatment,Non-Diabetic,Hypertensive
+666,GSM3758982,Liver,Statin,Rosuvastatin,Female,45,40.4,155,110.0,80.0,130.0,6.0,23.9,5.6,6.0,4.0,1.0,2.2,Statin,5.2,No treatment,Non-Diabetic,Hypertensive
+667,GSM3758983,Liver,No Statin,No Statin,Female,50,38.5,172,112.0,90.0,130.0,5.1,4.6,5.3,5.1,3.4,1.4,0.8,No Statin,2.3,No treatment,Non-Diabetic,Hypertensive
+668,GSM3758984,Liver,No Statin,No Statin,Female,34,26.2,180,87.0,50.0,105.0,4.7,2.8,4.8,4.6,2.9,1.2,1.0,,2.0,No treatment,Non-Diabetic,Non-Hypertensive
+669,GSM3758985,Liver,No Statin,No Statin,Female,31,41.9,170,118.0,90.0,150.0,5.6,9.3,5.1,5.4,3.5,1.3,1.2,,3.8,No treatment,Non-Diabetic,Hypertensive
+670,GSM3758986,Liver,No Statin,No Statin,Female,45,45.2,165,120.0,80.0,140.0,5.8,7.4,6.1,6.3,4.1,1.5,1.4,,4.3,No treatment,Non-Diabetic,Hypertensive
+671,GSM3758987,Liver,No Statin,No Statin,Female,35,45.9,169,117.0,100.0,150.0,6.3,17.4,5.8,6.3,4.1,0.9,3.0,,3.7,No treatment,Non-Diabetic,Hypertensive
+672,GSM3758988,Liver,No Statin,No Statin,Female,28,41.9,162,100.0,80.0,140.0,5.1,13.0,5.3,4.5,2.5,1.5,1.0,,2.6,No treatment,Non-Diabetic,Hypertensive
+673,GSM3758989,Liver,No Statin,No Statin,Female,31,45.0,164,115.0,70.0,102.0,5.0,13.1,4.8,4.3,2.5,1.2,1.5,,3.1,No treatment,Non-Diabetic,Non-Hypertensive
+674,GSM3758990,Liver,No Statin,No Statin,Female,50,47.2,171,147.0,90.0,150.0,5.9,7.6,5.9,5.4,3.1,1.7,1.2,,3.2,Yes,Diabetic,Hypertensive
+675,GSM3758991,Liver,Statin,Rosuvastatin,Female,45,54.0,165,145.0,100.0,170.0,7.7,71.9,10.0,5.8,3.6,1.2,2.1,Statin,1.8,Yes,Diabetic,Hypertensive
+676,GSM3758992,Liver,No Statin,No Statin,Female,46,45.1,180,132.0,90.0,160.0,9.1,11.1,6.3,5.1,3.4,1.2,1.3,,3.6,Yes,Diabetic,Hypertensive
+677,GSM3758993,Liver,Statin,Atorvastatin,Female,50,38.4,170,125.0,60.0,120.0,7.1,11.2,6.8,3.6,1.8,1.5,0.6,Statin,1.8,Yes,Diabetic,Non-Hypertensive
+678,GSM3758994,Liver,No Statin,No Statin,Male,43,56.5,180,164.0,90.0,160.0,5.9,15.6,6.5,4.9,3.0,1.5,1.0,,4.0,No treatment,Non-Diabetic,Hypertensive
+679,GSM3758995,Liver,No Statin,No Statin,Female,42,39.9,169,111.0,70.0,120.0,5.0,5.7,5.2,5.1,3.3,1.2,1.4,,2.7,No treatment,Non-Diabetic,Non-Hypertensive
+680,GSM3758996,Liver,No Statin,No Statin,Male,58,60.4,182,178.0,100.0,160.0,5.7,14.9,4.9,5.3,3.3,1.6,1.1,No Statin,4.5,Yes,Diabetic,Hypertensive
+681,GSM3758997,Liver,No Statin,No Statin,Female,35,41.2,155,110.0,80.0,100.0,6.0,10.6,5.4,6.3,4.7,1.1,1.2,,4.1,No treatment,Non-Diabetic,Non-Hypertensive
+682,GSM3758998,Liver,No Statin,No Statin,Female,51,45.7,168,124.0,110.0,170.0,5.4,0.7,5.3,5.7,3.8,1.5,1.1,,3.0,No treatment,Non-Diabetic,Hypertensive
+683,GSM3758999,Liver,No Statin,No Statin,Female,30,42.4,164,119.0,80.0,130.0,4.9,16.7,5.6,5.3,3.4,1.4,1.2,,2.9,No treatment,Non-Diabetic,Hypertensive
+684,GSM3759000,Liver,No Statin,No Statin,Female,22,50.1,156,128.0,70.0,120.0,4.4,9.0,5.1,4.6,3.2,1.1,0.8,,2.7,No treatment,Non-Diabetic,Non-Hypertensive
+685,GSM3759001,Liver,No Statin,No Statin,Female,25,49.9,170,140.0,92.0,145.0,4.5,9.7,5.2,5.8,4.1,1.2,1.1,,3.5,No treatment,Non-Diabetic,Hypertensive
+686,GSM3759002,Liver,No Statin,No Statin,Female,39,47.3,149,127.0,90.0,180.0,5.9,8.8,5.6,4.9,3.2,1.2,1.1,,2.3,No treatment,Non-Diabetic,Hypertensive
+687,GSM3759003,Liver,No Statin,No Statin,Female,36,45.2,167,128.0,80.0,150.0,5.5,12.1,5.5,4.7,2.9,1.3,0.9,,2.8,No treatment,Non-Diabetic,Hypertensive
+688,GSM3759004,Liver,Statin,Rosuvastatin,Male,63,36.8,169,130.0,80.0,140.0,12.7,52.3,10.1,6.3,4.2,1.1,2.2,,2.1,Yes,Diabetic,Hypertensive
+689,GSM3759005,Liver,No Statin,No Statin,Female,36,44.1,158,120.0,80.0,125.0,5.4,11.3,5.5,3.6,2.3,0.9,1.0,,2.9,No treatment,Non-Diabetic,Non-Hypertensive
+690,GSM3759006,Liver,No Statin,No Statin,Female,56,38.5,158,163.0,60.0,130.0,12.3,226.3,7.1,4.4,2.7,1.3,0.8,No Statin,0.1,Yes,Diabetic,Hypertensive
+691,GSM3759007,Liver,No Statin,No Statin,Female,33,61.7,180,162.0,90.0,140.0,5.4,22.7,5.5,3.1,1.8,1.0,0.7,,3.6,No treatment,Non-Diabetic,Hypertensive
+692,GSM3759008,Liver,No Statin,No Statin,Female,32,45.3,162,126.0,60.0,130.0,4.2,6.4,5.4,4.5,2.7,1.2,1.5,,3.839363255302186,No treatment,Non-Diabetic,Hypertensive
+693,GSM3759009,Liver,Statin,Atorvastatin,Male,65,56.7,176,166.0,60.0,110.0,8.8,6.3,7.9,4.2,2.2,1.0,2.0,Statin,5.167243004496667,Yes,Diabetic,Non-Hypertensive
+694,GSM3759010,Liver,No Statin,No Statin,Female,45,40.0,157,114.0,90.0,160.0,6.7,15.6,7.0,4.8,2.4,1.4,2.3,No Statin,2.9,Yes,Diabetic,Hypertensive
+695,GSM3759011,Liver,No Statin,No Statin,Male,52,55.8,165,153.0,90.0,170.0,6.0,27.4,7.9,4.4,2.0,1.3,2.3,,7.6,No treatment,Diabetic,Hypertensive
+696,GSM3759012,Liver,No Statin,No Statin,Female,36,46.2,171,117.0,70.0,130.0,7.5,13.7,6.9,4.3,2.6,1.1,1.4,,3.3,No treatment,Diabetic,Hypertensive
+697,GSM3759013,Liver,No Statin,No Statin,Male,52,49.6,190,145.0,80.0,140.0,4.9,9.5,5.3,4.8,2.7,0.7,3.1,No Statin,5.320191545928108,No treatment,Non-Diabetic,Hypertensive
+698,GSM3759014,Liver,Statin,Atorvastatin,Female,51,61.2,151,130.0,80.0,150.0,5.7,21.4,6.0,4.7,2.4,1.1,2.5,Statin,4.719402404784013,No treatment,Non-Diabetic,Hypertensive
+699,GSM3759015,Liver,No Statin,No Statin,Female,39,40.0,165,108.0,85.0,140.0,4.8,7.9,5.8,6.1,4.0,1.7,0.8,,3.1139976572013497,No treatment,Non-Diabetic,Hypertensive
+700,GSM3759016,Liver,No Statin,No Statin,Male,58,44.2,178,131.0,80.0,150.0,7.3,25.9,7.8,4.9,2.5,1.1,2.6,,4.494987612711427,Yes,Diabetic,Hypertensive
+701,GSM3759017,Liver,No Statin,No Statin,Female,46,46.5,158,125.0,80.0,140.0,5.6,9.4,5.5,6.5,4.7,1.3,1.3,,3.6209321659860594,No treatment,Non-Diabetic,Hypertensive
+702,GSM3759018,Liver,No Statin,No Statin,Female,34,51.5,157,137.0,60.0,120.0,6.6,31.1,6.4,4.9,3.3,0.8,1.7,,4.1614642388589775,No treatment,Non-Diabetic,Non-Hypertensive
+703,GSM3759019,Liver,No Statin,No Statin,Female,46,46.1,160,116.0,60.0,110.0,5.5,5.4,5.7,5.2,3.5,1.2,0.9,No Statin,3.502523172775878,No treatment,Non-Diabetic,Non-Hypertensive
+704,GSM3759020,Liver,No Statin,No Statin,Female,52,54.8,154,131.0,80.0,140.0,5.3,20.5,5.9,5.0,3.4,1.1,1.0,,4.006924107198732,No treatment,Non-Diabetic,Hypertensive
+705,GSM3759021,Liver,No Statin,No Statin,Male,44,23.7,172,86.0,80.0,150.0,4.8,5.6,5.4,5.1,3.2,1.3,1.4,No Statin,1.7,No treatment,Non-Diabetic,Hypertensive
+706,GSM3759022,Liver,No Statin,No Statin,Female,27,38.8,177,116.0,60.0,120.0,5.3,8.2,5.4,2.9,1.4,1.3,0.4,,3.5768161017018025,No treatment,Non-Diabetic,Non-Hypertensive
+707,GSM3759023,Liver,Statin,Pravastatin,Female,50,46.1,166,125.0,80.0,140.0,4.2,14.0,5.4,5.3,3.5,0.8,2.3,Statin,4.178951721794424,No treatment,Non-Diabetic,Hypertensive
+708,GSM3759024,Liver,No Statin,No Statin,Female,53,54.1,152,130.0,70.0,140.0,5.6,5.9,6.0,5.8,3.8,0.8,2.7,No Statin,4.382308432556665,Yes,Diabetic,Hypertensive
+709,GSM3759025,Liver,Statin,Rosuvastatin,Male,52,50.0,172,152.0,70.0,110.0,13.4,382.8,9.9,2.9,1.3,1.0,1.4,Statin,4.767201936238874,Yes,Diabetic,Non-Hypertensive
+710,GSM3759026,Liver,No Statin,No Statin,Female,24,60.8,173,135.0,70.0,150.0,5.5,21.3,6.1,4.3,2.8,0.8,1.7,,4.827150770191117,No treatment,Non-Diabetic,Hypertensive
+711,GSM3759027,Liver,No Statin,No Statin,Female,46,48.5,165,165.0,70.0,120.0,5.3,7.6,6.0,6.3,4.3,1.3,1.6,,4.225077767729568,No treatment,Non-Diabetic,Non-Hypertensive
+712,GSM3759028,Liver,No Statin,No Statin,Female,52,41.3,178,120.0,60.0,140.0,5.8,15.2,6.2,6.4,3.8,1.2,3.0,,4.166040193832392,No treatment,Non-Diabetic,Hypertensive
+713,GSM3759029,Liver,No Statin,No Statin,Female,36,40.0,168,108.0,70.0,130.0,4.8,7.4,5.7,3.7,2.1,1.1,0.5,,3.371237439612041,No treatment,Non-Diabetic,Hypertensive
+714,GSM3759030,Liver,No Statin,No Statin,Female,51,36.8,172,111.0,85.0,120.0,5.5,7.9,5.6,5.6,3.6,1.2,1.7,,3.0,No treatment,Non-Diabetic,Hypertensive
+715,GSM3759031,Liver,No Statin,No Statin,Female,52,57.4,155,142.0,70.0,130.0,6.3,5.9,7.0,6.3,4.0,1.2,2.5,No Statin,6.1,Yes,Diabetic,Hypertensive
+716,GSM3759032,Liver,Statin,Atorvastatin,Male,55,52.4,178,163.0,70.0,130.0,7.4,21.7,6.9,4.1,2.0,1.1,2.2,Statin,6.4,Yes,Diabetic,Hypertensive
+717,GSM3759033,Liver,No Statin,No Statin,Female,44,40.4,168,118.0,90.0,140.0,6.0,14.3,5.8,4.2,2.1,1.3,1.8,,3.9,No treatment,Non-Diabetic,Hypertensive
+718,GSM3759034,Liver,No Statin,No Statin,Female,27,56.4,157,141.0,60.0,120.0,5.2,7.2,5.8,3.7,2.3,0.6,1.8,,3.8,No treatment,Non-Diabetic,Non-Hypertensive
+719,GSM3759035,Liver,No Statin,No Statin,Female,23,44.5,170,125.0,70.0,135.0,6.2,13.9,6.3,5.4,3.7,1.1,1.1,,3.8,No treatment,Non-Diabetic,Hypertensive
+720,GSM3759036,Liver,No Statin,No Statin,Female,38,44.6,168,104.0,80.0,120.0,5.4,12.0,6.2,4.1,2.6,1.2,0.8,,4.0,No treatment,Non-Diabetic,Non-Hypertensive
+721,GSM3759037,Liver,No Statin,No Statin,Female,23,53.8,156,112.0,80.0,120.0,4.8,15.9,5.7,6.3,4.1,1.5,1.4,,3.0,No treatment,Non-Diabetic,Non-Hypertensive
+722,GSM3759038,Liver,No Statin,No Statin,Male,43,39.2,185,134.0,70.0,120.0,5.4,7.7,6.2,5.6,3.8,1.2,1.1,,3.1,No treatment,Non-Diabetic,Non-Hypertensive
+723,GSM3759039,Liver,No Statin,No Statin,Female,40,43.9,168,133.0,80.0,130.0,4.3,19.1,5.3,4.8,2.7,1.5,1.3,,4.9,No treatment,Non-Diabetic,Hypertensive
+724,GSM3759040,Liver,No Statin,No Statin,Female,28,60.6,184,129.0,90.0,140.0,4.3,15.4,5.6,4.2,2.9,1.0,0.8,,3.1,No treatment,Non-Diabetic,Hypertensive
+725,GSM3759041,Liver,Statin,Rosuvastatin,Female,50,42.5,166,130.0,80.0,130.0,5.7,7.8,6.5,4.6,2.4,1.3,2.0,Statin,5.3,Yes,Diabetic,Hypertensive
+726,GSM3759042,Liver,No Statin,No Statin,Female,28,53.5,173,122.0,60.0,110.0,5.3,6.3,5.6,4.5,2.9,1.3,0.8,,2.6,No treatment,Non-Diabetic,Non-Hypertensive
+727,GSM3759043,Liver,No Statin,No Statin,Female,38,40.5,154,120.0,70.0,120.0,5.1,17.5,6.0,4.9,3.2,1.1,1.2,,4.4,No treatment,Non-Diabetic,Non-Hypertensive
+728,GSM3759044,Liver,No Statin,No Statin,Female,44,51.3,164,126.0,90.0,130.0,4.3,11.4,5.6,4.9,2.9,1.0,2.1,,4.0,No treatment,Non-Diabetic,Hypertensive
+729,GSM3759045,Liver,No Statin,No Statin,Female,19,50.9,180,130.0,80.0,130.0,5.6,30.1,5.9,5.1,3.5,1.1,1.1,,5.3,No treatment,Non-Diabetic,Hypertensive
+730,GSM3759046,Liver,No Statin,No Statin,Female,24,40.8,162,114.0,80.0,130.0,5.2,20.4,5.4,6.1,3.9,1.3,2.0,,3.1,No treatment,Non-Diabetic,Hypertensive
+731,GSM3759047,Liver,No Statin,No Statin,Female,45,40.6,166,130.0,90.0,140.0,16.4,11.8,13.4,5.3,3.2,0.8,2.8,,3.4,Yes,Diabetic,Hypertensive
+732,GSM3759048,Liver,No Statin,No Statin,Female,49,39.5,180,131.0,110.0,180.0,5.3,15.2,5.5,5.5,3.4,1.0,2.3,,4.2,No treatment,Non-Diabetic,Hypertensive
+733,GSM3759049,Liver,No Statin,No Statin,Male,42,46.3,190,154.0,90.0,150.0,6.2,28.9,5.8,5.1,3.3,1.0,1.7,,5.4,No treatment,Non-Diabetic,Hypertensive
+734,GSM3759050,Liver,No Statin,No Statin,Female,47,41.1,156,118.0,80.0,130.0,7.2,19.8,5.7,5.0,2.9,1.5,1.4,,4.3,Yes,Diabetic,Hypertensive
+735,GSM3759051,Liver,Statin,Atorvastatin,Male,44,54.9,183,168.0,100.0,180.0,6.1,8.9,6.0,4.2,2.7,0.9,1.2,Statin,4.1,Yes,Diabetic,Hypertensive
+736,GSM3759052,Liver,No Statin,No Statin,Male,41,46.5,182,146.0,90.0,150.0,8.8,16.1,6.8,4.7,2.6,1.0,2.2,,4.6,Yes,Diabetic,Hypertensive
+737,GSM3759053,Liver,No Statin,No Statin,Female,47,58.2,154,131.0,90.0,130.0,7.6,27.5,6.2,6.0,4.3,1.0,1.5,,5.0,No treatment,Diabetic,Hypertensive
+738,GSM3759054,Liver,No Statin,No Statin,Female,28,25.5,156,93.0,80.0,110.0,4.6,3.9,4.3,4.938973378615101,3.132275901712655,1.2347741549788223,1.2331500408825424,,1.7,No treatment,Non-Diabetic,Non-Hypertensive
+739,GSM3759055,Liver,No Statin,No Statin,Female,49,63.6,164,149.0,92.0,142.0,7.4,14.9,5.5,4.5,2.6,1.2,1.6,,3.7,Yes,Diabetic,Hypertensive
+740,GSM3759056,Liver,No Statin,No Statin,Female,34,41.9,153,120.0,83.0,127.0,7.1,24.4,6.7,4.4,2.5,1.0,1.9,,3.3,Yes,Diabetic,Hypertensive
+741,GSM3759057,Liver,No Statin,No Statin,Female,50,39.8,164,120.0,80.0,120.0,9.7,38.0,8.0,3.8,1.3,1.1,2.6,No Statin,9.0,Yes,Diabetic,Non-Hypertensive
+742,GSM3759058,Liver,No Statin,No Statin,Male,62,47.3,178,153.11864689594404,100.0,170.0,10.1,71.8,7.4,4.5,2.0,0.8,5.2,No Statin,8.6,Yes,Diabetic,Hypertensive
+743,GSM3759059,Liver,Statin,Atorvastatin,Male,59,44.4,173,152.0,70.0,140.0,5.7,21.1,5.7,3.9,2.3,1.1,1.1,Statin,4.9,No treatment,Non-Diabetic,Hypertensive
+744,GSM3759060,Liver,No Statin,No Statin,Female,47,48.9,168,146.0,70.0,150.0,4.9,20.5,5.3,6.1,3.9,1.1,2.3,,4.3,No treatment,Non-Diabetic,Hypertensive
+745,GSM3759061,Liver,No Statin,No Statin,Female,27,43.4,167,126.0,80.0,110.0,5.7,13.9,4.7,4.2,2.3,1.3,1.3,,2.5,No treatment,Non-Diabetic,Non-Hypertensive
+746,GSM3759062,Liver,Statin,Atorvastatin,Female,54,46.5,158,137.0,86.0,136.0,11.0,14.1,8.5,4.5,2.3,1.1,2.5,Statin,5.8,Yes,Diabetic,Hypertensive
+747,GSM3759063,Liver,No Statin,No Statin,Female,25,45.0,170,122.0,90.0,150.0,4.6,15.2,5.2,5.5,4.0,1.0,1.3,,3.9,No treatment,Non-Diabetic,Hypertensive
+748,GSM3759064,Liver,Statin,Atorvastatin,Male,66,68.9,170,150.0,70.0,140.0,6.6,27.4,6.4,3.4,1.9,1.0,1.1,Statin,5.4,Yes,Diabetic,Hypertensive
+749,GSM3759065,Liver,No Statin,No Statin,Male,54,38.8,178,134.0,80.0,130.0,15.3,24.7,10.0,10.3,0.5,0.9,29.4,No Statin,5.9,No treatment,Diabetic,Hypertensive
+750,GSM3759066,Liver,No Statin,No Statin,Male,38,46.3,180,146.0,90.0,120.0,6.9,39.6,5.9,5.5,3.7,0.9,1.9,,5.2,No treatment,Non-Diabetic,Hypertensive
+751,GSM3759067,Liver,Statin,Rosuvastatin,Male,55,50.7,181,138.0,70.0,140.0,11.2,16.8,9.3,6.4,4.7,1.0,1.8,Statin,4.412219741654046,No treatment,Diabetic,Hypertensive
+752,GSM3759068,Liver,No Statin,No Statin,Female,32,65.8,164,149.0,60.0,120.0,11.9,53.0,8.5,5.7,4.0,1.3,0.8,,0.2,Yes,Diabetic,Non-Hypertensive
+753,GSM3759069,Liver,No Statin,No Statin,Male,24,25.1,186,86.0,90.0,145.0,4.9,10.6,5.488947335484175,3.5,1.4,1.8,0.6,,1.1,No treatment,Non-Diabetic,Hypertensive
+754,GSM3759070,Liver,No Statin,No Statin,Male,31,55.8,176,170.0,75.0,170.0,7.7,51.5,8.1,5.0,3.2,1.1,1.7,,4.969296336797147,No treatment,Diabetic,Hypertensive
+755,GSM3759071,Liver,No Statin,No Statin,Male,32,60.4,196,157.0,100.0,140.0,4.6,28.8,5.7,4.8,3.0,1.4,0.8,,5.133648468708033,No treatment,Non-Diabetic,Hypertensive
+756,GSM3759072,Liver,No Statin,No Statin,Female,41,47.5,168,125.0,70.0,130.0,7.4,16.6,6.3,4.8,3.0,0.8,2.1,,4.26394094768511,No treatment,Diabetic,Hypertensive
+757,GSM3759073,Liver,Statin,Atorvastatin,Female,50,64.5,155,135.0,85.0,175.0,6.5,12.1,6.7,5.5,3.7,1.1,1.6,Statin,4.583294198279476,Yes,Diabetic,Hypertensive
+758,GSM3759074,Liver,No Statin,No Statin,Female,37,42.0,167,137.0,80.0,150.0,5.1,19.1,8.4,5.1,2.9005327003016164,0.7,4.2,,4.508413760866853,Yes,Diabetic,Hypertensive
+759,GSM3759075,Liver,Statin,Simvastatin,Female,50,39.6,149,122.0,60.0,120.0,6.7,9.7,6.4,5.9,3.8,1.2,1.9,Statin,3.3735146560523193,No treatment,Non-Diabetic,Non-Hypertensive
+760,GSM3759076,Liver,No Statin,No Statin,Female,53,54.6,168,151.0,80.0,155.0,5.4,9.7,6.2,4.0,1.9,1.7,0.9,No Statin,4.442321508226027,No treatment,Non-Diabetic,Hypertensive
+761,GSM3759077,Liver,No Statin,No Statin,Male,53,43.1,177,116.0,111.0,152.0,6.7,3.8,6.3,5.3,3.4,1.0,2.3,,2.5,No treatment,Non-Diabetic,Hypertensive
+762,GSM3759078,Liver,No Statin,No Statin,Female,29,40.5,167,116.0,90.0,130.0,5.2,15.5,5.7,4.8,2.7,1.5,1.4,,3.588659348606998,No treatment,Non-Diabetic,Hypertensive
+763,GSM3759079,Liver,No Statin,No Statin,Female,55,48.0,160,129.0,70.0,135.0,6.4,14.2,5.8,4.7,2.2,2.0,1.2,No Statin,3.8764575999226913,No treatment,Non-Diabetic,Hypertensive
+764,GSM3759080,Liver,No Statin,No Statin,Female,29,56.1,170,129.0,80.0,150.0,5.4,6.2,5.8,4.7,2.8,1.1,1.8,,4.5451125846244596,No treatment,Non-Diabetic,Hypertensive
+765,GSM3759081,Liver,No Statin,No Statin,Female,52,50.4,151,124.0,90.0,150.0,5.8,11.0,6.2,5.2,3.1,1.2,2.1,No Statin,4.0,Yes,Diabetic,Hypertensive
+766,GSM3759082,Liver,No Statin,No Statin,Male,25,43.0,181,140.0,60.0,130.0,5.3,9.4,5.0,5.1,3.5,1.2,0.9,,2.4,No treatment,Non-Diabetic,Hypertensive
+767,GSM3759083,Liver,No Statin,No Statin,Female,46,48.7,157,132.0,80.0,140.0,5.7,9.1,6.7,6.1,4.0,1.5,1.1,No Statin,3.6,No treatment,Diabetic,Hypertensive
+768,GSM3759084,Liver,No Statin,No Statin,Female,24,67.2,160,138.0,90.0,140.0,4.0,12.0,5.9,6.6,4.0,1.9,1.6,,11.0,No treatment,Non-Diabetic,Hypertensive
+769,GSM3759085,Liver,No Statin,No Statin,Female,53,41.4,166,123.0,60.0,140.0,12.1,138.4,7.8,4.6,2.6,0.5,4.6,,7.7,Yes,Diabetic,Hypertensive
+770,GSM3759086,Liver,No Statin,No Statin,Female,49,42.3,167,113.0,70.0,130.0,5.1,15.9,5.6,4.7,3.0,1.0,1.6,No Statin,3.5,No treatment,Non-Diabetic,Hypertensive
+771,GSM3759087,Liver,No Statin,No Statin,Female,30,45.9,165,131.0,70.0,120.0,4.9,22.6,5.9,4.5,2.4,1.1,2.1,,5.4,No treatment,Non-Diabetic,Non-Hypertensive
+772,GSM3759088,Liver,No Statin,No Statin,Female,43,42.4,175,110.0,80.0,140.0,4.7,4.2,5.7,5.0,3.3,1.2,1.1,,2.3,No treatment,Non-Diabetic,Hypertensive
+773,GSM3759089,Liver,Statin,Rosuvastatin,Female,42,49.2,171,134.0,80.0,130.0,5.2,7.9,6.0,3.4,1.6,1.3,1.2,Statin,4.5,Yes,Diabetic,Hypertensive
+774,GSM3759090,Liver,No Statin,No Statin,Male,33,42.3,180,123.0,80.0,140.0,5.6,6.8,5.6,5.8,4.2,1.2,0.9,,3.2,No treatment,Non-Diabetic,Hypertensive
+775,GSM3759091,Liver,No Statin,No Statin,Female,18,68.9,158,132.0,90.0,150.0,5.0,31.4,5.4,3.7,1.9,1.2,1.3,,4.8,No treatment,Non-Diabetic,Hypertensive
+776,GSM3759092,Liver,Statin,Simvastatin,Female,37,38.3,174,110.0,80.0,130.0,12.4,31.4,8.6,3.0,1.0,0.7,3.2,Statin,5.7,Yes,Diabetic,Hypertensive
+777,GSM3759093,Liver,Statin,Atorvastatin,Female,54,55.1,165,142.0,90.0,150.0,8.1,70.0,10.3,3.1,1.7,0.7,1.4,Statin,2.9,Yes,Diabetic,Hypertensive
+778,GSM3759094,Liver,Statin,Atorvastatin,Female,39,44.6,164,126.0,50.0,110.0,4.8,10.0,6.2,4.5,2.9,1.0,1.3,Statin,4.1,No treatment,Non-Diabetic,Non-Hypertensive
+779,GSM3759095,Liver,Statin,Rosuvastatin,Female,58,46.7,157,140.0,60.0,130.0,9.5,7.4,9.2,3.6,1.9,1.1,1.3,Statin,2.5,Yes,Diabetic,Hypertensive
+780,GSM3759096,Liver,No Statin,No Statin,Male,42,46.8,176,133.0,100.0,170.0,5.2,12.2,5.4,5.7,3.9,1.1,1.6,No Statin,3.8,No treatment,Non-Diabetic,Hypertensive
+781,GSM3759097,Liver,No Statin,No Statin,Female,35,42.6,160,110.0,60.0,140.0,7.6,16.5,7.0,4.4,3.0,0.8,1.5,,4.6,Yes,Diabetic,Hypertensive
+782,GSM3759098,Liver,No Statin,No Statin,Male,56,38.6,182,136.0,90.0,140.0,17.0,125.0,10.9,3.6,2.1,0.8,1.6,No Statin,3.5,Yes,Diabetic,Hypertensive
+783,GSM3759099,Liver,No Statin,No Statin,Female,49,54.7,165,140.0,100.0,190.0,9.5,18.5,7.5,5.1,3.3,1.1,1.5,,4.5,Yes,Diabetic,Hypertensive
+784,GSM3759100,Liver,No Statin,No Statin,Female,19,42.8,179,137.0,90.0,140.0,4.9,30.5,5.5,4.0,2.1,1.1,1.8,,4.7,No treatment,Non-Diabetic,Hypertensive
+785,GSM3759101,Liver,Statin,Rosuvastatin,Female,54,36.8,168,115.0,80.0,145.0,13.5,8.8,9.2,3.6,1.7,1.2,1.4,Statin,3.0,Yes,Diabetic,Hypertensive
+786,GSM3759102,Liver,No Statin,No Statin,Male,28,94.1,155,150.0,80.0,120.0,4.9,1.3,6.2,3.5,2.2,0.8,1.3,,5.8,No treatment,Non-Diabetic,Non-Hypertensive
+787,GSM3759103,Liver,No Statin,No Statin,Female,51,46.8,166,128.0,90.0,160.0,4.7,5.3,5.4,5.3,3.3,1.6,0.9,,2.7,No treatment,Non-Diabetic,Hypertensive
+788,GSM3759104,Liver,No Statin,No Statin,Female,56,31.6,157,96.0,70.0,120.0,5.6,6.9,5.1,4.2,2.6,1.3,0.8,No Statin,3.2,No treatment,Non-Diabetic,Non-Hypertensive
+789,GSM3759105,Liver,No Statin,No Statin,Male,64,64.3,185,174.0,100.0,170.0,5.3,9.1,5.8,4.3,2.4,1.3,1.3,No Statin,3.6,No treatment,Non-Diabetic,Hypertensive
+790,GSM3759106,Liver,No Statin,No Statin,Female,28,49.6,183,154.0,90.0,130.0,5.5,6.5,5.6,4.5,3.0,0.9,1.3,No Statin,4.7,No treatment,Non-Diabetic,Hypertensive
+791,GSM3759107,Liver,Statin,Atorvastatin,Female,59,53.8,153,151.0,90.0,150.0,10.3,11.8,6.6,3.6,1.9,0.9,1.8,Statin,4.9,Yes,Diabetic,Hypertensive
+792,GSM3759108,Liver,No Statin,No Statin,Female,27,53.6,161,136.0,100.0,140.0,5.5,22.5,5.3,4.6,2.7,1.0,2.1,,4.1,No treatment,Non-Diabetic,Hypertensive
+793,GSM3759109,Liver,No Statin,No Statin,Female,46,43.4,169,120.0,40.0,120.0,6.1,12.6,5.4,6.4,4.5,1.6,0.8,,2.6,No treatment,Non-Diabetic,Non-Hypertensive
+794,GSM3759110,Liver,No Statin,No Statin,Male,39,77.5,176,175.90208533680243,60.0,100.0,5.0,6.820166079725404,5.4,4.0,2.5,0.8,1.4,,5.9459808960629905,No treatment,Non-Diabetic,Non-Hypertensive
+795,GSM3759111,Liver,No Statin,No Statin,Female,38,37.8,165,114.0,70.0,100.0,5.1,15.6,5.1,5.9,4.0,1.0,1.9,,3.6,No treatment,Non-Diabetic,Non-Hypertensive
+796,GSM3759112,Liver,No Statin,No Statin,Male,43,39.1,173,125.0,60.0,130.0,5.3,12.0,5.6,7.2,4.9,1.5,1.8,No Statin,4.0,No treatment,Non-Diabetic,Hypertensive
+797,GSM3759113,Liver,No Statin,No Statin,Female,33,39.1,173,106.0,70.0,110.0,5.1,20.4,5.2,5.0,3.2,1.3,1.2,,3.7,No treatment,Non-Diabetic,Non-Hypertensive
+798,GSM3759114,Liver,No Statin,No Statin,Female,55,46.8,166,118.0,61.0,129.0,5.2,16.9,5.8,6.1,4.3,1.3,1.0,No Statin,3.1,Yes,Diabetic,Non-Hypertensive
+799,GSM3759115,Liver,Statin,Rosuvastatin,Female,51,48.8,162,125.0,90.0,130.0,6.0,20.8,5.3,3.7,1.7,1.2,1.8,Statin,5.6,Yes,Diabetic,Hypertensive
+800,GSM3759116,Liver,No Statin,No Statin,Female,36,52.0,167,135.0,80.0,130.0,5.5,9.1,5.0,4.9,3.1,1.1,1.5,,3.0,No treatment,Non-Diabetic,Hypertensive
+801,GSM3759117,Liver,No Statin,No Statin,Male,34,48.5,185,137.0,80.0,140.0,5.1,9.4,4.7,5.3,3.2,0.9,2.7,,2.6,No treatment,Non-Diabetic,Hypertensive
+802,GSM3759118,Liver,No Statin,No Statin,Female,51,41.9,162,100.0,70.0,180.0,5.1,8.8,5.2,4.2,2.0,1.5,1.6,,3.0,No treatment,Non-Diabetic,Hypertensive
+803,GSM3759119,Liver,No Statin,No Statin,Male,52,44.0,177,127.0,90.0,150.0,12.2,76.1,8.9,5.6,3.5,1.1,2.3,No Statin,10.8,No treatment,Diabetic,Hypertensive
+804,GSM3759120,Liver,No Statin,No Statin,Female,37,48.0,162,127.0,90.0,140.0,5.9,12.3,6.0,4.0,2.3,0.9,1.7,,5.0,No treatment,Non-Diabetic,Hypertensive
+805,GSM3759121,Liver,No Statin,No Statin,Female,33,60.0,156,161.0,50.0,110.0,4.7,10.7,5.3,5.1,3.5,0.9,1.7,,5.1,No treatment,Non-Diabetic,Non-Hypertensive
+806,GSM3759122,Liver,No Statin,No Statin,Female,48,46.3,165,121.0,60.0,130.0,4.9,12.7,6.0,5.3,3.6,1.2,1.1,,3.6,No treatment,Non-Diabetic,Hypertensive
+807,GSM3759123,Liver,No Statin,No Statin,Male,61,46.4,178,140.0,70.0,150.0,8.4,12.1,6.5,4.8,2.8,1.2,1.8,No Statin,3.8,Yes,Diabetic,Hypertensive
+808,GSM3759124,Liver,No Statin,No Statin,Female,33,45.7,158,130.0,90.0,130.0,6.2,30.8,5.3,4.4,2.2,1.0,2.6,,4.7,No treatment,Non-Diabetic,Hypertensive
+809,GSM3759125,Liver,No Statin,No Statin,Female,53,35.0,169,122.0,70.0,135.0,5.2,4.2,5.2,4.6,2.6,1.3,1.4,No Statin,3.5752394140901123,No treatment,Non-Diabetic,Hypertensive
+810,GSM3759126,Liver,No Statin,No Statin,Female,43,50.4,160,119.0,60.0,110.0,9.2,17.6,6.8,6.0,3.8,1.0,2.4,No Statin,5.7,No treatment,Diabetic,Non-Hypertensive
+811,GSM3759127,Liver,No Statin,No Statin,Female,46,64.5,152,164.0,80.0,150.0,5.6,16.8,5.5,5.6,3.3,1.2,2.5,,5.114140326916815,No treatment,Non-Diabetic,Hypertensive
+812,GSM3759128,Liver,No Statin,No Statin,Female,43,40.5,154,116.0,70.0,130.0,5.0,7.7,5.4,7.1,5.0,1.4,1.5,,3.1885135133118263,No treatment,Non-Diabetic,Hypertensive
+813,GSM3759129,Liver,No Statin,No Statin,Male,45,56.7,167,134.0,70.0,110.0,5.6,12.6,6.1,6.0,3.9,1.1,1.9,,4.496190964362149,No treatment,Non-Diabetic,Non-Hypertensive
+814,GSM3759130,Liver,Statin,Pravastatin,Male,55,46.2,186,160.0,75.0,140.0,11.9,183.0,8.1,4.5,1.9862548897628223,0.9,4.4,Statin,5.741731773806539,Yes,Diabetic,Hypertensive
+815,GSM3759131,Liver,No Statin,No Statin,Female,43,40.9,167,116.0,80.0,180.0,9.2,6.7,8.1,6.4,4.6,1.2,1.5,,3.4840246097408407,Yes,Diabetic,Hypertensive
+816,GSM3759132,Liver,No Statin,No Statin,Male,26,54.2,175,155.0,90.0,130.0,4.9,19.7,5.6,4.8,3.1,1.2,1.1,,4.640314780550451,No treatment,Non-Diabetic,Hypertensive
+817,GSM3759133,Liver,No Statin,No Statin,Female,62,42.5,168,128.0,80.0,150.0,7.8,5.1,7.9,6.0,3.7,1.6,1.6,No Statin,3.6858892276544912,Yes,Diabetic,Hypertensive
+818,GSM3759134,Liver,No Statin,No Statin,Male,48,18.9,169,83.0,100.0,140.0,4.7,4.5,6.0,4.0,1.9,1.8,0.6,,1.7,No treatment,Non-Diabetic,Hypertensive
+819,GSM3759135,Liver,No Statin,No Statin,Female,41,37.7,156,113.0,60.0,140.0,5.4,6.9,6.0,5.4,3.8,0.8,1.6,,3.312169351376655,No treatment,Non-Diabetic,Hypertensive
+820,GSM3759136,Liver,No Statin,No Statin,Female,22,43.4,169,127.0,70.0,120.0,5.6,45.5,6.1,3.6,2.5,0.6,1.2,,3.919989700388813,No treatment,Non-Diabetic,Non-Hypertensive
+821,GSM3759137,Liver,No Statin,No Statin,Female,41,39.5,160,115.0,60.0,110.0,8.0,10.8,6.4,4.9,2.9,1.4,1.4,,2.7,Yes,Diabetic,Non-Hypertensive
+822,GSM3759138,Liver,Statin,Rosuvastatin,Female,52,46.7,159,129.0,60.0,140.0,6.6,12.9,6.0,4.4,2.3,1.4,1.5,Statin,5.2,No treatment,Non-Diabetic,Hypertensive
+823,GSM3759139,Liver,No Statin,No Statin,Female,44,71.6,170,157.0,100.0,160.0,5.7,20.9,6.0,6.0,4.0,1.1,2.1,,4.9,No treatment,Non-Diabetic,Hypertensive
+824,GSM3759140,Liver,No Statin,No Statin,Female,53,38.1,170,112.0,90.0,140.0,4.7,5.9,5.6,6.1,3.7,1.9,1.1,,3.275312942164815,No treatment,Non-Diabetic,Hypertensive
+825,GSM3759141,Liver,No Statin,No Statin,Male,39,51.3,182,140.0,80.0,180.0,14.8,18.5,10.5,5.1,3.6,0.7,1.8,,10.1,Yes,Diabetic,Hypertensive
+826,GSM3759142,Liver,No Statin,No Statin,Female,55,44.1,167,140.0,50.0,110.0,8.7,10.0,6.6,4.8,2.8,1.5,1.3,No Statin,4.2,Yes,Diabetic,Non-Hypertensive
+827,GSM3759143,Liver,No Statin,No Statin,Female,32,41.0,160,130.0,70.0,120.0,8.0,40.0,7.3,5.7,2.567755785985989,0.7,7.1,,7.9,Yes,Diabetic,Non-Hypertensive
+828,GSM3759144,Liver,Statin,Atorvastatin,Male,61,46.0,183,146.0,80.0,130.0,6.4,2.7,6.3,5.4,3.2,1.4,1.7,,4.49635321224679,Yes,Diabetic,Hypertensive
+829,GSM3759145,Liver,No Statin,No Statin,Female,57,46.0,146,126.0,60.0,110.0,10.9,186.4,9.9,5.5,3.6,1.1,1.7,No Statin,2.2,Yes,Diabetic,Non-Hypertensive
+830,GSM3759146,Liver,No Statin,No Statin,Male,33,43.6,186,135.0,80.0,150.0,5.6,11.9,5.9,6.8,5.3,0.9,1.4,,4.5,No treatment,Non-Diabetic,Hypertensive
+831,GSM3759147,Liver,No Statin,No Statin,Female,28,51.2,170,125.0,70.0,120.0,5.3,7.2,5.8,5.8,4.2,1.2,1.0,,3.1,No treatment,Non-Diabetic,Non-Hypertensive
+832,GSM3759148,Liver,No Statin,No Statin,Female,36,49.2,171,122.0,70.0,130.0,5.2,9.9,5.6,4.9,3.3,1.2,0.9,,3.6,No treatment,Non-Diabetic,Hypertensive
+833,GSM3759149,Liver,No Statin,No Statin,Male,49,52.2,181,160.0,90.0,170.0,7.1,19.3,7.3,4.9,2.8,0.7,3.1,,6.0,Yes,Diabetic,Hypertensive
+834,GSM3759150,Liver,No Statin,No Statin,Female,47,62.9,163,134.0,80.0,130.0,4.9,18.6,5.4,4.3,2.3,1.3,1.7,,4.2,No treatment,Non-Diabetic,Hypertensive
+835,GSM3759151,Liver,No Statin,No Statin,Female,19,46.3,163,114.0,70.0,130.0,4.9,8.3,5.2,4.5,2.8,1.3,0.9,,1.7,No treatment,Non-Diabetic,Hypertensive
+836,GSM3759152,Liver,No Statin,No Statin,Male,38,52.9,190,156.0,70.0,130.0,4.8,34.5,5.3,4.3,2.5,1.0,1.9,,7.2,No treatment,Non-Diabetic,Hypertensive
+837,GSM3759153,Liver,No Statin,No Statin,Female,57,49.7,156,130.0,70.0,120.0,6.5,17.0,6.3,4.2,1.6,0.9,3.7,No Statin,7.1,Yes,Diabetic,Non-Hypertensive
+838,GSM3759154,Liver,No Statin,No Statin,Female,33,40.2,142,101.0,80.0,130.0,14.0,468.0,14.0,6.2,1.3,0.5,14.7,,9.1,Yes,Diabetic,Hypertensive
+839,GSM3759155,Liver,No Statin,No Statin,Female,28,38.9,175,120.0,60.0,130.0,4.9,14.5,5.6,5.5,3.6,1.4,1.1,,4.2,No treatment,Non-Diabetic,Hypertensive
+840,GSM3759156,Liver,No Statin,No Statin,Female,30,43.1,169,120.0,60.0,150.0,5.1,27.3,5.9,4.4,2.2,1.5,1.7,,4.8,Yes,Diabetic,Hypertensive
+841,GSM3759157,Liver,No Statin,No Statin,Female,34,44.2,163,107.0,70.0,130.0,4.9,10.7,5.7,5.6,4.1,1.2,0.8,,3.4,No treatment,Non-Diabetic,Hypertensive
+842,GSM3759158,Liver,No Statin,No Statin,Female,20,42.8,165,126.0,70.0,110.0,5.1,10.2,5.4,5.1,3.2,1.5,1.1,,3.1,No treatment,Non-Diabetic,Non-Hypertensive
+843,GSM3759159,Liver,No Statin,No Statin,Male,43,27.6,195,104.0,60.0,120.0,6.2,-5.23929308396167,5.8,6.2,4.7,0.8,1.5,,3.5,No treatment,Non-Diabetic,Non-Hypertensive
+844,GSM3759160,Liver,No Statin,No Statin,Female,26,63.0,170,135.0,50.0,130.0,4.2,8.9,5.4,4.4,2.7,1.2,1.0,,3.5,No treatment,Non-Diabetic,Hypertensive
+845,GSM3759161,Liver,No Statin,No Statin,Male,50,43.8,169,131.0,80.0,140.0,8.7,9.4,8.2,3.6,2.4,0.7,1.0,,3.6,Yes,Diabetic,Hypertensive
+846,GSM3759162,Liver,No Statin,No Statin,Female,49,40.6,163,110.0,90.0,145.0,6.1,17.8,6.0,5.7,4.0,1.0,1.5,No Statin,4.3,No treatment,Non-Diabetic,Hypertensive
+847,GSM3759163,Liver,No Statin,No Statin,Female,19,47.1,157,104.0,70.0,120.0,5.6,8.9,5.4,4.0,2.6,1.1,0.7,,3.4,No treatment,Non-Diabetic,Non-Hypertensive
+848,GSM3759164,Liver,No Statin,No Statin,Female,42,47.3,172,121.0,100.0,166.0,6.2,14.3,6.2,4.7,2.9,1.2,1.2,,4.2,No treatment,Non-Diabetic,Hypertensive
+849,GSM3759165,Liver,No Statin,No Statin,Female,24,51.8,169,128.0,90.0,180.0,4.7,16.1,5.6,3.7,2.3,1.0,0.9,,3.4,No treatment,Non-Diabetic,Hypertensive
+850,GSM3759166,Liver,No Statin,No Statin,Female,34,41.1,168,116.0,70.0,120.0,4.3,2.0,5.3,5.4,2.9,1.7,1.8,,2.4,No treatment,Non-Diabetic,Non-Hypertensive
+851,GSM3759167,Liver,No Statin,No Statin,Female,55,48.0,175,134.0,70.0,130.0,5.9,10.2,5.1,6.0,4.3,1.1,1.3,No Statin,3.5,No treatment,Non-Diabetic,Hypertensive
+852,GSM3759168,Liver,No Statin,No Statin,Female,38,42.6,160,120.0,90.0,150.0,5.2,7.5,4.8,4.1,2.4,1.1,1.3,,3.0,No treatment,Non-Diabetic,Hypertensive
+853,GSM3759169,Liver,No Statin,No Statin,Female,54,50.4,155,111.0,100.0,150.0,8.0,9.9,5.2,6.2,4.3,1.0,1.8,No Statin,7.9,No treatment,Diabetic,Hypertensive
+854,GSM3759170,Liver,Statin,Rosuvastatin,Female,57,40.5,170,133.0,80.0,170.0,10.1,192.1,6.9,4.1,2.0,1.3,1.8,Statin,8.2,Yes,Diabetic,Hypertensive
+855,GSM3759171,Liver,Statin,Rosuvastatin,Male,51,42.6,176,137.0,80.0,140.0,11.6,20.8,7.0,3.5,1.9,1.0,1.3,Statin,4.0,Yes,Diabetic,Hypertensive
+856,GSM3759172,Liver,Statin,Pravastatin,Female,63,47.3,160,150.0,70.0,120.0,7.5,14.0,7.1,4.9,3.2,0.9,1.8,,4.8,Yes,Diabetic,Non-Hypertensive
+857,GSM3759173,Liver,No Statin,No Statin,Male,34,44.8,197,156.0,100.0,180.0,5.4,28.4,5.0,4.3,2.7,0.9,1.6,,4.4,No treatment,Non-Diabetic,Hypertensive
+858,GSM3759174,Liver,Statin,Rosuvastatin,Male,62,48.1,173,149.0,60.0,150.0,7.1,27.0,6.0,4.1,1.6,1.2,3.0,Statin,8.1,Yes,Diabetic,Hypertensive
+859,GSM3759175,Liver,Statin,Atorvastatin,Female,49,37.4,166,135.0,65.0,111.0,13.9,27.7,10.3,7.9,4.9,1.1,5.3,Statin,2.9,Yes,Diabetic,Non-Hypertensive
+860,GSM3759176,Liver,No Statin,No Statin,Male,34,61.4,172,149.0,80.0,130.0,4.8,11.7,4.9,4.5,2.9,1.1,1.1,,3.8,No treatment,Non-Diabetic,Hypertensive
+861,GSM3759177,Liver,Statin,Atorvastatin,Female,59,49.7,163,143.0,90.0,130.0,23.6,256.0,9.4,4.4,2.4,0.9,2.5,,2.5,Yes,Diabetic,Hypertensive
+862,GSM3759178,Liver,Statin,Atorvastatin,Male,35,54.6,179,156.0,90.0,160.0,7.0,28.1,6.0,2.7,1.3,1.0,0.9,Statin,5.1,No treatment,Diabetic,Hypertensive
+863,GSM3759179,Liver,No Statin,No Statin,Female,54,36.8,162,105.0,92.0,150.0,5.7,8.1,5.6,6.4,4.2,1.5,1.6,,2.6,No treatment,Non-Diabetic,Hypertensive
+864,GSM3759180,Liver,No Statin,No Statin,Male,31,56.8,179,155.0,70.0,150.0,5.3,31.7,5.7,4.2,2.8,1.0,1.0,,4.6,No treatment,Non-Diabetic,Hypertensive
+865,GSM3759181,Liver,No Statin,No Statin,Female,39,66.2,173,164.0,90.0,150.0,4.9,15.4,6.0,2.9,1.5,1.1,0.8,,4.4,No treatment,Non-Diabetic,Hypertensive
+866,GSM3759182,Liver,Statin,Rosuvastatin,Female,56,49.6,160,154.0,90.0,150.0,6.5,14.5,6.1,3.7,2.2,1.2,0.8,Statin,3.2,Yes,Diabetic,Hypertensive
+867,GSM3759183,Liver,No Statin,No Statin,Male,49,51.2,166,143.0,80.0,130.0,5.3,20.9,5.1,3.9,2.6,0.7,1.3,,3.5,No treatment,Non-Diabetic,Hypertensive
+868,GSM3759184,Liver,No Statin,No Statin,Female,46,42.6,163,137.0,80.0,130.0,5.2,13.8,5.5,5.2,3.5,1.3,0.9,,3.1,No treatment,Non-Diabetic,Hypertensive
+869,GSM3759185,Liver,No Statin,No Statin,Male,39,61.9,172,160.0,90.0,170.0,5.4,7.5,5.1,3.9,2.3,1.0,1.3,,5.258390463905345,No treatment,Non-Diabetic,Hypertensive
+870,GSM3759186,Liver,No Statin,No Statin,Male,23,61.6,187,186.0,80.0,170.0,6.6,48.8,6.9,4.1,2.4,1.2,1.0,,6.0,No treatment,Diabetic,Hypertensive
+871,GSM3759187,Liver,No Statin,No Statin,Female,32,50.2,167,122.0,60.0,130.0,4.9,10.5,6.0,5.7,3.5,0.9,2.8,,4.3362717970617854,No treatment,Non-Diabetic,Hypertensive
+872,GSM3759188,Liver,No Statin,No Statin,Female,58,38.6,168,111.0,70.0,130.0,5.3,4.4,5.5,5.5,3.5,1.0,2.2,,3.732851996847838,No treatment,Non-Diabetic,Hypertensive
+873,GSM3759189,Liver,Statin,Atorvastatin,Male,55,46.8,173,139.0,70.0,130.0,9.8,18.7,9.2,3.5,1.8,1.0,1.6,Statin,4.4,Yes,Diabetic,Hypertensive
+874,GSM3759190,Liver,No Statin,No Statin,Male,42,55.9,178,155.0,70.0,140.0,7.2,22.8,6.3,4.9,3.3,1.2,0.9,,4.1,Yes,Diabetic,Hypertensive
+875,GSM3759191,Liver,No Statin,No Statin,Female,27,40.5,175,133.0,80.0,140.0,4.5,8.4,5.8,6.1,4.7,0.7,1.7,,3.841969660118602,No treatment,Non-Diabetic,Hypertensive
+876,GSM3759192,Liver,No Statin,No Statin,Female,47,42.9,164,127.0,100.0,180.0,5.7,10.8,6.2,7.0,5.0,1.3,1.5,,3.625722642428892,No treatment,Non-Diabetic,Hypertensive
+877,GSM3759193,Liver,No Statin,No Statin,Male,44,50.3,185,138.0,60.0,140.0,4.7,21.7,6.0,5.8,3.8,0.8,2.6,,4.8251961209497125,No treatment,Non-Diabetic,Hypertensive
+878,GSM3759194,Liver,No Statin,No Statin,Male,45,59.4,183,157.0,60.0,120.0,7.9,8.6,7.8,5.5,3.6,0.8,2.3,No Statin,5.204617534166087,Yes,Diabetic,Non-Hypertensive
+879,GSM3759195,Liver,No Statin,No Statin,Female,26,43.1,175,117.0,70.0,140.0,4.7,13.2,5.0,3.3,2.1,0.8,0.8,,3.891225855556553,No treatment,Non-Diabetic,Hypertensive
+880,GSM3759196,Liver,Statin,Atorvastatin,Female,55,40.0,168,124.0,90.0,155.0,5.9,10.0,6.0,5.5,3.2,1.5,1.8,Statin,3.784772928658799,No treatment,Non-Diabetic,Hypertensive
+881,GSM3759197,Liver,No Statin,No Statin,Male,37,46.8,173,135.72356469726523,90.0,140.0,5.2,23.8,6.3,5.0,3.5,0.9,1.2,,6.3,No treatment,Non-Diabetic,Hypertensive
+882,GSM3759198,Liver,No Statin,No Statin,Female,37,38.2,165,106.0,70.0,120.0,5.0,20.8,6.2,4.5,2.7,1.2,1.2,,5.0,No treatment,Non-Diabetic,Non-Hypertensive
+883,GSM3759199,Liver,Statin,Rosuvastatin,Male,52,41.0,178,139.0,100.0,140.0,7.1,14.0,6.4,4.7,2.6,0.7,3.2,Statin,5.2,Yes,Diabetic,Hypertensive
+884,GSM3759200,Liver,Statin,Atorvastatin,Male,52,51.1,178,152.0,90.0,150.0,13.2,229.8,9.2,2.9,1.2,1.1,1.3,Statin,4.6,Yes,Diabetic,Hypertensive
+885,GSM3759201,Liver,No Statin,No Statin,Female,28,41.3,150,99.0,60.0,110.0,5.2,15.1,5.3,4.2,2.5,1.3,0.9,,3.9,No treatment,Non-Diabetic,Non-Hypertensive
+886,GSM3759202,Liver,No Statin,No Statin,Female,28,44.0,153,98.0,50.0,110.0,4.6,17.4,5.3,5.8,4.4,0.8,1.3,,4.0,No treatment,Non-Diabetic,Non-Hypertensive
+887,GSM3759203,Liver,No Statin,No Statin,Female,39,41.2,167,118.0,100.0,140.0,6.1,19.4,6.8,3.9,2.4,1.2,0.7,,4.6,Yes,Diabetic,Hypertensive
+888,GSM3759204,Liver,No Statin,No Statin,Female,31,46.5,151,130.0,70.0,120.0,6.3,9.0,4.5,5.4,3.0,1.1,2.9,,3.7,No treatment,Non-Diabetic,Non-Hypertensive
+889,GSM3759205,Liver,No Statin,No Statin,Male,36,42.1,183,134.0,80.0,130.0,8.3,24.4,7.3,4.5,3.0,0.9,1.3,,5.1,Yes,Diabetic,Hypertensive
+890,GSM3759206,Liver,No Statin,No Statin,Male,62,55.3,162,141.0,70.0,140.0,11.7,33.0,10.7,4.9,2.5,1.5,1.9,No Statin,1.9,Yes,Diabetic,Hypertensive
+891,GSM3759207,Liver,No Statin,No Statin,Female,21,46.3,172,129.0,70.0,150.0,5.8,46.0,6.4,4.6,2.8,1.1,1.3,,6.0,No treatment,Non-Diabetic,Hypertensive
+892,GSM3759208,Liver,No Statin,No Statin,Female,38,50.9,161,131.0,70.0,120.0,9.5,47.442650639758156,6.6,5.1,3.3,0.9,2.2,,4.37118096729627,Yes,Diabetic,Non-Hypertensive
+893,GSM3759209,Liver,Statin,Simvastatin,Female,44,39.3,158,158.0,80.0,130.0,7.1,10.4,7.2,4.0,2.8,0.9,0.7,Statin,2.9,Yes,Diabetic,Hypertensive
+894,GSM3759210,Liver,Statin,Rosuvastatin,Female,59,38.5,175,120.0,70.0,120.0,15.1,10.0,7.9,5.7,3.7,1.3,1.4,Statin,3.4,Yes,Diabetic,Non-Hypertensive
+895,GSM3759211,Liver,No Statin,No Statin,Female,55,53.0,156,139.0164963202194,80.0,160.0,7.8,35.4,6.2,5.2,2.6,1.5,2.5,No Statin,5.3,Yes,Diabetic,Hypertensive
+896,GSM3759212,Liver,No Statin,No Statin,Female,57,37.5,160,125.0,70.0,130.0,5.8,1.6,5.6,4.5,2.6,1.4,1.2,No Statin,2.6,No treatment,Non-Diabetic,Hypertensive
+897,GSM3759213,Liver,No Statin,No Statin,Female,36,29.8,167,96.0,64.0,116.0,4.8,4.120096750863176,5.44882643104452,4.9154053795869315,3.0610917972464264,1.2203821346622918,1.4439231606327558,,2.9658223682166325,No treatment,Non-Diabetic,Non-Hypertensive
+898,GSM3759214,Liver,No Statin,No Statin,Female,29,43.0,165,117.0,90.0,155.0,5.5,9.7,4.8,4.8,2.8,1.6,0.8,,3.2,No treatment,Non-Diabetic,Hypertensive
+899,GSM3759215,Liver,No Statin,No Statin,Female,43,42.5,166,113.0,60.0,120.0,5.3,8.4,5.4,4.8,3.0,1.3,1.2,,3.0,No treatment,Non-Diabetic,Non-Hypertensive
+900,GSM3759216,Liver,Statin,Atorvastatin,Male,48,45.3,172,136.0,90.0,120.0,7.3,12.8,6.6,4.3,2.6,1.2,1.2,Statin,4.0,Yes,Diabetic,Hypertensive
+901,GSM3759217,Liver,Statin,Atorvastatin,Male,40,56.7,183,163.0,90.0,150.0,5.5,32.7,5.6,2.7,1.7,0.7,1.0,Statin,5.6,No treatment,Non-Diabetic,Hypertensive
+902,GSM3759218,Liver,No Statin,No Statin,Male,49,55.5,178,155.0,80.0,140.0,5.2,22.0,6.0,7.1,4.7,1.6,1.9,,5.0,No treatment,Non-Diabetic,Hypertensive
+903,GSM3759219,Liver,No Statin,No Statin,Female,49,47.0,155,126.0,80.0,125.0,6.2,16.6,5.2,5.8,3.3,1.3,1.7,,3.2,No treatment,Non-Diabetic,Non-Hypertensive
+904,GSM3759220,Liver,No Statin,No Statin,Female,39,41.7,158,119.0,60.0,130.0,5.7,14.8,5.0,4.8,2.8,1.4,1.2,,3.1,Yes,Diabetic,Hypertensive
+905,GSM3759221,Liver,No Statin,No Statin,Female,44,42.6,176,134.0,70.0,130.0,6.2,11.5,6.1,4.6,2.7,1.3,1.4,,2.8,No treatment,Non-Diabetic,Hypertensive
+906,GSM3759222,Liver,Statin,Atorvastatin,Female,48,57.9,162,159.0,70.0,140.0,11.2,23.0,8.1,3.2,1.8,0.9,1.3,Statin,3.7,Yes,Diabetic,Hypertensive
+907,GSM3759223,Liver,No Statin,No Statin,Male,38,48.6,171,138.0,100.0,150.0,5.4,48.0,5.6,4.6,2.2,0.8,3.5,,5.9,No treatment,Non-Diabetic,Hypertensive
+908,GSM3759224,Liver,Statin,Atorvastatin,Female,52,38.9,153,117.0,70.0,135.0,5.8,17.1,6.2,7.4,5.1,1.0,3.0,Statin,4.1,No treatment,Non-Diabetic,Hypertensive
+909,GSM3759225,Liver,No Statin,No Statin,Female,46,42.9,158,127.0,60.0,120.0,6.1,14.7,5.9,4.2,2.5,1.4,0.8,,3.4,No treatment,Non-Diabetic,Non-Hypertensive
