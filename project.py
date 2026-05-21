@@ -180,11 +180,11 @@ def autoencoder_architecture(input_size, context_size=3):
 
     merged = layers.Concatenate()([latent_space, input_ctx])
     
-    p = layers.Dense(128, activation='relu')(merged)
+    p = layers.Dense(64, activation='relu')(merged)
     p = layers.BatchNormalization()(p)
     p = layers.Dropout(0.2)(p) 
     
-    p = layers.Dense(64, activation='relu')(p)
+    p = layers.Dense(32, activation='relu')(p)
     p = layers.BatchNormalization()(p)
     p = layers.Dropout(0.2)(p) 
     
